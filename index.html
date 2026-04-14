@@ -6,87 +6,254 @@
   <title>3D Generation for Embodied AI and Robotic Simulation: A Survey</title>
   <style>
     :root {
-      --text: #000000;
-      --muted: #d7e4ef;
-      --muted2: #ede7f5;
-      --muted3: #f8efe8;
-      --border: #dbe3ea;
-      --card: #ffffff;
-      --shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
-      --radius: 18px;
+      --text: #0f172a;
+      --muted-text: #475569;
+      --bg: #fcfcfd;
+      --surface: #ffffff;
+      --surface-soft: linear-gradient(120deg, #e4eef7 0%, #f1ebf7 55%, #fbf3ea 100%);
+      --surface-strong: linear-gradient(135deg, #d9e8f4 0%, #ece8f5 50%, #f8eee4 100%);
+      --border: #d9e2ec;
+      --accent: #0f766e;
+      --accent-dark: #115e59;
+      --shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+      --shadow-soft: 0 8px 24px rgba(15, 23, 42, 0.06);
+      --radius: 20px;
+      --nav-height: 76px;
     }
 
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       color: var(--text);
-      background: #ffffff;
+      background:
+        radial-gradient(circle at top left, rgba(15, 118, 110, 0.08), transparent 28%),
+        radial-gradient(circle at top right, rgba(125, 95, 255, 0.06), transparent 24%),
+        var(--bg);
       line-height: 1.7;
     }
 
-    .container {
-      max-width: 1000px;
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(16px);
+      background: rgba(252, 252, 253, 0.88);
+      border-bottom: 1px solid rgba(217, 226, 236, 0.9);
+    }
+
+    .topbar-inner {
+      max-width: 1120px;
+      min-height: var(--nav-height);
       margin: 0 auto;
-      padding: 80px 16px 96px;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      white-space: nowrap;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 10px;
+    }
+
+    .nav-links a {
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--muted-text);
+      transition: background 0.2s ease, color 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      background: rgba(15, 118, 110, 0.1);
+      color: var(--accent-dark);
+    }
+
+    .container {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 40px 16px 96px;
+    }
+
+    .hero-card,
+    .abstract-box,
+    .info-box,
+    .demo-box,
+    .citation-box,
+    .footer-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .hero-card {
+      padding: 36px 32px 30px;
+      background: var(--surface-strong);
+      box-shadow: var(--shadow);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.74);
+      border: 1px solid rgba(255, 255, 255, 0.9);
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--accent-dark);
     }
 
     .hero {
       text-align: center;
-      line-height: 1.05;
     }
 
     .hero h1 {
-      margin: 0;
-      font-size: clamp(42px, 6vw, 72px);
+      margin: 18px 0 0;
+      font-size: clamp(38px, 5.4vw, 68px);
       font-weight: 800;
-      letter-spacing: -0.03em;
+      line-height: 1.02;
+      letter-spacing: -0.04em;
     }
 
     .hero h2 {
-      margin: 12px 0 0;
-      font-size: clamp(24px, 4vw, 40px);
+      margin: 10px 0 0;
+      font-size: clamp(22px, 3.2vw, 36px);
       font-weight: 800;
-      letter-spacing: -0.02em;
+      line-height: 1.12;
+      letter-spacing: -0.03em;
     }
 
-    .abstract-box, .info-box {
-      background: linear-gradient(107.54deg, var(--muted) .39%, var(--muted2) 51.23%, var(--muted3) 100%);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
+    .hero-subtitle {
+      max-width: 860px;
+      margin: 18px auto 0;
+      font-size: 17px;
+      color: var(--muted-text);
     }
 
-    .abstract-box {
-      margin-top: 40px;
+    .authors {
+      margin: 28px auto 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .author-chip {
+      padding: 10px 14px;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.78);
+      border: 1px solid rgba(255, 255, 255, 0.95);
+      font-size: 14px;
+      font-weight: 600;
+      box-shadow: 0 8px 18px rgba(15, 23, 42, 0.04);
+    }
+
+    .author-chip span {
+      display: block;
+      color: var(--muted-text);
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .link-row {
+      margin-top: 26px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .action-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 16px;
+      border-radius: 999px;
+      background: #ffffff;
+      border: 1px solid rgba(217, 226, 236, 0.95);
+      font-size: 14px;
+      font-weight: 700;
+      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+
+    .action-link:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 14px 26px rgba(15, 23, 42, 0.1);
+      border-color: rgba(15, 118, 110, 0.35);
+    }
+
+    .action-link svg {
+      width: 18px;
+      height: 18px;
+      color: var(--accent-dark);
+      flex-shrink: 0;
+    }
+
+    .abstract-box,
+    .info-box,
+    .demo-box,
+    .citation-box,
+    .footer-box {
+      margin-top: 24px;
       padding: 22px 24px;
-      font-size: 16px;
-      font-weight: 500;
+    }
+
+    .abstract-box,
+    .info-box {
+      background: var(--surface-soft);
     }
 
     .figure-card {
       margin-top: 24px;
-      background: var(--card);
+      background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius);
       padding: 12px;
-      box-shadow: var(--shadow);
+      box-shadow: var(--shadow-soft);
     }
 
-    .figure-placeholder {
-      width: 100%;
+    .figure-card img {
       border-radius: 14px;
-      background: linear-gradient(135deg, #eef4fb 0%, #f1eef7 52%, #fdf5ef 100%);
-      border: 1px solid #cad6e2;
     }
-
-    .ratio-16-9 { aspect-ratio: 16 / 9; }
-    .ratio-16-8 { aspect-ratio: 16 / 8; }
-    .ratio-16-7 { aspect-ratio: 16 / 7; }
 
     .figure-label {
-      margin-top: 8px;
+      margin-top: 10px;
       text-align: center;
       font-size: 14px;
+      color: var(--muted-text);
     }
 
     .tldr {
@@ -97,168 +264,464 @@
     }
 
     .section-title {
-      margin: 56px 0 16px;
+      margin: 64px 0 16px;
       font-size: clamp(30px, 3vw, 34px);
       font-weight: 800;
       line-height: 1.2;
+      letter-spacing: -0.02em;
+      scroll-margin-top: calc(var(--nav-height) + 20px);
     }
 
-    .section-text {
-      margin: 0 16px;
-      font-size: 16px;
-      font-weight: 500;
+    .section-kicker {
+      margin: 0 0 10px;
+      color: var(--accent-dark);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
     }
 
     .open-challenges {
       margin-top: 64px;
     }
 
-    .open-challenges .intro {
-      margin: 0 16px;
-      font-size: 16px;
-      font-style: italic;
-      font-weight: 500;
+    .demo-box p,
+    .citation-box p,
+    .footer-box p {
+      margin: 0;
+      color: var(--muted-text);
     }
 
-    .open-challenges .intro strong {
-      font-style: normal;
+    .placeholder-panel {
+      margin-top: 18px;
+      min-height: 220px;
+      border: 1px dashed rgba(15, 118, 110, 0.35);
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 24px;
+      background:
+        linear-gradient(135deg, rgba(228, 238, 247, 0.75), rgba(251, 243, 234, 0.82)),
+        #ffffff;
+      color: var(--muted-text);
+      font-weight: 600;
     }
 
-    .challenge-list {
-      margin: 16px 16px 0 40px;
-      padding: 0 0 0 8px;
-      font-size: 16px;
-      font-weight: 500;
+    .citation-box pre {
+      margin: 16px 0 0;
+      padding: 18px;
+      overflow-x: auto;
+      border-radius: 16px;
+      background: #0f172a;
+      color: #e2e8f0;
+      font-size: 13px;
+      line-height: 1.6;
     }
 
-    .challenge-list li {
-      margin-bottom: 12px;
-      padding-left: 4px;
+    .footer-box {
+      margin-top: 56px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 12px 20px;
+      align-items: center;
+      background: #ffffff;
     }
 
-    @media (max-width: 768px) {
-      .container { padding-top: 56px; }
-      .abstract-box { padding: 18px; }
-      .section-title { margin-top: 44px; }
-      .challenge-list { margin-left: 28px; }
+    .footer-note {
+      font-size: 14px;
+      color: var(--muted-text);
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--muted-text);
+    }
+
+    @media (max-width: 820px) {
+      .topbar-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .nav-links {
+        justify-content: flex-start;
+      }
+
+      .container {
+        padding-top: 28px;
+      }
+
+      .hero-card {
+        padding: 28px 20px 24px;
+      }
+
+      .section-title {
+        margin-top: 48px;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .brand {
+        white-space: normal;
+      }
+
+      .authors {
+        gap: 10px;
+      }
+
+      .author-chip {
+        width: 100%;
+      }
+
+      .action-link {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .abstract-box,
+      .info-box,
+      .demo-box,
+      .citation-box,
+      .footer-box {
+        padding: 18px;
+      }
     }
   </style>
 </head>
 <body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">3D Generation for Embodied AI and Robotic Simulation</div>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#overview">Overview</a>
+        <a href="#demo">Demo</a>
+        <a href="#data-generator">Data Generator</a>
+        <a href="#simulation-environments">Simulation Environments</a>
+        <a href="#sim2real">Sim2Real</a>
+        <a href="#datasets-eval">Datasets &amp; Eval</a>
+        <a href="#challenges">Challenges</a>
+        <a href="#citation">Citation</a>
+      </nav>
+    </div>
+  </header>
+
   <main class="container">
-    <section class="hero">
-      <h1>A Survey on 3D Generation</h1>
-      <h2>for Embodied AI and Robotic Simulation</h2>
+    <section class="hero-card" id="overview">
+      <div class="hero">
+        <div class="eyebrow">Survey Website</div>
+        <h1>A Survey on 3D Generation</h1>
+        <h2>for Embodied AI and Robotic Simulation</h2>
+        <p class="hero-subtitle">
+          A simulation-centric survey that organizes embodied 3D generation around simulation-ready assets,
+          executable environments, and sim-to-real transfer pipelines.
+        </p>
+
+        <div class="authors">
+          <div class="author-chip">Tianwei Ye<span>The Hong Kong University of Science and Technology</span></div>
+          <div class="author-chip">Yifan Mao<span>The Hong Kong University of Science and Technology</span></div>
+          <div class="author-chip">Minwen Liao<span>The Hong Kong University of Science and Technology</span></div>
+          <div class="author-chip">Jian Liu<span>The Hong Kong University of Science and Technology</span></div>
+          <div class="author-chip">Chunchao Guo<span>Tencent</span></div>
+          <div class="author-chip">Song Guo<span>The Hong Kong University of Science and Technology</span></div>
+        </div>
+
+        <div class="link-row">
+          <a class="action-link" href="#" aria-label="PDF placeholder link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <path d="M14 2v6h6"></path>
+              <path d="M8 13h2"></path>
+              <path d="M8 17h5"></path>
+            </svg>
+            PDF
+          </a>
+          <a class="action-link" href="#" aria-label="arXiv placeholder link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 19h16"></path>
+              <path d="M7 19V8l5-3 5 3v11"></path>
+              <path d="M9.5 11.5h5"></path>
+              <path d="M9.5 15h5"></path>
+            </svg>
+            arXiv
+          </a>
+          <a class="action-link" href="https://github.com/3dgen4robot/awesome-3d-gen-for-embodied-ai" target="_blank" rel="noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.2-.02-2.18-3.2.7-3.88-1.36-3.88-1.36-.52-1.32-1.28-1.67-1.28-1.67-1.04-.71.08-.7.08-.7 1.16.08 1.76 1.19 1.76 1.19 1.02 1.76 2.68 1.25 3.34.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.17 1.18a10.9 10.9 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.58.23 2.75.11 3.04.73.8 1.18 1.83 1.18 3.08 0 4.41-2.7 5.38-5.27 5.67.41.35.78 1.04.78 2.09 0 1.51-.01 2.72-.01 3.09 0 .31.21.68.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"></path>
+            </svg>
+            GitHub
+          </a>
+        </div>
+      </div>
     </section>
 
     <section class="abstract-box">
       <strong>Abstract:</strong>
-      Embodied AI and robotic systems increasingly depend on scalable, diverse, and physically grounded 3D content for simulation-based training and real-world deployment. This survey organizes the field around three roles that 3D generation plays in embodied systems: <strong>Data Generator</strong>, <strong>Simulation Environments</strong>, and <strong>Sim2Real Bridge</strong>. Across these roles, the key shift is from appearance realism to simulation readiness, including physical validity, kinematic executability, semantic controllability, and simulator compatibility.
+      Embodied AI and robotic systems increasingly depend on scalable, diverse, and physically grounded 3D content for
+      simulation-based training and real-world deployment. This survey organizes the field around three roles that 3D
+      generation plays in embodied systems: <strong>Data Generator</strong>, <strong>Simulation Environments</strong>,
+      and <strong>Sim2Real Bridge</strong>. Across these roles, the key shift is from appearance realism to simulation
+      readiness, including physical validity, kinematic executability, semantic controllability, and simulator compatibility.
     </section>
 
-    <section class="figure-card" style="max-width: 900px; margin-left: auto; margin-right: auto;">
-      <img src="images/teaser.jpg" alt="Teaser / overview figure" style="width:100%; border-radius:14px;">
-      <div class="figure-label"></div>
+    <section class="figure-card" style="max-width: 920px; margin-left: auto; margin-right: auto;">
+      <img src="images/teaser.jpg" alt="Teaser overview figure" />
+      <div class="figure-label">Survey overview and motivation.</div>
     </section>
 
-    <section class="info-box" style="margin-top: 24px; padding: 22px 24px; font-size: 16px; font-weight: 500;">
-      <strong>Introduction:</strong>
-      Embodied AI and robotic systems are increasingly expected to perceive, reason, and act in open-ended physical environments. However, their performance remains fundamentally constrained by the availability of scalable, diverse, and interaction-ready 3D assets. Unlike conventional 3D generation that prioritizes appearance realism, embodied applications require assets that can be manipulated, simulated, and transferred across tasks—a cabinet is useful because its doors rotate around plausible joints; a cloth is valuable because it deforms under contact; a scene is effective because it supports navigation and task execution under physical constraints. This survey presents the first structured review organized around three roles that 3D generation plays in embodied AI: <strong>Data Generator</strong> (creating simulation-ready objects), <strong>Simulation Environments</strong> (building interactive worlds), and <strong>Sim2Real Bridge</strong> (connecting simulation to real-world deployment). We establish <em>simulation readiness</em>—encompassing physical validity, kinematic executability, and simulator compatibility—as the central evaluation criterion, reframing 3D generation as an infrastructure problem for embodied AI rather than merely a visual content synthesis task.
+    <section class="info-box">
+      <p class="section-kicker">Introduction</p>
+      Embodied AI and robotic systems are increasingly expected to perceive, reason, and act in open-ended physical
+      environments. However, their performance remains fundamentally constrained by the availability of scalable,
+      diverse, and interaction-ready 3D assets. Unlike conventional 3D generation that prioritizes appearance realism,
+      embodied applications require assets that can be manipulated, simulated, and transferred across tasks; a cabinet
+      is useful because its doors rotate around plausible joints, a cloth is valuable because it deforms under contact,
+      and a scene is effective because it supports navigation and task execution under physical constraints. This survey
+      presents the first structured review organized around three roles that 3D generation plays in embodied AI:
+      <strong>Data Generator</strong> (creating simulation-ready objects), <strong>Simulation Environments</strong>
+      (building interactive worlds), and <strong>Sim2Real Bridge</strong> (connecting simulation to real-world
+      deployment). We establish <em>simulation readiness</em> as the central evaluation criterion, encompassing physical
+      validity, kinematic executability, and simulator compatibility, and reframe 3D generation as an infrastructure
+      problem for embodied AI rather than merely a visual content synthesis task.
     </section>
 
     <section class="tldr">
       <strong>TL;DR:</strong>
-      A simulation-centric survey that reframes 3D generation for embodied AI as an infrastructure problem, spanning <strong><em>simulation-ready assets</em></strong>, <strong><em>interactive environments</em></strong>, and <strong><em>sim-to-real transfer</em></strong>.
+      A simulation-centric survey that reframes 3D generation for embodied AI as an infrastructure problem, spanning
+      <strong><em>simulation-ready assets</em></strong>, <strong><em>interactive environments</em></strong>, and
+      <strong><em>sim-to-real transfer</em></strong>.
     </section>
 
-    <section>
+    <section id="demo">
+      <h3 class="section-title">Demo</h3>
+      <div class="demo-box">
+        <p>
+          Demo content is not finalized yet. This section is reserved for a future teaser video, interactive visual
+          examples, or a compact walkthrough of the survey taxonomy.
+        </p>
+        <div class="placeholder-panel">
+          Demo placeholder<br />
+          Replace this block with a video embed, interactive figure, or curated example gallery.
+        </div>
+      </div>
+    </section>
+
+    <section id="data-generator">
       <h3 class="section-title">Data Generator | Simulation-ready 3D Assets</h3>
-      <div class="info-box" style="margin: 0 0 20px 0; padding: 22px 24px; font-size: 16px; font-weight: 500;">
-        Data Generator examines how generative models produce <em>simulation-ready</em> objects deployable in physics engines without manual post-processing. The central challenge is not visual plausibility but <strong>physical deployability</strong>: generated assets must carry kinematic constraints, material attributes, and simulator-compatible formats (URDF/MJCF) alongside geometry. We organize methods by physical complexity: <strong>Articulated Objects</strong> (joint topology and kinematics), <strong>Physically-grounded Objects</strong> (mass, friction, material properties), <strong>Deformable Objects</strong> (continuum mechanics for cloth and soft bodies), and <strong>End-to-End Pipelines</strong> (automated sim-ready workflows). Two broad trends emerge: <em>learning-based</em> methods (diffusion, autoregressive, GNN) achieving high geometric fidelity but depending on scarce physically annotated data, and <em>LLM/VLM-based</em> methods leveraging semantic reasoning for open-vocabulary generalization.
+      <div class="info-box">
+        Data Generator examines how generative models produce <em>simulation-ready</em> objects deployable in physics
+        engines without manual post-processing. The central challenge is not visual plausibility but
+        <strong>physical deployability</strong>: generated assets must carry kinematic constraints, material attributes,
+        and simulator-compatible formats (URDF/MJCF) alongside geometry. We organize methods by physical complexity:
+        <strong>Articulated Objects</strong> (joint topology and kinematics),
+        <strong>Physically-grounded Objects</strong> (mass, friction, material properties),
+        <strong>Deformable Objects</strong> (continuum mechanics for cloth and soft bodies), and
+        <strong>End-to-End Pipelines</strong> (automated sim-ready workflows). Two broad trends emerge:
+        <em>learning-based</em> methods (diffusion, autoregressive, GNN) achieving high geometric fidelity but
+        depending on scarce physically annotated data, and <em>LLM/VLM-based</em> methods leveraging semantic reasoning
+        for open-vocabulary generalization.
       </div>
-      <div class="figure-card" style="max-width: 900px; margin-left: auto; margin-right: auto;">
-        <img src="images/data_generator.png" alt="Data Generator overview" style="width:100%; border-radius:14px;">
-        <div class="figure-label"></div>
+      <div class="figure-card" style="max-width: 920px; margin-left: auto; margin-right: auto;">
+        <img src="images/data_generator.png" alt="Data Generator overview" />
+        <div class="figure-label">Overview of simulation-ready object generation pipelines.</div>
       </div>
     </section>
 
-    <section>
+    <section id="simulation-environments">
       <h3 class="section-title">Simulation Environments</h3>
-      <div class="info-box" style="margin: 0 0 20px 0; padding: 22px 24px; font-size: 16px; font-weight: 500;">
-        Simulation Environments examines how generative models produce <em>executable interactive worlds</em> for embodied agent training. The central challenge shifts from isolated asset creation to scene-level composition that supports perception, navigation, and manipulation. We organize methods by control granularity: <strong>Structure-Driven Generation</strong> (procedural rules or learned layout priors), <strong>Controllable Generation</strong> (instruction, vision, or physics conditioning), and <strong>Agentic Generation</strong> (foundation-model planning with self-correction and simulation feedback). Early methods rely on hand-crafted rules or learned distributions over layouts, while controllable methods introduce flexible conditioning signals. The most recent direction employs agentic pipelines that translate high-level intent into structured specifications and continuously correct semantic and physical mismatches through tool use and feedback, improving robustness over single-pass generation.
+      <div class="info-box">
+        Simulation Environments examines how generative models produce <em>executable interactive worlds</em> for
+        embodied agent training. The central challenge shifts from isolated asset creation to scene-level composition
+        that supports perception, navigation, and manipulation. We organize methods by control granularity:
+        <strong>Structure-Driven Generation</strong> (procedural rules or learned layout priors),
+        <strong>Controllable Generation</strong> (instruction, vision, or physics conditioning), and
+        <strong>Agentic Generation</strong> (foundation-model planning with self-correction and simulation feedback).
+        Early methods rely on hand-crafted rules or learned distributions over layouts, while controllable methods
+        introduce flexible conditioning signals. The most recent direction employs agentic pipelines that translate
+        high-level intent into structured specifications and continuously correct semantic and physical mismatches
+        through tool use and feedback, improving robustness over single-pass generation.
       </div>
-      <div class="figure-card" style="max-width: 800px; margin-left: auto; margin-right: auto;">
-        <img src="images/simulation_env.png" alt="Simulation Environments overview" style="width:100%; border-radius:14px;">
-        <div class="figure-label"></div>
+      <div class="figure-card" style="max-width: 820px; margin-left: auto; margin-right: auto;">
+        <img src="images/simulation_env.png" alt="Simulation Environments overview" />
+        <div class="figure-label">Scene generation from structure-driven to agentic pipelines.</div>
       </div>
     </section>
 
-    <section>
+    <section id="sim2real">
       <h3 class="section-title">Sim2Real Bridge | Transfer-oriented Pipelines</h3>
-      <div class="info-box" style="margin: 0 0 20px 0; padding: 22px 24px; font-size: 16px; font-weight: 500;">
-        Sim2Real Bridge examines how generative 3D representations support the closed-loop data lifecycle connecting simulation to real-world deployment. Unlike previous sections that focus on generating <em>new</em> assets or composing <em>interactive environments</em>, this section targets <strong>instance-level reconstruction and augmentation</strong> of specific real-world content. We organize methods along three sequential stages: <strong>Digital Twin</strong> (constructing physically faithful replicas from real-world observations), <strong>Data Augmentation</strong> (synthesizing 3D-grounded observations via viewpoint, geometric, and temporal augmentation), and <strong>Task &amp; Demo Generation</strong> (scaling task-relevant demonstrations through simulation and generative models). The key distinction is that these methods reconstruct and augment <em>specific</em> real-world instances rather than generating <em>novel</em> category-level assets, creating a feedback loop where real-world observations feed into simulation, and simulation-generated data trains policies for real-world deployment.
+      <div class="info-box">
+        Sim2Real Bridge examines how generative 3D representations support the closed-loop data lifecycle connecting
+        simulation to real-world deployment. Unlike previous sections that focus on generating <em>new</em> assets or
+        composing <em>interactive environments</em>, this section targets
+        <strong>instance-level reconstruction and augmentation</strong> of specific real-world content. We organize
+        methods along three sequential stages: <strong>Digital Twin</strong> (constructing physically faithful replicas
+        from real-world observations), <strong>Data Augmentation</strong> (synthesizing 3D-grounded observations via
+        viewpoint, geometric, and temporal augmentation), and <strong>Task &amp; Demo Generation</strong> (scaling
+        task-relevant demonstrations through simulation and generative models). The key distinction is that these
+        methods reconstruct and augment <em>specific</em> real-world instances rather than generating <em>novel</em>
+        category-level assets, creating a feedback loop where real-world observations feed into simulation, and
+        simulation-generated data trains policies for real-world deployment.
       </div>
-      <div class="figure-card" style="max-width: 900px; margin-left: auto; margin-right: auto;">
-        <img src="images/sim2real.png" alt="Sim2Real Bridge overview" style="width:100%; border-radius:14px;">
-        <div class="figure-label">w</div>
+      <div class="figure-card" style="max-width: 920px; margin-left: auto; margin-right: auto;">
+        <img src="images/sim2real.png" alt="Sim2Real Bridge overview" />
+        <div class="figure-label">Transfer-oriented pipelines for digital twins, augmentation, and demonstrations.</div>
       </div>
     </section>
 
-    <section>
+    <section id="datasets-eval">
       <h3 class="section-title">Datasets &amp; Evaluation</h3>
-      <div class="info-box" style="margin: 0 0 20px 0; padding: 22px 24px; font-size: 16px; font-weight: 500;">
-        Datasets &amp; Evaluation surveys the benchmark landscape for embodied 3D generation across three categories: <strong>Object Asset Datasets</strong> (from early geometric datasets like ShapeNet/PartNet to recent physics-annotated collections like PhysXNet and PhysX-Mobility), <strong>Scene Datasets</strong> (from source scans like 3D-FRONT and HM3D to procedurally generated environments like ProcTHOR-10K and agentically constructed SAGE-10K), and <strong>Robot Demonstration Datasets</strong> (real-world corpora like Open X-Embodiment and DROID, simulation benchmarks like RoboTwin and ManiSkill, and augmentation systems like MimicGen). Evaluation spans three levels: <strong>geometry and appearance quality</strong> (Chamfer Distance, F-Score, watertight ratio), <strong>physical plausibility and sim-readiness</strong> (stability rate, joint accuracy, collision-free ratio, material error), and <strong>embodied task performance</strong> (grasp success rate, navigation SPL, sim-to-real transfer rate).
+      <div class="info-box">
+        Datasets &amp; Evaluation surveys the benchmark landscape for embodied 3D generation across three categories:
+        <strong>Object Asset Datasets</strong> (from early geometric datasets like ShapeNet/PartNet to recent
+        physics-annotated collections like PhysXNet and PhysX-Mobility), <strong>Scene Datasets</strong> (from source
+        scans like 3D-FRONT and HM3D to procedurally generated environments like ProcTHOR-10K and agentically
+        constructed SAGE-10K), and <strong>Robot Demonstration Datasets</strong> (real-world corpora like
+        Open X-Embodiment and DROID, simulation benchmarks like RoboTwin and ManiSkill, and augmentation systems like
+        MimicGen). Evaluation spans three levels: <strong>geometry and appearance quality</strong> (Chamfer Distance,
+        F-Score, watertight ratio), <strong>physical plausibility and sim-readiness</strong> (stability rate, joint
+        accuracy, collision-free ratio, material error), and <strong>embodied task performance</strong> (grasp success
+        rate, navigation SPL, sim-to-real transfer rate).
       </div>
-      <div class="figure-card" style="max-width: 900px; margin-left: auto; margin-right: auto;">
-        <img src="images/datasets.png" alt="Datasets and evaluation overview" style="width:100%; border-radius:14px;">
-        <div class="figure-label">Datasets and evaluation overview</div>
+      <div class="figure-card" style="max-width: 920px; margin-left: auto; margin-right: auto;">
+        <img src="images/datasets.png" alt="Datasets and evaluation overview" />
+        <div class="figure-label">Representative datasets and evaluation axes for embodied 3D generation.</div>
       </div>
     </section>
 
-    <section class="open-challenges">
-      <h3 class="section-title" style="margin-top: 0;">Open Challenges &amp; Future Directions</h3>
+    <section class="open-challenges" id="challenges">
+      <h3 class="section-title">Open Challenges &amp; Future Directions</h3>
 
-      <div class="info-box" style="margin: 0 0 16px 0; padding: 20px 24px; font-size: 15px; font-weight: 500;">
+      <div class="info-box">
         <strong>1. Physical Grounding at Scale</strong><br /><br />
-        <em style="color: #c92a2a;">Challenge:</em> Large-scale repositories like Objaverse provide millions of geometric models but lack material properties and kinematic parameters. Physically annotated datasets are orders of magnitude smaller, capping model generalization. Most generative architectures optimize visual metrics with no awareness of physics—non-manifold surfaces and thin structures may render well but be unusable in simulation.<br /><br />
-        <em style="color: #2d6a4f;">Future Directions:</em> (1) LLM/VLM-assisted labeling and self-supervised physical annotation via differentiable simulators; (2) Integrating differentiable physics constraints into training loops, as demonstrated by DSO and PhysPart; (3) Lightweight proxy validators that reject physically implausible outputs at generation time without full simulator rollouts.
+        <em style="color: #c92a2a;">Challenge:</em> Large-scale repositories like Objaverse provide millions of
+        geometric models but lack material properties and kinematic parameters. Physically annotated datasets are orders
+        of magnitude smaller, capping model generalization. Most generative architectures optimize visual metrics with
+        no awareness of physics; non-manifold surfaces and thin structures may render well but be unusable in simulation.
+        <br /><br />
+        <em style="color: #2d6a4f;">Future Directions:</em> (1) LLM/VLM-assisted labeling and self-supervised physical
+        annotation via differentiable simulators; (2) integrating differentiable physics constraints into training loops,
+        as demonstrated by DSO and PhysPart; (3) lightweight proxy validators that reject physically implausible outputs
+        at generation time without full simulator rollouts.
       </div>
 
-      <div class="info-box" style="margin: 0 0 16px 0; padding: 20px 24px; font-size: 15px; font-weight: 500;">
+      <div class="info-box">
         <strong>2. Deformable and Dynamic Asset Generation</strong><br /><br />
-        <em style="color: #c92a2a;">Challenge:</em> Deformable objects (cloth, ropes, soft bodies) are central to manipulation but remain less mature due to high-dimensional geometry and reliance on continuum mechanics (FEM, MPM, PBD). Key gaps include: absence of large-scale datasets with material annotations, speed-fidelity tension between solvers and training, and representation mismatch between outputs (meshes/Gaussians) and particle-based discretizations.<br /><br />
-        <em style="color: #2d6a4f;">Future Directions:</em> Discover simulation-native intermediate representations analogous to sewing patterns for garments—such as material point clouds annotated with constitutive parameters—that are both generatable and directly consumable by soft-body solvers, unlocking scalable deformable asset generation beyond garments.
+        <em style="color: #c92a2a;">Challenge:</em> Deformable objects (cloth, ropes, soft bodies) are central to
+        manipulation but remain less mature due to high-dimensional geometry and reliance on continuum mechanics
+        (FEM, MPM, PBD). Key gaps include the absence of large-scale datasets with material annotations, the
+        speed-fidelity tension between solvers and training, and a representation mismatch between outputs
+        (meshes/Gaussians) and particle-based discretizations.
+        <br /><br />
+        <em style="color: #2d6a4f;">Future Directions:</em> Discover simulation-native intermediate representations
+        analogous to sewing patterns for garments, such as material point clouds annotated with constitutive parameters,
+        that are both generatable and directly consumable by soft-body solvers, unlocking scalable deformable asset
+        generation beyond garments.
       </div>
 
-      <div class="info-box" style="margin: 0 0 16px 0; padding: 20px 24px; font-size: 15px; font-weight: 500;">
-        <strong>3. Efficiency–Controllability Trade-off in Scene Generation</strong><br /><br />
-        <em style="color: #c92a2a;">Challenge:</em> Learning-based synthesis is efficient but struggles with semantic consistency, while agentic approaches achieve stronger alignment through iterative LLM-driven refinement at substantial computational cost—making them impractical for large-scale training.<br /><br />
-        <em style="color: #2d6a4f;">Future Directions:</em> (1) <em>Amortized verification</em>—replace full physics simulation with lightweight learned critics (as in SAGE); (2) <em>Hierarchical generation</em>—use efficient diffusion models for coarse layouts, then restrict agentic refinement to task-critical regions, concentrating computation where it matters most.
+      <div class="info-box">
+        <strong>3. Efficiency-Controllability Trade-off in Scene Generation</strong><br /><br />
+        <em style="color: #c92a2a;">Challenge:</em> Learning-based synthesis is efficient but struggles with semantic
+        consistency, while agentic approaches achieve stronger alignment through iterative LLM-driven refinement at
+        substantial computational cost, making them impractical for large-scale training.
+        <br /><br />
+        <em style="color: #2d6a4f;">Future Directions:</em> (1) <em>Amortized verification</em>:
+        replace full physics simulation with lightweight learned critics (as in SAGE); (2)
+        <em>Hierarchical generation</em>: use efficient diffusion models for coarse layouts, then restrict agentic
+        refinement to task-critical regions, concentrating computation where it matters most.
       </div>
 
-      <div class="info-box" style="margin: 0 0 16px 0; padding: 20px 24px; font-size: 15px; font-weight: 500;">
+      <div class="info-box">
         <strong>4. Evaluation Standardization</strong><br /><br />
-        <em style="color: #c92a2a;">Challenge:</em> Evaluation protocols remain fragmented—geometric metrics ignore physical validity, physical metrics are adopted inconsistently, and downstream task evaluation depends on simulator choices. A model validated in MuJoCo may behave differently in Isaac Sim.<br /><br />
-        <em style="color: #2d6a4f;">Future Directions:</em> Establish a three-level standardized protocol: (1) <em>Format validity</em>—asset loads without crashes; (2) <em>Physics plausibility</em>—simulator-agnostic metrics (stability rate, penetration volume); (3) <em>Downstream performance</em>—success rates under fixed policy configuration. Add cross-simulator consistency tests to expose solver-dependent artifacts.
+        <em style="color: #c92a2a;">Challenge:</em> Evaluation protocols remain fragmented. Geometric metrics ignore
+        physical validity, physical metrics are adopted inconsistently, and downstream task evaluation depends on
+        simulator choices. A model validated in MuJoCo may behave differently in Isaac Sim.
+        <br /><br />
+        <em style="color: #2d6a4f;">Future Directions:</em> Establish a three-level standardized protocol:
+        (1) <em>Format validity</em>: asset loads without crashes; (2) <em>Physics plausibility</em>:
+        simulator-agnostic metrics such as stability rate and penetration volume; (3)
+        <em>Downstream performance</em>: success rates under fixed policy configuration. Add cross-simulator consistency
+        tests to expose solver-dependent artifacts.
       </div>
 
-      <div class="info-box" style="margin: 0 0 16px 0; padding: 20px 24px; font-size: 15px; font-weight: 500;">
+      <div class="info-box">
         <strong>5. Closing the Sim-to-Real Loop</strong><br /><br />
-        <em style="color: #c92a2a;">Challenge:</em> The sim-to-real gap persists across: <em>appearance gap</em> (lighting, sensor noise), <em>dynamics gap</em> (contact forces, material properties), and <em>semantic gap</em> (object arrangement, clutter). The field's primary limitation is fragmentation—generative models, physics engines, and policy learning use incompatible representations.<br /><br />
-        <em style="color: #2d6a4f;">Future Directions:</em> Develop unified foundation models jointly reasoning over geometry, physics, and task semantics. Early steps include representations like PhysGaussian (primitives serving both rendering and simulation) and pipelines like EmbodiedGen and PhysX-Anything that jointly produce geometry, kinematics, and physics from single inputs. Adaptive digital twin frameworks that continuously update simulation from real interaction data also point toward closing the loop.
+        <em style="color: #c92a2a;">Challenge:</em> The sim-to-real gap persists across appearance gap
+        (lighting, sensor noise), dynamics gap (contact forces, material properties), and semantic gap
+        (object arrangement, clutter). The field's primary limitation is fragmentation: generative models,
+        physics engines, and policy learning use incompatible representations.
+        <br /><br />
+        <em style="color: #2d6a4f;">Future Directions:</em> Develop unified foundation models jointly reasoning over
+        geometry, physics, and task semantics. Early steps include representations like PhysGaussian (primitives
+        serving both rendering and simulation) and pipelines like EmbodiedGen and PhysX-Anything that jointly produce
+        geometry, kinematics, and physics from single inputs. Adaptive digital twin frameworks that continuously update
+        simulation from real interaction data also point toward closing the loop.
       </div>
     </section>
 
-    <section>
+    <section id="conclusion">
       <h3 class="section-title">Conclusion</h3>
-      <div class="info-box" style="margin: 0 0 20px 0; padding: 22px 24px; font-size: 16px; font-weight: 500;">
-        This survey presented a simulation-centric review of 3D generation for embodied AI and robotic simulation. We organized the field around three roles that 3D generation now plays in embodied systems: <strong>Data Generator</strong>, where generation produces simulation-ready objects and assets; <strong>Simulation Environments</strong>, where generation builds interactive and task-oriented worlds; and <strong>Sim2Real Bridge</strong>, where generation supports real-world transfer through digital twins, data augmentation, and synthetic demonstrations. Across these three roles, a consistent trend emerges: the goal of 3D generation has shifted from visual plausibility toward <em>simulation readiness</em>—encompassing physical grounding, kinematic executability, semantic controllability, and simulator format compatibility—and generation is becoming a core infrastructure layer for embodied learning, integrating asset creation, quality control, physical annotation, and downstream deployment into increasingly automated pipelines.
+      <div class="info-box">
+        This survey presented a simulation-centric review of 3D generation for embodied AI and robotic simulation. We
+        organized the field around three roles that 3D generation now plays in embodied systems: <strong>Data
+        Generator</strong>, where generation produces simulation-ready objects and assets;
+        <strong>Simulation Environments</strong>, where generation builds interactive and task-oriented worlds; and
+        <strong>Sim2Real Bridge</strong>, where generation supports real-world transfer through digital twins, data
+        augmentation, and synthetic demonstrations. Across these three roles, a consistent trend emerges: the goal of
+        3D generation has shifted from visual plausibility toward <em>simulation readiness</em>, encompassing physical
+        grounding, kinematic executability, semantic controllability, and simulator format compatibility, and
+        generation is becoming a core infrastructure layer for embodied learning, integrating asset creation, quality
+        control, physical annotation, and downstream deployment into increasingly automated pipelines.
         <br /><br />
-        Several critical challenges remain. The scarcity of large-scale physical annotations limits the generalization of physically grounded generators. The gap between geometric realism and simulator deployability persists, as most generative architectures lack internal representations of physical validity. Deformable and dynamic asset generation lags substantially behind rigid-body modeling. Scene generation faces a fundamental trade-off between the efficiency of learning-based methods and the semantic controllability of agentic approaches. Evaluation standards remain fragmented across simulators and tasks, hindering reproducible cross-method comparison. The persistent sim-to-real gap—spanning appearance, dynamics, and semantics—continues to limit real-world deployment. Most fundamentally, the current ecosystem remains modular and disjoint: generative models, physics engines, and robot learning systems are optimized separately and connected through brittle format conversion pipelines.
+        Several critical challenges remain. The scarcity of large-scale physical annotations limits the generalization
+        of physically grounded generators. The gap between geometric realism and simulator deployability persists, as
+        most generative architectures lack internal representations of physical validity. Deformable and dynamic asset
+        generation lags substantially behind rigid-body modeling. Scene generation faces a fundamental trade-off between
+        the efficiency of learning-based methods and the semantic controllability of agentic approaches. Evaluation
+        standards remain fragmented across simulators and tasks, hindering reproducible cross-method comparison. The
+        persistent sim-to-real gap spanning appearance, dynamics, and semantics continues to limit real-world
+        deployment. Most fundamentally, the current ecosystem remains modular and disjoint: generative models, physics
+        engines, and robot learning systems are optimized separately and connected through brittle format conversion
+        pipelines.
         <br /><br />
-        Looking forward, we expect these three roles to become more tightly integrated, converging toward unified generation-simulation foundations that jointly model geometry, physics, and task semantics within shared representations. As embodied agents move toward open-world operation, the ability to generate assets, environments, and transfer-oriented training signals within one coherent pipeline will become a foundational capability rather than a supporting tool.
+        Looking forward, we expect these three roles to become more tightly integrated, converging toward unified
+        generation-simulation foundations that jointly model geometry, physics, and task semantics within shared
+        representations. As embodied agents move toward open-world operation, the ability to generate assets,
+        environments, and transfer-oriented training signals within one coherent pipeline will become a foundational
+        capability rather than a supporting tool.
       </div>
     </section>
+
+    <section id="citation">
+      <h3 class="section-title">Citation</h3>
+      <div class="citation-box">
+        <p>A minimal BibTeX placeholder is included below and can be replaced once the final author list and venue are fixed.</p>
+        <pre>@misc{ye2026survey3dgeneration,
+  title        = {3D Generation for Embodied AI and Robotic Simulation: A Survey},
+  author       = {Tianwei Ye and Yifan Mao and Minwen Liao and Jian Liu and Chunchao Guo and Song Guo},
+  year         = {2026},
+  howpublished = {arXiv preprint},
+  note         = {To be updated}
+}</pre>
+      </div>
+    </section>
+
+    <footer class="footer-box">
+      <p class="footer-note">
+        Project page for the survey on 3D generation in embodied AI and robotic simulation.
+      </p>
+      <div class="footer-links">
+        <a href="#overview">Back to top</a>
+        <a href="#">PDF</a>
+        <a href="#">arXiv</a>
+        <a href="https://github.com/3dgen4robot/awesome-3d-gen-for-embodied-ai" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </footer>
   </main>
 </body>
 </html>
