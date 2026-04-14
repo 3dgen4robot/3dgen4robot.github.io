@@ -894,22 +894,10 @@
       <h3 class="section-title">Collections</h3>
       <div class="demo-box">
         <p>
-          The collection below is directly organized from the survey tables. You can switch between the three major
-          domains, filter by subcategory, search by title, author, or venue, and expand the list when needed.
+          The collection below is directly organized from the survey tables. Each major branch keeps its own subcategory
+          filter, search box, and expand control so the resource list is easier to browse.
         </p>
-        <div class="collections-shell">
-          <div class="collections-tabs" id="collections-domain-tabs"></div>
-          <div class="collections-bar">
-            <div class="collections-subtabs" id="collections-category-tabs"></div>
-            <label class="collections-search" aria-label="Search collections">
-              <span>Search</span>
-              <input id="collections-search-input" type="search" placeholder="Title / Author / Venue" />
-            </label>
-          </div>
-          <div class="collections-count" id="collections-count">Loading collections...</div>
-          <div class="collections-list" id="collections-list"></div>
-          <div class="collections-expand" id="collections-expand"></div>
-        </div>
+        <div id="collections-root"></div>
       </div>
     </section>
 
@@ -984,18 +972,9 @@
         "Sim2Real Bridge": ["Digital Twin", "Data Augmentation", "Task & Demo Generation"]
       };
 
-      const domainTabs = document.getElementById("collections-domain-tabs");
-      const categoryTabs = document.getElementById("collections-category-tabs");
-      const searchInput = document.getElementById("collections-search-input");
-      const listEl = document.getElementById("collections-list");
-      const countEl = document.getElementById("collections-count");
-      const expandEl = document.getElementById("collections-expand");
-      if (!domainTabs || !categoryTabs || !searchInput || !listEl || !countEl || !expandEl) return;
+      const root = document.getElementById("collections-root");
+      if (!root) return;
 
-      let activeDomain = domainOrder[0];
-      let activeCategory = categoryOrder[activeDomain][0];
-      let keyword = "";
-      let expanded = false;
       const initialCount = 8;
 
       function createTab(label, active, onClick) {
@@ -1005,29 +984,6 @@
         button.textContent = label;
         button.addEventListener("click", onClick);
         return button;
-      }
-
-      function renderDomains() {
-        domainTabs.innerHTML = "";
-        domainOrder.forEach(function (domain) {
-          domainTabs.appendChild(createTab(domain, domain === activeDomain, function () {
-            activeDomain = domain;
-            activeCategory = categoryOrder[domain][0];
-            expanded = false;
-            renderAll();
-          }));
-        });
-      }
-
-      function renderCategories() {
-        categoryTabs.innerHTML = "";
-        categoryOrder[activeDomain].forEach(function (category) {
-          categoryTabs.appendChild(createTab(category, category === activeCategory, function () {
-            activeCategory = category;
-            expanded = false;
-            renderAll();
-          }));
-        });
       }
 
       function normalize(text) {
@@ -1056,98 +1012,158 @@
         });
       }
 
-      function filterItems() {
-        return data.filter(function (item) {
-          if (item.domain !== activeDomain || item.category !== activeCategory) return false;
-          if (!keyword) return true;
-          const bag = [item.title, item.authors, item.venue, item.category].map(normalize).join(" ");
-          return bag.includes(keyword);
-        });
-      }
+      function createDomainSection(domain) {
+        const shell = document.createElement("section");
+        shell.className = "collections-shell";
 
-      function renderList() {
-        const items = filterItems();
-        const visible = expanded ? items : items.slice(0, initialCount);
-        listEl.innerHTML = "";
+        const heading = document.createElement("h4");
+        heading.className = "subsection-title";
+        heading.textContent = domain;
+        shell.appendChild(heading);
 
-        if (!items.length) {
-          const empty = document.createElement("div");
-          empty.className = "collections-empty";
-          empty.textContent = "No matching entries in the current category.";
-          listEl.appendChild(empty);
-          countEl.textContent = "0 items";
+        const bar = document.createElement("div");
+        bar.className = "collections-bar";
+
+        const categoryTabs = document.createElement("div");
+        categoryTabs.className = "collections-subtabs";
+
+        const searchLabel = document.createElement("label");
+        searchLabel.className = "collections-search";
+        searchLabel.setAttribute("aria-label", "Search " + domain + " collections");
+        const searchText = document.createElement("span");
+        searchText.textContent = "Search";
+        const searchInput = document.createElement("input");
+        searchInput.type = "search";
+        searchInput.placeholder = "Title / Author / Venue";
+        searchLabel.appendChild(searchText);
+        searchLabel.appendChild(searchInput);
+
+        bar.appendChild(categoryTabs);
+        bar.appendChild(searchLabel);
+        shell.appendChild(bar);
+
+        const countEl = document.createElement("div");
+        countEl.className = "collections-count";
+        shell.appendChild(countEl);
+
+        const listEl = document.createElement("div");
+        listEl.className = "collections-list";
+        shell.appendChild(listEl);
+
+        const expandEl = document.createElement("div");
+        expandEl.className = "collections-expand";
+        shell.appendChild(expandEl);
+
+        let activeCategory = categoryOrder[domain][0];
+        let keyword = "";
+        let expanded = false;
+
+        function filterItems() {
+          return data.filter(function (item) {
+            if (item.domain !== domain || item.category !== activeCategory) return false;
+            if (!keyword) return true;
+            const bag = [item.title, item.authors, item.venue, item.category].map(normalize).join(" ");
+            return bag.includes(keyword);
+          });
+        }
+
+        function renderCategories() {
+          categoryTabs.innerHTML = "";
+          categoryOrder[domain].forEach(function (category) {
+            categoryTabs.appendChild(createTab(category, category === activeCategory, function () {
+              activeCategory = category;
+              expanded = false;
+              renderCategories();
+              renderList();
+            }));
+          });
+        }
+
+        function renderList() {
+          const items = filterItems();
+          const visible = expanded ? items : items.slice(0, initialCount);
+          listEl.innerHTML = "";
+
+          if (!items.length) {
+            const empty = document.createElement("div");
+            empty.className = "collections-empty";
+            empty.textContent = "No matching entries in the current category.";
+            listEl.appendChild(empty);
+            countEl.textContent = "0 items";
+            expandEl.innerHTML = "";
+            return;
+          }
+
+          visible.forEach(function (item) {
+            const card = document.createElement("article");
+            card.className = "collection-item";
+            card.dataset.domain = item.domain;
+
+            const body = document.createElement("div");
+            body.className = "collection-body";
+
+            const title = document.createElement("h4");
+            title.className = "collection-title";
+            title.textContent = item.title;
+
+            const meta = document.createElement("div");
+            meta.className = "collection-meta";
+            const metaParts = [];
+            if (item.venue) metaParts.push(item.venue);
+            meta.textContent = metaParts.join(" | ");
+
+            body.appendChild(title);
+            body.appendChild(meta);
+
+            const links = document.createElement("div");
+            links.className = "collection-links";
+            buildLinks(item).forEach(function (entry) {
+              const link = document.createElement("a");
+              link.className = "collection-link";
+              link.href = entry.href;
+              link.target = "_blank";
+              link.rel = "noreferrer";
+              link.title = entry.label;
+              link.setAttribute("aria-label", entry.label);
+              link.innerHTML = iconSvg(entry.kind);
+              links.appendChild(link);
+            });
+
+            card.appendChild(body);
+            card.appendChild(links);
+            listEl.appendChild(card);
+          });
+
+          countEl.textContent = expanded ? visible.length + " items" : visible.length + "/" + items.length + " items";
           expandEl.innerHTML = "";
-          return;
+          if (items.length > initialCount) {
+            const button = document.createElement("button");
+            button.type = "button";
+            button.className = "expand-btn";
+            button.textContent = expanded ? "Collapse" : "Expand (" + (items.length - initialCount) + ")";
+            button.addEventListener("click", function () {
+              expanded = !expanded;
+              renderList();
+            });
+            expandEl.appendChild(button);
+          }
         }
 
-        visible.forEach(function (item) {
-          const card = document.createElement("article");
-          card.className = "collection-item";
-          card.dataset.domain = item.domain;
-
-          const body = document.createElement("div");
-          body.className = "collection-body";
-
-          const title = document.createElement("h4");
-          title.className = "collection-title";
-          title.textContent = item.title;
-
-          const meta = document.createElement("div");
-          meta.className = "collection-meta";
-          const metaParts = [];
-          if (item.venue) metaParts.push(item.venue);
-          meta.textContent = metaParts.join(" | ");
-
-          body.appendChild(title);
-          body.appendChild(meta);
-
-          const links = document.createElement("div");
-          links.className = "collection-links";
-          buildLinks(item).forEach(function (entry) {
-            const link = document.createElement("a");
-            link.className = "collection-link";
-            link.href = entry.href;
-            link.target = "_blank";
-            link.rel = "noreferrer";
-            link.title = entry.label;
-            link.setAttribute("aria-label", entry.label);
-            link.innerHTML = iconSvg(entry.kind);
-            links.appendChild(link);
-          });
-
-          card.appendChild(body);
-          card.appendChild(links);
-          listEl.appendChild(card);
+        searchInput.addEventListener("input", function (event) {
+          keyword = normalize(event.target.value);
+          expanded = false;
+          renderList();
         });
 
-        countEl.textContent = expanded ? visible.length + " items" : visible.length + "/" + items.length + " items";
-        expandEl.innerHTML = "";
-        if (items.length > initialCount) {
-          const button = document.createElement("button");
-          button.type = "button";
-          button.className = "expand-btn";
-          button.textContent = expanded ? "Collapse" : "Expand (" + (items.length - initialCount) + ")";
-          button.addEventListener("click", function () {
-            expanded = !expanded;
-            renderList();
-          });
-          expandEl.appendChild(button);
-        }
-      }
-
-      function renderAll() {
-        renderDomains();
         renderCategories();
         renderList();
+        return shell;
       }
 
-      searchInput.addEventListener("input", function (event) {
-        keyword = normalize(event.target.value);
-        expanded = false;
-        renderList();
+      root.innerHTML = "";
+      domainOrder.forEach(function (domain) {
+        root.appendChild(createDomainSection(domain));
       });
-
-      renderAll();
     })();
   </script>
 </body>
