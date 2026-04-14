@@ -566,14 +566,8 @@
       flex-wrap: wrap;
       gap: 12px;
       align-items: center;
-      justify-content: space-between;
-      margin-bottom: 16px;
-    }
-
-    .dataset-subtabs {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
+      justify-content: flex-end;
+      margin-bottom: 14px;
     }
 
     .dataset-count {
@@ -1365,25 +1359,8 @@
         heading.textContent = group;
         shell.appendChild(heading);
 
-        const categories = ["All"].concat(
-          Array.from(
-            new Set(
-              data
-                .filter(function (item) {
-                  return item.group === group;
-                })
-                .map(function (item) {
-                  return item.category;
-                })
-            )
-          )
-        );
-
         const bar = document.createElement("div");
         bar.className = "dataset-bar";
-
-        const tabs = document.createElement("div");
-        tabs.className = "dataset-subtabs";
 
         const searchLabel = document.createElement("label");
         searchLabel.className = "collections-search";
@@ -1396,7 +1373,6 @@
         searchLabel.appendChild(searchText);
         searchLabel.appendChild(searchInput);
 
-        bar.appendChild(tabs);
         bar.appendChild(searchLabel);
         shell.appendChild(bar);
 
@@ -1412,33 +1388,17 @@
         expandEl.className = "collections-expand";
         shell.appendChild(expandEl);
 
-        let activeCategory = "All";
         let keyword = "";
         let expanded = false;
 
         function filterItems() {
           return data.filter(function (item) {
             if (item.group !== group) return false;
-            if (activeCategory !== "All" && item.category !== activeCategory) return false;
             if (!keyword) return true;
             const bag = [item.name, item.venue, item.type, item.scale, item.summary, item.robot, item.category]
               .map(normalize)
               .join(" ");
             return bag.includes(keyword);
-          });
-        }
-
-        function renderTabs() {
-          tabs.innerHTML = "";
-          categories.forEach(function (category) {
-            tabs.appendChild(
-              createTab(category, category === activeCategory, function () {
-                activeCategory = category;
-                expanded = false;
-                renderTabs();
-                renderList();
-              })
-            );
           });
         }
 
@@ -1526,7 +1486,6 @@
           renderList();
         });
 
-        renderTabs();
         renderList();
         return shell;
       }
