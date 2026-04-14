@@ -231,23 +231,15 @@
     }
 
     .figure-card {
-      margin-top: 24px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 12px;
-      box-shadow: var(--shadow-soft);
+      margin-top: 20px;
     }
 
     .figure-card img {
-      border-radius: 14px;
-    }
-
-    .figure-label {
-      margin-top: 10px;
-      text-align: center;
-      font-size: 14px;
-      color: var(--muted-text);
+      display: block;
+      width: 100%;
+      border-radius: 18px;
+      border: 1px solid rgba(217, 226, 236, 0.95);
+      box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
     }
 
     .tldr {
@@ -346,7 +338,23 @@
     }
 
     .collections-shell {
-      margin-top: 18px;
+      margin-top: 22px;
+      padding: 22px 24px;
+      border-radius: 24px;
+      border: 1px solid rgba(217, 226, 236, 0.95);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .collections-shell[data-domain="Data Generator"] {
+      background: linear-gradient(180deg, rgba(237, 250, 247, 0.96), rgba(248, 252, 251, 0.98));
+    }
+
+    .collections-shell[data-domain="Simulation Environments"] {
+      background: linear-gradient(180deg, rgba(239, 245, 255, 0.96), rgba(248, 251, 255, 0.98));
+    }
+
+    .collections-shell[data-domain="Sim2Real Bridge"] {
+      background: linear-gradient(180deg, rgba(255, 245, 238, 0.96), rgba(255, 251, 247, 0.98));
     }
 
     .collections-bar {
@@ -719,13 +727,11 @@
       </div>
     </section>
 
-    <section class="figure-card" style="max-width: 920px; margin-left: auto; margin-right: auto;">
-      <img src="assets/images/teaser.jpg" alt="Teaser overview figure" />
-      <div class="figure-label">Survey overview and motivation.</div>
-    </section>
-
     <section class="info-box">
       <p class="section-kicker">Introduction</p>
+      <div class="figure-card" style="max-width: 920px; margin-left: auto; margin-right: auto;">
+        <img src="assets/images/teaser.jpg" alt="Teaser overview figure" />
+      </div>
       <p class="intro-text">
         Embodied AI systems need more than visually plausible 3D content. They need assets and environments that can be
         executed in simulation, manipulated by robots, and transferred to real-world tasks.
@@ -807,10 +813,9 @@
             </ul>
           </div>
         </div>
-      </div>
-      <div class="figure-card" style="max-width: 920px; margin-left: auto; margin-right: auto;">
+        <div class="figure-card" style="max-width: 920px; margin-left: auto; margin-right: auto;">
         <img src="assets/images/data_generator.png" alt="Data Generator overview" />
-        <div class="figure-label">Overview of simulation-ready object generation pipelines.</div>
+        </div>
       </div>
     </section>
 
@@ -838,10 +843,9 @@
             </ul>
           </div>
         </div>
-      </div>
-      <div class="figure-card" style="max-width: 820px; margin-left: auto; margin-right: auto;">
+        <div class="figure-card" style="max-width: 820px; margin-left: auto; margin-right: auto;">
         <img src="assets/images/simulation_env.png" alt="Simulation Environments overview" />
-        <div class="figure-label">Scene generation from structure-driven to agentic pipelines.</div>
+        </div>
       </div>
     </section>
 
@@ -869,10 +873,9 @@
             </ul>
           </div>
         </div>
-      </div>
-      <div class="figure-card" style="max-width: 920px; margin-left: auto; margin-right: auto;">
+        <div class="figure-card" style="max-width: 920px; margin-left: auto; margin-right: auto;">
         <img src="assets/images/sim2real.png" alt="Sim2Real Bridge overview" />
-        <div class="figure-label">Transfer-oriented pipelines for digital twins, augmentation, and demonstrations.</div>
+        </div>
       </div>
     </section>
 
@@ -926,10 +929,9 @@
             </ul>
           </div>
         </div>
-      </div>
-      <div class="figure-card" style="max-width: 920px; margin-left: auto; margin-right: auto;">
+        <div class="figure-card" style="max-width: 920px; margin-left: auto; margin-right: auto;">
         <img src="assets/images/datasets.png" alt="Datasets and evaluation overview" />
-        <div class="figure-label">Representative datasets and evaluation axes for embodied 3D generation.</div>
+        </div>
       </div>
     </section>
 
@@ -1015,6 +1017,7 @@
       function createDomainSection(domain) {
         const shell = document.createElement("section");
         shell.className = "collections-shell";
+        shell.dataset.domain = domain;
 
         const heading = document.createElement("h4");
         heading.className = "subsection-title";

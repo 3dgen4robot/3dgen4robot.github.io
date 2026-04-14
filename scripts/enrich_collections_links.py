@@ -80,7 +80,7 @@ def load_collections():
 
 
 def save_collections(payload):
-    text = "window.COLLECTIONS_DATA = " + json.dumps(payload, ensure_ascii=False) + ";\n"
+    text = "window.COLLECTIONS_DATA = " + json.dumps(payload, ensure_ascii=False, indent=2) + ";\n"
     COLLECTIONS_PATH.write_text(text, encoding="utf-8")
 
 
