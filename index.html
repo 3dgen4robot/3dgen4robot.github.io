@@ -410,7 +410,6 @@
         <a href="#example">Example</a>
         <a href="#collections">Collections</a>
         <a href="#datasets-eval">Datasets &amp; Eval</a>
-        <a href="#challenges">Challenges</a>
       </nav>
     </div>
   </header>
@@ -620,109 +619,6 @@
       <div class="figure-card" style="max-width: 920px; margin-left: auto; margin-right: auto;">
         <img src="images/datasets.png" alt="Datasets and evaluation overview" />
         <div class="figure-label">Representative datasets and evaluation axes for embodied 3D generation.</div>
-      </div>
-    </section>
-
-    <section class="open-challenges" id="challenges">
-      <h3 class="section-title">Open Challenges &amp; Future Directions</h3>
-
-      <div class="info-box">
-        <strong>1. Physical Grounding at Scale</strong><br /><br />
-        <em style="color: #c92a2a;">Challenge:</em> Large-scale repositories like Objaverse provide millions of
-        geometric models but lack material properties and kinematic parameters. Physically annotated datasets are orders
-        of magnitude smaller, capping model generalization. Most generative architectures optimize visual metrics with
-        no awareness of physics; non-manifold surfaces and thin structures may render well but be unusable in simulation.
-        <br /><br />
-        <em style="color: #2d6a4f;">Future Directions:</em> (1) LLM/VLM-assisted labeling and self-supervised physical
-        annotation via differentiable simulators; (2) integrating differentiable physics constraints into training loops,
-        as demonstrated by DSO and PhysPart; (3) lightweight proxy validators that reject physically implausible outputs
-        at generation time without full simulator rollouts.
-      </div>
-
-      <div class="info-box">
-        <strong>2. Deformable and Dynamic Asset Generation</strong><br /><br />
-        <em style="color: #c92a2a;">Challenge:</em> Deformable objects (cloth, ropes, soft bodies) are central to
-        manipulation but remain less mature due to high-dimensional geometry and reliance on continuum mechanics
-        (FEM, MPM, PBD). Key gaps include the absence of large-scale datasets with material annotations, the
-        speed-fidelity tension between solvers and training, and a representation mismatch between outputs
-        (meshes/Gaussians) and particle-based discretizations.
-        <br /><br />
-        <em style="color: #2d6a4f;">Future Directions:</em> Discover simulation-native intermediate representations
-        analogous to sewing patterns for garments, such as material point clouds annotated with constitutive parameters,
-        that are both generatable and directly consumable by soft-body solvers, unlocking scalable deformable asset
-        generation beyond garments.
-      </div>
-
-      <div class="info-box">
-        <strong>3. Efficiency-Controllability Trade-off in Scene Generation</strong><br /><br />
-        <em style="color: #c92a2a;">Challenge:</em> Learning-based synthesis is efficient but struggles with semantic
-        consistency, while agentic approaches achieve stronger alignment through iterative LLM-driven refinement at
-        substantial computational cost, making them impractical for large-scale training.
-        <br /><br />
-        <em style="color: #2d6a4f;">Future Directions:</em> (1) <em>Amortized verification</em>:
-        replace full physics simulation with lightweight learned critics (as in SAGE); (2)
-        <em>Hierarchical generation</em>: use efficient diffusion models for coarse layouts, then restrict agentic
-        refinement to task-critical regions, concentrating computation where it matters most.
-      </div>
-
-      <div class="info-box">
-        <strong>4. Evaluation Standardization</strong><br /><br />
-        <em style="color: #c92a2a;">Challenge:</em> Evaluation protocols remain fragmented. Geometric metrics ignore
-        physical validity, physical metrics are adopted inconsistently, and downstream task evaluation depends on
-        simulator choices. A model validated in MuJoCo may behave differently in Isaac Sim.
-        <br /><br />
-        <em style="color: #2d6a4f;">Future Directions:</em> Establish a three-level standardized protocol:
-        (1) <em>Format validity</em>: asset loads without crashes; (2) <em>Physics plausibility</em>:
-        simulator-agnostic metrics such as stability rate and penetration volume; (3)
-        <em>Downstream performance</em>: success rates under fixed policy configuration. Add cross-simulator consistency
-        tests to expose solver-dependent artifacts.
-      </div>
-
-      <div class="info-box">
-        <strong>5. Closing the Sim-to-Real Loop</strong><br /><br />
-        <em style="color: #c92a2a;">Challenge:</em> The sim-to-real gap persists across appearance gap
-        (lighting, sensor noise), dynamics gap (contact forces, material properties), and semantic gap
-        (object arrangement, clutter). The field's primary limitation is fragmentation: generative models,
-        physics engines, and policy learning use incompatible representations.
-        <br /><br />
-        <em style="color: #2d6a4f;">Future Directions:</em> Develop unified foundation models jointly reasoning over
-        geometry, physics, and task semantics. Early steps include representations like PhysGaussian (primitives
-        serving both rendering and simulation) and pipelines like EmbodiedGen and PhysX-Anything that jointly produce
-        geometry, kinematics, and physics from single inputs. Adaptive digital twin frameworks that continuously update
-        simulation from real interaction data also point toward closing the loop.
-      </div>
-    </section>
-
-    <section id="conclusion">
-      <h3 class="section-title">Conclusion</h3>
-      <div class="info-box">
-        This survey presented a simulation-centric review of 3D generation for embodied AI and robotic simulation. We
-        organized the field around three roles that 3D generation now plays in embodied systems: <strong>Data
-        Generator</strong>, where generation produces simulation-ready objects and assets;
-        <strong>Simulation Environments</strong>, where generation builds interactive and task-oriented worlds; and
-        <strong>Sim2Real Bridge</strong>, where generation supports real-world transfer through digital twins, data
-        augmentation, and synthetic demonstrations. Across these three roles, a consistent trend emerges: the goal of
-        3D generation has shifted from visual plausibility toward <em>simulation readiness</em>, encompassing physical
-        grounding, kinematic executability, semantic controllability, and simulator format compatibility, and
-        generation is becoming a core infrastructure layer for embodied learning, integrating asset creation, quality
-        control, physical annotation, and downstream deployment into increasingly automated pipelines.
-        <br /><br />
-        Several critical challenges remain. The scarcity of large-scale physical annotations limits the generalization
-        of physically grounded generators. The gap between geometric realism and simulator deployability persists, as
-        most generative architectures lack internal representations of physical validity. Deformable and dynamic asset
-        generation lags substantially behind rigid-body modeling. Scene generation faces a fundamental trade-off between
-        the efficiency of learning-based methods and the semantic controllability of agentic approaches. Evaluation
-        standards remain fragmented across simulators and tasks, hindering reproducible cross-method comparison. The
-        persistent sim-to-real gap spanning appearance, dynamics, and semantics continues to limit real-world
-        deployment. Most fundamentally, the current ecosystem remains modular and disjoint: generative models, physics
-        engines, and robot learning systems are optimized separately and connected through brittle format conversion
-        pipelines.
-        <br /><br />
-        Looking forward, we expect these three roles to become more tightly integrated, converging toward unified
-        generation-simulation foundations that jointly model geometry, physics, and task semantics within shared
-        representations. As embodied agents move toward open-world operation, the ability to generate assets,
-        environments, and transfer-oriented training signals within one coherent pipeline will become a foundational
-        capability rather than a supporting tool.
       </div>
     </section>
 
