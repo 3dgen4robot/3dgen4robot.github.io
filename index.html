@@ -243,7 +243,7 @@
     }
 
     .tldr {
-      margin: 24px 16px 0;
+      margin: 20px 0 0;
       text-align: center;
       font-size: 16px;
       font-weight: 500;
@@ -563,11 +563,14 @@
 
     .dataset-bar {
       display: flex;
-      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: flex-start;
       gap: 12px;
-      align-items: center;
-      justify-content: flex-end;
       margin-bottom: 14px;
+    }
+
+    .dataset-bar .collections-search {
+      width: min(360px, 100%);
     }
 
     .dataset-count {
@@ -875,12 +878,11 @@
           <p>The survey spans asset generation, environment construction, and sim-to-real transfer.</p>
         </div>
       </div>
-    </section>
-
-    <section class="tldr">
-      <strong>TL;DR:</strong>
-      3D generation for embodied AI is most useful when it produces assets, environments, and transfer pipelines that
-      are ready for simulation rather than only good-looking.
+      <div class="tldr">
+        <strong>TL;DR:</strong>
+        3D generation for embodied AI is most useful when it produces assets, environments, and transfer pipelines that
+        are ready for simulation rather than only good-looking.
+      </div>
     </section>
 
     <section id="taxonomy">
@@ -1114,7 +1116,7 @@
       const root = document.getElementById("collections-root");
       if (!root) return;
 
-      const initialCount = 8;
+      const initialCount = 3;
 
       function createTab(label, active, onClick) {
         const button = document.createElement("button");
@@ -1313,7 +1315,7 @@
       if (!root) return;
 
       const groupOrder = ["Object Assets", "Scene Datasets", "Robot Demonstrations"];
-      const initialCount = 6;
+      const initialCount = 3;
 
       function normalize(text) {
         return (text || "").toLowerCase();
