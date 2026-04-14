@@ -536,6 +536,134 @@
       background: rgba(255, 255, 255, 0.65);
     }
 
+    .datasets-stack {
+      display: grid;
+      gap: 22px;
+      margin-top: 20px;
+    }
+
+    .dataset-shell {
+      padding: 22px 24px;
+      border-radius: 24px;
+      border: 1px solid rgba(217, 226, 236, 0.95);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .dataset-shell[data-group="Object Assets"] {
+      background: linear-gradient(180deg, rgba(245, 249, 255, 0.98), rgba(251, 253, 255, 0.98));
+    }
+
+    .dataset-shell[data-group="Scene Datasets"] {
+      background: linear-gradient(180deg, rgba(243, 251, 247, 0.98), rgba(250, 253, 252, 0.98));
+    }
+
+    .dataset-shell[data-group="Robot Demonstrations"] {
+      background: linear-gradient(180deg, rgba(255, 247, 241, 0.98), rgba(255, 252, 249, 0.98));
+    }
+
+    .dataset-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+
+    .dataset-subtabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .dataset-count {
+      margin-bottom: 14px;
+      color: var(--muted-text);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .dataset-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .dataset-item {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 16px;
+      align-items: start;
+      padding: 18px 20px;
+      border-radius: 20px;
+      border: 1px solid rgba(217, 226, 236, 0.95);
+      background: rgba(255, 255, 255, 0.82);
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05);
+    }
+
+    .dataset-name {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+    }
+
+    .dataset-meta {
+      margin-top: 8px;
+      color: var(--muted-text);
+      font-size: 14px;
+    }
+
+    .dataset-summary {
+      margin-top: 10px;
+      color: var(--text);
+      font-size: 14px;
+      line-height: 1.65;
+    }
+
+    .dataset-tags {
+      margin-top: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .dataset-tag {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.06);
+      color: var(--muted-text);
+      font-size: 12px;
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    .dataset-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 999px;
+      border: 1px solid rgba(217, 226, 236, 0.95);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(242, 247, 252, 0.92));
+      color: #16324f;
+      box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+    }
+
+    .dataset-link:hover {
+      border-color: rgba(15, 118, 110, 0.4);
+      color: var(--accent-dark);
+      transform: translateY(-1px);
+    }
+
+    .dataset-link svg {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+    }
+
     .demo-box p,
     .citation-box p,
     .footer-box p {
@@ -908,29 +1036,52 @@
       <h3 class="section-title">Datasets &amp; Evaluation</h3>
       <div class="info-box">
         <p class="intro-text">
-          Benchmarks in this space span datasets for assets, scenes, and robot demonstrations, along with evaluation
-          protocols that test geometry, physics, and downstream task success.
+          We summarize datasets and evaluation protocols along three resource groups: object assets, scene datasets, and
+          robot demonstrations. The dataset entries below are searchable and link directly to their official pages.
         </p>
         <div class="summary-grid">
           <div class="mini-card">
-            <h4>Dataset Categories</h4>
+            <h4>Dataset Scope</h4>
+            <p>40 curated benchmarks spanning object assets, indoor scenes, and robot demonstrations.</p>
+          </div>
+          <div class="mini-card">
+            <h4>Evaluation Levels</h4>
+            <p>Metrics are organized by geometry quality, physical sim-readiness, and downstream embodied performance.</p>
+          </div>
+          <div class="mini-card">
+            <h4>Usage Goal</h4>
+            <p>Readers can browse benchmarks by group, filter by category, and jump straight to each dataset page.</p>
+          </div>
+        </div>
+        <div class="datasets-stack" id="datasets-root"></div>
+      </div>
+      <div class="info-box">
+        <p class="section-kicker">Evaluation</p>
+        <div class="summary-grid">
+          <div class="mini-card">
+            <h4>Geometry &amp; Appearance</h4>
             <ul class="bullet-list">
-              <li>Object assets: ShapeNet, PartNet, PhysXNet, PhysX-Mobility</li>
-              <li>Scenes: 3D-FRONT, HM3D, ProcTHOR-10K, SAGE-10K</li>
-              <li>Demonstrations: Open X-Embodiment, DROID, RoboTwin, ManiSkill, MimicGen</li>
+              <li>CD, EMD, F-Score, and IoU remain the core geometric fidelity metrics</li>
+              <li>FID and CLIP Score assess rendered appearance and semantic alignment</li>
+              <li>Watertight ratio is a critical prerequisite for simulator import</li>
             </ul>
           </div>
           <div class="mini-card">
-            <h4>Evaluation Axes</h4>
+            <h4>Physical Plausibility</h4>
             <ul class="bullet-list">
-              <li>Geometry and appearance quality</li>
-              <li>Physical plausibility and sim-readiness</li>
-              <li>Embodied task performance and sim-to-real transfer</li>
+              <li>Stability rate tests whether rigid objects remain valid under gravity</li>
+              <li>Joint type, axis, origin, and limit errors measure articulated correctness</li>
+              <li>Collision-free ratio, penetration volume, and material error target sim-readiness</li>
             </ul>
           </div>
-        </div>
-        <div class="figure-card" style="max-width: 920px; margin-left: auto; margin-right: auto;">
-        <img src="assets/images/datasets.png" alt="Datasets and evaluation overview" />
+          <div class="mini-card">
+            <h4>Embodied Task Performance</h4>
+            <ul class="bullet-list">
+              <li>Grasp SR and articulated manipulation SR validate object-level deployment</li>
+              <li>Navigation SR, SPL, and task completion rate measure environment usability</li>
+              <li>Sim-to-real success rate is the strongest end-to-end transfer signal</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -963,6 +1114,7 @@
     </footer>
   </main>
   <script src="static/js/collections-data.js"></script>
+  <script src="static/js/datasets-data.js"></script>
   <script>
     (function initCollections() {
       const raw = window.COLLECTIONS_DATA;
@@ -1166,6 +1318,231 @@
       root.innerHTML = "";
       domainOrder.forEach(function (domain) {
         root.appendChild(createDomainSection(domain));
+      });
+    })();
+
+    (function initDatasets() {
+      const raw = window.DATASETS_DATA;
+      const data = Array.isArray(raw) ? raw : raw && raw.items ? raw.items : [];
+      const root = document.getElementById("datasets-root");
+      if (!root) return;
+
+      const groupOrder = ["Object Assets", "Scene Datasets", "Robot Demonstrations"];
+      const initialCount = 6;
+
+      function normalize(text) {
+        return (text || "").toLowerCase();
+      }
+
+      function createTab(label, active, onClick) {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "tab-pill" + (active ? " is-active" : "");
+        button.textContent = label;
+        button.addEventListener("click", onClick);
+        return button;
+      }
+
+      function externalIcon() {
+        return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7h-2V6.41l-8.29 8.3-1.42-1.42L17.59 5H14V3Z"></path><path d="M5 5h6v2H7v10h10v-4h2v6H5Z"></path></svg>';
+      }
+
+      function tagsForItem(item) {
+        const tags = [];
+        if (item.type) tags.push(item.type);
+        if (item.group === "Object Assets") {
+          if (item.phys) tags.push("Phys: " + item.phys);
+          if (item.kin) tags.push("Kin: " + item.kin);
+          if (item.sim) tags.push("Sim: " + item.sim);
+        } else if (item.sim) {
+          tags.push("Sim: " + item.sim);
+        } else if (item.robot) {
+          tags.push(item.type);
+        }
+        return tags.filter(function (value, index, array) {
+          return value && array.indexOf(value) === index;
+        });
+      }
+
+      function createGroupSection(group) {
+        const shell = document.createElement("section");
+        shell.className = "dataset-shell";
+        shell.dataset.group = group;
+
+        const heading = document.createElement("h4");
+        heading.className = "subsection-title";
+        heading.textContent = group;
+        shell.appendChild(heading);
+
+        const categories = ["All"].concat(
+          Array.from(
+            new Set(
+              data
+                .filter(function (item) {
+                  return item.group === group;
+                })
+                .map(function (item) {
+                  return item.category;
+                })
+            )
+          )
+        );
+
+        const bar = document.createElement("div");
+        bar.className = "dataset-bar";
+
+        const tabs = document.createElement("div");
+        tabs.className = "dataset-subtabs";
+
+        const searchLabel = document.createElement("label");
+        searchLabel.className = "collections-search";
+        searchLabel.setAttribute("aria-label", "Search " + group + " datasets");
+        const searchText = document.createElement("span");
+        searchText.textContent = "Search";
+        const searchInput = document.createElement("input");
+        searchInput.type = "search";
+        searchInput.placeholder = "Dataset / Venue / Feature";
+        searchLabel.appendChild(searchText);
+        searchLabel.appendChild(searchInput);
+
+        bar.appendChild(tabs);
+        bar.appendChild(searchLabel);
+        shell.appendChild(bar);
+
+        const countEl = document.createElement("div");
+        countEl.className = "dataset-count";
+        shell.appendChild(countEl);
+
+        const listEl = document.createElement("div");
+        listEl.className = "dataset-list";
+        shell.appendChild(listEl);
+
+        const expandEl = document.createElement("div");
+        expandEl.className = "collections-expand";
+        shell.appendChild(expandEl);
+
+        let activeCategory = "All";
+        let keyword = "";
+        let expanded = false;
+
+        function filterItems() {
+          return data.filter(function (item) {
+            if (item.group !== group) return false;
+            if (activeCategory !== "All" && item.category !== activeCategory) return false;
+            if (!keyword) return true;
+            const bag = [item.name, item.venue, item.type, item.scale, item.summary, item.robot, item.category]
+              .map(normalize)
+              .join(" ");
+            return bag.includes(keyword);
+          });
+        }
+
+        function renderTabs() {
+          tabs.innerHTML = "";
+          categories.forEach(function (category) {
+            tabs.appendChild(
+              createTab(category, category === activeCategory, function () {
+                activeCategory = category;
+                expanded = false;
+                renderTabs();
+                renderList();
+              })
+            );
+          });
+        }
+
+        function renderList() {
+          const items = filterItems();
+          const visible = expanded ? items : items.slice(0, initialCount);
+          listEl.innerHTML = "";
+
+          if (!items.length) {
+            const empty = document.createElement("div");
+            empty.className = "collections-empty";
+            empty.textContent = "No matching datasets in the current view.";
+            listEl.appendChild(empty);
+            countEl.textContent = "0 items";
+            expandEl.innerHTML = "";
+            return;
+          }
+
+          visible.forEach(function (item) {
+            const card = document.createElement("article");
+            card.className = "dataset-item";
+
+            const body = document.createElement("div");
+
+            const name = document.createElement("h4");
+            name.className = "dataset-name";
+            name.textContent = item.name;
+
+            const meta = document.createElement("div");
+            meta.className = "dataset-meta";
+            const metaParts = [item.venue, item.scale].filter(Boolean);
+            if (item.robot) metaParts.push(item.robot);
+            meta.textContent = metaParts.join(" | ");
+
+            const summary = document.createElement("div");
+            summary.className = "dataset-summary";
+            summary.textContent = item.summary;
+
+            const tags = document.createElement("div");
+            tags.className = "dataset-tags";
+            tagsForItem(item).forEach(function (tagText) {
+              const tag = document.createElement("span");
+              tag.className = "dataset-tag";
+              tag.textContent = tagText;
+              tags.appendChild(tag);
+            });
+
+            body.appendChild(name);
+            body.appendChild(meta);
+            body.appendChild(summary);
+            if (tags.childNodes.length) body.appendChild(tags);
+
+            const link = document.createElement("a");
+            link.className = "dataset-link";
+            link.href = item.url;
+            link.target = "_blank";
+            link.rel = "noreferrer";
+            link.title = "Open dataset page";
+            link.setAttribute("aria-label", "Open dataset page");
+            link.innerHTML = externalIcon();
+
+            card.appendChild(body);
+            card.appendChild(link);
+            listEl.appendChild(card);
+          });
+
+          countEl.textContent = expanded ? visible.length + " items" : visible.length + "/" + items.length + " items";
+          expandEl.innerHTML = "";
+          if (items.length > initialCount) {
+            const button = document.createElement("button");
+            button.type = "button";
+            button.className = "expand-btn";
+            button.textContent = expanded ? "Collapse" : "Expand (" + (items.length - initialCount) + ")";
+            button.addEventListener("click", function () {
+              expanded = !expanded;
+              renderList();
+            });
+            expandEl.appendChild(button);
+          }
+        }
+
+        searchInput.addEventListener("input", function (event) {
+          keyword = normalize(event.target.value);
+          expanded = false;
+          renderList();
+        });
+
+        renderTabs();
+        renderList();
+        return shell;
+      }
+
+      root.innerHTML = "";
+      groupOrder.forEach(function (group) {
+        root.appendChild(createGroupSection(group));
       });
     })();
   </script>
