@@ -272,6 +272,15 @@
       scroll-margin-top: calc(var(--nav-height) + 20px);
     }
 
+    .subsection-title {
+      margin: 40px 0 16px;
+      font-size: clamp(24px, 2.6vw, 28px);
+      font-weight: 800;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      scroll-margin-top: calc(var(--nav-height) + 20px);
+    }
+
     .section-kicker {
       margin: 0 0 10px;
       color: var(--accent-dark);
@@ -401,13 +410,11 @@
       <div class="brand">3D Generation for Embodied AI and Robotic Simulation</div>
       <nav class="nav-links" aria-label="Primary">
         <a href="#overview">Overview</a>
-        <a href="#demo">Demo</a>
-        <a href="#data-generator">Data Generator</a>
-        <a href="#simulation-environments">Simulation Environments</a>
-        <a href="#sim2real">Sim2Real</a>
+        <a href="#taxonomy">Taxonomy</a>
+        <a href="#example">Example</a>
+        <a href="#collections">Collections</a>
         <a href="#datasets-eval">Datasets &amp; Eval</a>
         <a href="#challenges">Challenges</a>
-        <a href="#citation">Citation</a>
       </nav>
     </div>
   </header>
@@ -498,22 +505,18 @@
       <strong><em>sim-to-real transfer</em></strong>.
     </section>
 
-    <section id="demo">
-      <h3 class="section-title">Demo</h3>
-      <div class="demo-box">
-        <p>
-          Demo content is not finalized yet. This section is reserved for a future teaser video, interactive visual
-          examples, or a compact walkthrough of the survey taxonomy.
-        </p>
-        <div class="placeholder-panel">
-          Demo placeholder<br />
-          Replace this block with a video embed, interactive figure, or curated example gallery.
-        </div>
+    <section id="taxonomy">
+      <h3 class="section-title">Taxonomy</h3>
+      <div class="info-box">
+        We organize this survey taxonomy around three complementary roles that 3D generation plays in embodied AI:
+        <strong>Data Generator</strong>, <strong>Simulation Environments</strong>, and
+        <strong>Sim2Real Bridge</strong>. Together, they capture the pipeline from simulation-ready asset creation,
+        to executable world construction, to transfer-oriented reconstruction and augmentation for real-world deployment.
       </div>
     </section>
 
     <section id="data-generator">
-      <h3 class="section-title">Data Generator | Simulation-ready 3D Assets</h3>
+      <h3 class="subsection-title">Data Generator | Simulation-ready 3D Assets</h3>
       <div class="info-box">
         Data Generator examines how generative models produce <em>simulation-ready</em> objects deployable in physics
         engines without manual post-processing. The central challenge is not visual plausibility but
@@ -534,7 +537,7 @@
     </section>
 
     <section id="simulation-environments">
-      <h3 class="section-title">Simulation Environments</h3>
+      <h3 class="subsection-title">Simulation Environments</h3>
       <div class="info-box">
         Simulation Environments examines how generative models produce <em>executable interactive worlds</em> for
         embodied agent training. The central challenge shifts from isolated asset creation to scene-level composition
@@ -554,7 +557,7 @@
     </section>
 
     <section id="sim2real">
-      <h3 class="section-title">Sim2Real Bridge | Transfer-oriented Pipelines</h3>
+      <h3 class="subsection-title">Sim2Real Bridge | Transfer-oriented Pipelines</h3>
       <div class="info-box">
         Sim2Real Bridge examines how generative 3D representations support the closed-loop data lifecycle connecting
         simulation to real-world deployment. Unlike previous sections that focus on generating <em>new</em> assets or
@@ -571,6 +574,34 @@
       <div class="figure-card" style="max-width: 920px; margin-left: auto; margin-right: auto;">
         <img src="images/sim2real.png" alt="Sim2Real Bridge overview" />
         <div class="figure-label">Transfer-oriented pipelines for digital twins, augmentation, and demonstrations.</div>
+      </div>
+    </section>
+
+    <section id="example">
+      <h3 class="section-title">Example</h3>
+      <div class="demo-box">
+        <p>
+          Example content is not finalized yet. This section is reserved for a future teaser video, interactive visual
+          examples, or a compact walkthrough of the survey taxonomy.
+        </p>
+        <div class="placeholder-panel">
+          Example placeholder<br />
+          Replace this block with a video embed, interactive figure, or curated example gallery.
+        </div>
+      </div>
+    </section>
+
+    <section id="collections">
+      <h3 class="section-title">Collections</h3>
+      <div class="demo-box">
+        <p>
+          This section is reserved for curated collections such as paper lists, categorized resources, benchmarks,
+          datasets, or external project links.
+        </p>
+        <div class="placeholder-panel">
+          Collections placeholder<br />
+          Replace this block with curated resources, tables, links, or filtering widgets.
+        </div>
       </div>
     </section>
 
@@ -700,10 +731,10 @@
     <section id="citation">
       <h3 class="section-title">Citation</h3>
       <div class="citation-box">
-        <p>A minimal BibTeX placeholder is included below and can be replaced once the final author list and venue are fixed.</p>
-        <pre>@misc{ye2026survey3dgeneration,
+        <!-- <p>A minimal BibTeX placeholder is included below and can be replaced once the final author list and venue are fixed.</p> -->
+        <pre>@misc{ye20263dgeneration,
   title        = {3D Generation for Embodied AI and Robotic Simulation: A Survey},
-  author       = {Tianwei Ye and Yifan Mao and Minwen Liao and Jian Liu and Chunchao Guo and Song Guo},
+  author       = {To be updated},
   year         = {2026},
   howpublished = {arXiv preprint},
   note         = {To be updated}
@@ -713,12 +744,13 @@
 
     <footer class="footer-box">
       <p class="footer-note">
-        Project page for the survey on 3D generation in embodied AI and robotic simulation.
+        Copyright © 2026 3D Generation for Embodied AI and Robotic Simulation authors. Released under the MIT License.
       </p>
       <div class="footer-links">
         <a href="#overview">Back to top</a>
         <a href="#">PDF</a>
         <a href="#">arXiv</a>
+        <a href="LICENSE">License</a>
         <a href="https://github.com/3dgen4robot/awesome-3d-gen-for-embodied-ai" target="_blank" rel="noreferrer">GitHub</a>
       </div>
     </footer>
