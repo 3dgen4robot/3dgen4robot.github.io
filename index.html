@@ -122,77 +122,63 @@
       box-shadow: var(--shadow);
     }
 
-    .eyebrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 8px 14px;
-      border-radius: 999px;
-      background: rgba(255, 255, 255, 0.74);
-      border: 1px solid rgba(255, 255, 255, 0.9);
-      font-size: 13px;
-      font-weight: 700;
-      color: var(--accent-dark);
-    }
-
     .hero {
       text-align: center;
     }
 
     .hero h1 {
-      margin: 18px 0 0;
-      font-size: clamp(38px, 5.4vw, 68px);
+      margin: 0;
+      font-size: clamp(34px, 4.8vw, 60px);
       font-weight: 800;
-      line-height: 1.02;
+      line-height: 1.08;
       letter-spacing: -0.04em;
-    }
-
-    .hero h2 {
-      margin: 10px 0 0;
-      font-size: clamp(22px, 3.2vw, 36px);
-      font-weight: 800;
-      line-height: 1.12;
-      letter-spacing: -0.03em;
-    }
-
-    .hero-subtitle {
-      max-width: 860px;
-      margin: 18px auto 0;
-      font-size: 17px;
-      color: var(--muted-text);
     }
 
     .authors {
       margin: 28px auto 0;
+      max-width: 920px;
+    }
+
+    .author-list {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 12px;
+      gap: 10px 18px;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.6;
     }
 
-    .author-chip {
-      display: inline-block;
-      padding: 10px 14px;
-      border-radius: 14px;
-      background: rgba(255, 255, 255, 0.78);
-      border: 1px solid rgba(255, 255, 255, 0.95);
+    .author-name {
+      color: var(--text);
+      transition: color 0.2s ease;
+    }
+
+    a.author-name:hover {
+      color: var(--accent-dark);
+    }
+
+    .author-affiliations {
+      margin-top: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px 24px;
+      color: var(--muted-text);
       font-size: 14px;
       font-weight: 600;
-      box-shadow: 0 8px 18px rgba(15, 23, 42, 0.04);
-      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
     }
 
-    .author-chip span {
-      display: block;
-      color: var(--muted-text);
-      font-size: 12px;
-      font-weight: 600;
+    .affiliation-item {
+      white-space: nowrap;
     }
 
-    a.author-chip:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 14px 26px rgba(15, 23, 42, 0.1);
-      border-color: rgba(15, 118, 110, 0.35);
+    .authors sup {
+      font-size: 0.7em;
+      vertical-align: super;
+      margin-left: 1px;
+      color: var(--accent-dark);
+      font-weight: 800;
     }
 
     .link-row {
@@ -389,12 +375,14 @@
         white-space: normal;
       }
 
-      .authors {
-        gap: 10px;
+      .author-list {
+        font-size: 16px;
+        gap: 8px 14px;
       }
 
-      .author-chip {
-        width: 100%;
+      .author-affiliations {
+        font-size: 13px;
+        gap: 6px 16px;
       }
 
       .action-link {
@@ -430,23 +418,23 @@
   <main class="container">
     <section class="hero-card" id="overview">
       <div class="hero">
-        <div class="eyebrow">Survey Website</div>
-        <h1>A Survey on 3D Generation</h1>
-        <h2>for Embodied AI and Robotic Simulation</h2>
-        <p class="hero-subtitle">
-          A simulation-centric survey that organizes embodied 3D generation around simulation-ready assets,
-          executable environments, and sim-to-real transfer pipelines.
-        </p>
+        <h1>3D Generation for Embodied AI and Robotic Simulation: A Survey</h1>
 
         <div class="authors">
-          <a class="author-chip" href="https://yetianwei.github.io/" target="_blank" rel="noreferrer">Tianwei Ye<span>The Hong Kong University of Science and Technology</span></a>
-          <a class="author-chip" href="https://jluwula.github.io/" target="_blank" rel="noreferrer">Yifan Mao<span>The Hong Kong University of Science and Technology</span></a>
-          <a class="author-chip" href="https://minwenliao.github.io/" target="_blank" rel="noreferrer">Minwen Liao<span>The Hong Kong University of Science and Technology</span></a>
-          <a class="author-chip" href="https://hitcslj.github.io/" target="_blank" rel="noreferrer">Jian Liu<span>The Hong Kong University of Science and Technology</span></a>
-          <div class="author-chip">Chunchao Guo<span>Tencent</span></div>
-          <a class="author-chip" href="https://ddz16.github.io/" target="_blank" rel="noreferrer">Dazhao Du<span>The Hong Kong University of Science and Technology</span></a>
-          <a class="author-chip" href="https://fangqi-zhu.github.io/" target="_blank" rel="noreferrer">Fangqi Zhu<span>The Hong Kong University of Science and Technology</span></a>
-          <a class="author-chip" href="https://cse.hkust.edu.hk/~songguo/" target="_blank" rel="noreferrer">Song Guo<span>The Hong Kong University of Science and Technology</span></a>
+          <div class="author-list">
+            <a class="author-name" href="https://yetianwei.github.io/" target="_blank" rel="noreferrer">Tianwei Ye<sup>1</sup></a>
+            <a class="author-name" href="https://jluwula.github.io/" target="_blank" rel="noreferrer">Yifan Mao<sup>1</sup></a>
+            <a class="author-name" href="https://minwenliao.github.io/" target="_blank" rel="noreferrer">Minwen Liao<sup>1</sup></a>
+            <a class="author-name" href="https://hitcslj.github.io/" target="_blank" rel="noreferrer">Jian Liu<sup>1</sup></a>
+            <span class="author-name">Chunchao Guo<sup>2</sup></span>
+            <a class="author-name" href="https://ddz16.github.io/" target="_blank" rel="noreferrer">Dazhao Du<sup>1</sup></a>
+            <a class="author-name" href="https://fangqi-zhu.github.io/" target="_blank" rel="noreferrer">Fangqi Zhu<sup>1</sup></a>
+            <a class="author-name" href="https://cse.hkust.edu.hk/~songguo/" target="_blank" rel="noreferrer">Song Guo<sup>1</sup></a>
+          </div>
+          <div class="author-affiliations">
+            <div class="affiliation-item"><sup>1</sup> The Hong Kong University of Science and Technology</div>
+            <div class="affiliation-item"><sup>2</sup> Tencent</div>
+          </div>
         </div>
 
         <div class="link-row">
