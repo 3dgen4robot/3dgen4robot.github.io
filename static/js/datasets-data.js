@@ -225,24 +225,13 @@ window.DATASETS_DATA = {
     {
       "group": "Scene Datasets",
       "category": "Source Scene",
-      "name": "3D-FRONT",
-      "venue": "ICCV '21",
-      "type": "Synthetic Scenes",
-      "scale": "18.9K rooms / 6.8K houses",
-      "summary": "Layout, Semantics, Texture",
-      "sim": "No",
-      "url": "https://tianchi.aliyun.com/specials/promotion/alibaba-3d-scene-dataset"
-    },
-    {
-      "group": "Scene Datasets",
-      "category": "Source Scene",
-      "name": "3DSSG",
-      "venue": "CVPR '20",
-      "type": "Scene Graphs",
-      "scale": "1.5K SGs / 48K objs / 544K rels",
-      "summary": "Semantics, Attributes, Relations",
-      "sim": "No",
-      "url": "https://3dssg.github.io/"
+      "name": "Matterport3D",
+      "venue": "CVPR '17",
+      "type": "Real Scans",
+      "scale": "90 scenes / 10.8K pans / 194K RGB-D",
+      "summary": "Geometry, Poses, Recon., 2D/3D Sem. Seg.",
+      "sim": "Partial",
+      "url": "https://niessner.github.io/Matterport/"
     },
     {
       "group": "Scene Datasets",
@@ -258,17 +247,6 @@ window.DATASETS_DATA = {
     {
       "group": "Scene Datasets",
       "category": "Source Scene",
-      "name": "Matterport3D",
-      "venue": "CVPR '17",
-      "type": "Real Scans",
-      "scale": "90 scenes / 10.8K pans / 194K RGB-D",
-      "summary": "Geometry, Poses, Recon., 2D/3D Sem. Seg.",
-      "sim": "Partial",
-      "url": "https://niessner.github.io/Matterport/"
-    },
-    {
-      "group": "Scene Datasets",
-      "category": "Source Scene",
       "name": "Replica",
       "venue": "arXiv '19",
       "type": "Real Reconstructions",
@@ -276,6 +254,28 @@ window.DATASETS_DATA = {
       "summary": "Geometry, HDR Texture, Sem./Inst. Labels",
       "sim": "Yes",
       "url": "https://github.com/facebookresearch/Replica-Dataset"
+    },
+    {
+      "group": "Scene Datasets",
+      "category": "Source Scene",
+      "name": "3DSSG",
+      "venue": "CVPR '20",
+      "type": "Scene Graphs",
+      "scale": "1.5K SGs / 48K objs / 544K rels",
+      "summary": "Semantics, Attributes, Relations",
+      "sim": "No",
+      "url": "https://3dssg.github.io/"
+    },
+    {
+      "group": "Scene Datasets",
+      "category": "Source Scene",
+      "name": "3D-FRONT",
+      "venue": "ICCV '21",
+      "type": "Synthetic Scenes",
+      "scale": "18.9K rooms / 6.8K houses",
+      "summary": "Layout, Semantics, Texture",
+      "sim": "No",
+      "url": "https://tianchi.aliyun.com/specials/promotion/alibaba-3d-scene-dataset"
     },
     {
       "group": "Scene Datasets",
@@ -302,17 +302,6 @@ window.DATASETS_DATA = {
     {
       "group": "Scene Datasets",
       "category": "Generated Scene",
-      "name": "SAGE-10K",
-      "venue": "arXiv '26",
-      "type": "Agent-generated",
-      "scale": "10K scenes / 565K objs",
-      "summary": "Layout, Generated Objects, Sim-ready",
-      "sim": "Yes",
-      "url": "https://nvlabs.github.io/sage/"
-    },
-    {
-      "group": "Scene Datasets",
-      "category": "Generated Scene",
       "name": "MetaScenes",
       "venue": "CVPR '25",
       "type": "Auto-constructed",
@@ -320,6 +309,17 @@ window.DATASETS_DATA = {
       "summary": "Geometry, Texture, Replacements, Phys. Plaus.",
       "sim": "Yes",
       "url": "https://meta-scenes.github.io/"
+    },
+    {
+      "group": "Scene Datasets",
+      "category": "Generated Scene",
+      "name": "SAGE-10K",
+      "venue": "arXiv '26",
+      "type": "Agent-generated",
+      "scale": "10K scenes / 565K objs",
+      "summary": "Layout, Generated Objects, Sim-ready",
+      "sim": "Yes",
+      "url": "https://nvlabs.github.io/sage/"
     },
     {
       "group": "Scene Datasets",
