@@ -91,15 +91,73 @@ def clean_bib_text(text: str) -> str:
     return text
 
 
+_LOWERCASE_WORDS = {
+    "a", "an", "the",
+    "and", "but", "or", "nor", "for", "so", "yet",
+    "at", "by", "in", "of", "on", "to", "up", "as", "via", "per",
+    "from", "with", "into", "onto", "upon",
+}
+
+# Abbreviations / acronyms that should keep fixed casing
+_FIXED_CASE = {
+    "3d": "3D", "2d": "2D", "4d": "4D",
+    "3dgs": "3DGS", "6-dof": "6-DoF", "6dof": "6DoF",
+    "llm": "LLM", "vlm": "VLM", "llm/vlm": "LLM/VLM",
+    "llms": "LLMs", "vlms": "VLMs", "lmms": "LMMs", "lmm": "LMM",
+    "nerf": "NeRF",
+    "urdf": "URDF", "urdf/mjcf": "URDF/MJCF", "mjcf": "MJCF",
+    "rgb": "RGB", "rgb-d": "RGB-D", "rgbd": "RGB-D",
+    "ai": "AI", "dof": "DoF",
+    "mpm": "MPM", "fem": "FEM", "pbd": "PBD",
+    "pbr": "PBR", "uv": "UV", "ar": "AR",
+    "slam": "SLAM", "vae": "VAE", "gan": "GAN",
+    "dit": "DiT", "sdf": "SDF", "pc": "PC",
+    "real2sim": "Real2Sim", "sim2real": "Sim2Real",
+    "real2render2real": "Real2Render2Real", "real2sim2real": "Real2Sim2Real",
+}
+
+
+def _apply_word(word: str, force_cap: bool) -> str:
+    # Strip trailing punctuation for lookup, then restore
+    suffix_match = re.search(r"[^\w\-/+]+$", word)
+    suffix = suffix_match.group(0) if suffix_match else ""
+    core = word[: len(word) - len(suffix)]
+    lower = core.lower()
+    if lower in _FIXED_CASE:
+        return _FIXED_CASE[lower] + suffix
+    if force_cap or lower not in _LOWERCASE_WORDS:
+        return core.capitalize() + suffix
+    return lower + suffix
+
+
+def title_case(text: str) -> str:
+    words = text.split()
+    result = []
+    force_next = False  # capitalize word after colon/dash punctuation
+    for i, word in enumerate(words):
+        is_first = i == 0
+        is_last = i == len(words) - 1
+        force_cap = is_first or is_last or force_next
+
+        # Detect if this word ends with colon → force-cap next word
+        force_next = word.rstrip().endswith(":")
+
+        if "-" in word and word.lower() not in _FIXED_CASE:
+            parts = word.split("-")
+            capped = "-".join(_apply_word(p, True) if p else p for p in parts)
+            result.append(capped)
+        else:
+            result.append(_apply_word(word, force_cap))
+    return " ".join(result)
+
+
 def clean_title(text: str) -> str:
-    """Clean bib title, preserving original casing (bib {} braces protect case)."""
-    # Remove outer braces that bibtex uses for case protection
+    """Clean bib title and apply title case."""
     text = re.sub(r"\{([^{}]*)\}", r"\1", text)
     text = re.sub(r"\{([^{}]*)\}", r"\1", text)
-    # Remove LaTeX commands like \textit, \emph etc.
     text = re.sub(r"\\[a-zA-Z]+\s*", "", text)
     text = re.sub(r"\s+", " ", text).strip()
-    return text
+    return title_case(text)
 
 
 def extract_table_content(text: str, label: str) -> str:
