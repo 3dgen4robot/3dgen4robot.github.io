@@ -777,14 +777,14 @@
     }
 
     .datagen-panel,
-    .artic-method-content,
+    .artic-obj-content,
     .phys-content,
     .sim2real-content {
       display: none;
     }
 
     .datagen-panel.is-visible,
-    .artic-method-content.is-visible,
+    .artic-obj-content.is-visible,
     .sim2real-content.is-visible {
       display: block;
     }
@@ -1133,30 +1133,30 @@
         </div>
 
         <div class="datagen-panel is-visible" id="articulated-panel">
-          <div class="example-tabs" id="artic-method-tabs">
-            <button type="button" class="tab-pill is-active" data-method="articulate-anything">Articulate-Anything</button>
-            <button type="button" class="tab-pill" data-method="singapo">SinGAPo</button>
-            <button type="button" class="tab-pill" data-method="urdformer">URDFormer</button>
+          <div class="example-tabs" id="artic-obj-tabs">
+            <button type="button" class="tab-pill is-active" data-obj="kitchen_cabinet">Kitchen Cabinet</button>
+            <button type="button" class="tab-pill" data-obj="oven">Oven</button>
+            <button type="button" class="tab-pill" data-obj="refrigerator">Refrigerator</button>
           </div>
-          <div class="artic-method-content is-visible" data-method="articulate-anything">
+          <div class="artic-obj-content is-visible" data-obj="kitchen_cabinet">
             <div class="video-row video-row-3">
-              <div class="comparison-cell"><video src="assets/videos/articulate-anything/kitchen_cabinet.mp4" autoplay loop muted playsinline></video><div class="video-label">Kitchen Cabinet</div></div>
-              <div class="comparison-cell"><video src="assets/videos/articulate-anything/oven.mp4" autoplay loop muted playsinline></video><div class="video-label">Oven</div></div>
-              <div class="comparison-cell"><video src="assets/videos/articulate-anything/refrigerator.mp4" autoplay loop muted playsinline></video><div class="video-label">Refrigerator</div></div>
+              <div class="comparison-cell"><video src="assets/videos/urdformer/kitchen_cabinet.mp4" autoplay loop muted playsinline></video><div class="video-label">URDFormer</div></div>
+              <div class="comparison-cell"><video src="assets/videos/articulate-anything/kitchen_cabinet.mp4" autoplay loop muted playsinline></video><div class="video-label">Articulate-Anything</div></div>
+              <div class="comparison-cell"><video src="assets/videos/singapo/kitchen_cabinet.mp4" autoplay loop muted playsinline></video><div class="video-label">SINGAPO</div></div>
             </div>
           </div>
-          <div class="artic-method-content" data-method="singapo">
+          <div class="artic-obj-content" data-obj="oven">
             <div class="video-row video-row-3">
-              <div class="comparison-cell"><video src="assets/videos/singapo/kitchen_cabinet.mp4" autoplay loop muted playsinline></video><div class="video-label">Kitchen Cabinet</div></div>
-              <div class="comparison-cell"><video src="assets/videos/singapo/oven.mp4" autoplay loop muted playsinline></video><div class="video-label">Oven</div></div>
-              <div class="comparison-cell"><video src="assets/videos/singapo/refrigerator.mp4" autoplay loop muted playsinline></video><div class="video-label">Refrigerator</div></div>
+              <div class="comparison-cell"><video src="assets/videos/urdformer/oven.mp4" autoplay loop muted playsinline></video><div class="video-label">URDFormer</div></div>
+              <div class="comparison-cell"><video src="assets/videos/articulate-anything/oven.mp4" autoplay loop muted playsinline></video><div class="video-label">Articulate-Anything</div></div>
+              <div class="comparison-cell"><video src="assets/videos/singapo/oven.mp4" autoplay loop muted playsinline></video><div class="video-label">SINGAPO</div></div>
             </div>
           </div>
-          <div class="artic-method-content" data-method="urdformer">
+          <div class="artic-obj-content" data-obj="refrigerator">
             <div class="video-row video-row-3">
-              <div class="comparison-cell"><video src="assets/videos/urdformer/kitchen_cabinet.mp4" autoplay loop muted playsinline></video><div class="video-label">Kitchen Cabinet</div></div>
-              <div class="comparison-cell"><video src="assets/videos/urdformer/oven.mp4" autoplay loop muted playsinline></video><div class="video-label">Oven</div></div>
-              <div class="comparison-cell"><video src="assets/videos/urdformer/refrigerator.mp4" autoplay loop muted playsinline></video><div class="video-label">Refrigerator</div></div>
+              <div class="comparison-cell"><video src="assets/videos/urdformer/refrigerator.mp4" autoplay loop muted playsinline></video><div class="video-label">URDFormer</div></div>
+              <div class="comparison-cell"><video src="assets/videos/articulate-anything/refrigerator.mp4" autoplay loop muted playsinline></video><div class="video-label">Articulate-Anything</div></div>
+              <div class="comparison-cell"><video src="assets/videos/singapo/refrigerator.mp4" autoplay loop muted playsinline></video><div class="video-label">SINGAPO</div></div>
             </div>
           </div>
         </div>
@@ -1166,52 +1166,52 @@
             <button type="button" class="tab-pill is-active" data-method="physx-3d">PhysX-3D</button>
             <button type="button" class="tab-pill" data-method="physx-anything">PhysX-Anything</button>
           </div>
-          <div class="example-tabs" id="phys-attr-tabs">
-            <button type="button" class="tab-pill is-active" data-attr="affordance">Affordance</button>
-            <button type="button" class="tab-pill" data-attr="description">Description</button>
-            <button type="button" class="tab-pill" data-attr="material">Material</button>
+          <div class="example-tabs" id="phys-obj-tabs">
+            <button type="button" class="tab-pill is-active" data-obj="1">Object 1</button>
+            <button type="button" class="tab-pill" data-obj="4">Object 4</button>
+            <button type="button" class="tab-pill" data-obj="15">Object 15</button>
           </div>
 
-          <div class="phys-content" data-method="physx-3d" data-attr="affordance" style="display:block">
+          <div class="phys-content" data-method="physx-3d" data-obj="1" style="display:block">
             <div class="video-row video-row-3">
-              <div class="comparison-cell"><video src="assets/videos/physx-3d/1_affordance.mp4" autoplay loop muted playsinline></video><div class="video-label">Object 1</div></div>
-              <div class="comparison-cell"><video src="assets/videos/physx-3d/4_affordance.mp4" autoplay loop muted playsinline></video><div class="video-label">Object 4</div></div>
-              <div class="comparison-cell"><video src="assets/videos/physx-3d/15_affordance.mp4" autoplay loop muted playsinline></video><div class="video-label">Object 15</div></div>
+              <div class="comparison-cell"><video src="assets/videos/physx-3d/1_affordance.mp4" autoplay loop muted playsinline></video><div class="video-label">Affordance</div></div>
+              <div class="comparison-cell"><video src="assets/videos/physx-3d/1_description.mp4" autoplay loop muted playsinline></video><div class="video-label">Description</div></div>
+              <div class="comparison-cell"><video src="assets/videos/physx-3d/1_material.mp4" autoplay loop muted playsinline></video><div class="video-label">Material</div></div>
             </div>
           </div>
-          <div class="phys-content" data-method="physx-3d" data-attr="description">
+          <div class="phys-content" data-method="physx-3d" data-obj="4">
             <div class="video-row video-row-3">
-              <div class="comparison-cell"><video src="assets/videos/physx-3d/1_description.mp4" autoplay loop muted playsinline></video><div class="video-label">Object 1</div></div>
-              <div class="comparison-cell"><video src="assets/videos/physx-3d/4_description.mp4" autoplay loop muted playsinline></video><div class="video-label">Object 4</div></div>
-              <div class="comparison-cell"><video src="assets/videos/physx-3d/15_description.mp4" autoplay loop muted playsinline></video><div class="video-label">Object 15</div></div>
+              <div class="comparison-cell"><video src="assets/videos/physx-3d/4_affordance.mp4" autoplay loop muted playsinline></video><div class="video-label">Affordance</div></div>
+              <div class="comparison-cell"><video src="assets/videos/physx-3d/4_description.mp4" autoplay loop muted playsinline></video><div class="video-label">Description</div></div>
+              <div class="comparison-cell"><video src="assets/videos/physx-3d/4_material.mp4" autoplay loop muted playsinline></video><div class="video-label">Material</div></div>
             </div>
           </div>
-          <div class="phys-content" data-method="physx-3d" data-attr="material">
+          <div class="phys-content" data-method="physx-3d" data-obj="15">
             <div class="video-row video-row-3">
-              <div class="comparison-cell"><video src="assets/videos/physx-3d/1_material.mp4" autoplay loop muted playsinline></video><div class="video-label">Object 1</div></div>
-              <div class="comparison-cell"><video src="assets/videos/physx-3d/4_material.mp4" autoplay loop muted playsinline></video><div class="video-label">Object 4</div></div>
-              <div class="comparison-cell"><video src="assets/videos/physx-3d/15_material.mp4" autoplay loop muted playsinline></video><div class="video-label">Object 15</div></div>
+              <div class="comparison-cell"><video src="assets/videos/physx-3d/15_affordance.mp4" autoplay loop muted playsinline></video><div class="video-label">Affordance</div></div>
+              <div class="comparison-cell"><video src="assets/videos/physx-3d/15_description.mp4" autoplay loop muted playsinline></video><div class="video-label">Description</div></div>
+              <div class="comparison-cell"><video src="assets/videos/physx-3d/15_material.mp4" autoplay loop muted playsinline></video><div class="video-label">Material</div></div>
             </div>
           </div>
-          <div class="phys-content" data-method="physx-anything" data-attr="affordance">
+          <div class="phys-content" data-method="physx-anything" data-obj="1">
             <div class="video-row video-row-3">
-              <div class="comparison-cell"><video src="assets/videos/physx-anything/1_affordance.mp4" autoplay loop muted playsinline></video><div class="video-label">Object 1</div></div>
-              <div class="comparison-cell"><video src="assets/videos/physx-anything/4_affordance.mp4" autoplay loop muted playsinline></video><div class="video-label">Object 4</div></div>
-              <div class="comparison-cell"><video src="assets/videos/physx-anything/15_affordance.mp4" autoplay loop muted playsinline></video><div class="video-label">Object 15</div></div>
+              <div class="comparison-cell"><video src="assets/videos/physx-anything/1_affordance.mp4" autoplay loop muted playsinline></video><div class="video-label">Affordance</div></div>
+              <div class="comparison-cell"><video src="assets/videos/physx-anything/1_description.mp4" autoplay loop muted playsinline></video><div class="video-label">Description</div></div>
+              <div class="comparison-cell"><video src="assets/videos/physx-anything/1_material.mp4" autoplay loop muted playsinline></video><div class="video-label">Material</div></div>
             </div>
           </div>
-          <div class="phys-content" data-method="physx-anything" data-attr="description">
+          <div class="phys-content" data-method="physx-anything" data-obj="4">
             <div class="video-row video-row-3">
-              <div class="comparison-cell"><video src="assets/videos/physx-anything/1_description.mp4" autoplay loop muted playsinline></video><div class="video-label">Object 1</div></div>
-              <div class="comparison-cell"><video src="assets/videos/physx-anything/4_description.mp4" autoplay loop muted playsinline></video><div class="video-label">Object 4</div></div>
-              <div class="comparison-cell"><video src="assets/videos/physx-anything/15_description.mp4" autoplay loop muted playsinline></video><div class="video-label">Object 15</div></div>
+              <div class="comparison-cell"><video src="assets/videos/physx-anything/4_affordance.mp4" autoplay loop muted playsinline></video><div class="video-label">Affordance</div></div>
+              <div class="comparison-cell"><video src="assets/videos/physx-anything/4_description.mp4" autoplay loop muted playsinline></video><div class="video-label">Description</div></div>
+              <div class="comparison-cell"><video src="assets/videos/physx-anything/4_material.mp4" autoplay loop muted playsinline></video><div class="video-label">Material</div></div>
             </div>
           </div>
-          <div class="phys-content" data-method="physx-anything" data-attr="material">
+          <div class="phys-content" data-method="physx-anything" data-obj="15">
             <div class="video-row video-row-3">
-              <div class="comparison-cell"><video src="assets/videos/physx-anything/1_material.mp4" autoplay loop muted playsinline></video><div class="video-label">Object 1</div></div>
-              <div class="comparison-cell"><video src="assets/videos/physx-anything/4_material.mp4" autoplay loop muted playsinline></video><div class="video-label">Object 4</div></div>
-              <div class="comparison-cell"><video src="assets/videos/physx-anything/15_material.mp4" autoplay loop muted playsinline></video><div class="video-label">Object 15</div></div>
+              <div class="comparison-cell"><video src="assets/videos/physx-anything/15_affordance.mp4" autoplay loop muted playsinline></video><div class="video-label">Affordance</div></div>
+              <div class="comparison-cell"><video src="assets/videos/physx-anything/15_description.mp4" autoplay loop muted playsinline></video><div class="video-label">Description</div></div>
+              <div class="comparison-cell"><video src="assets/videos/physx-anything/15_material.mp4" autoplay loop muted playsinline></video><div class="video-label">Material</div></div>
             </div>
           </div>
         </div>
@@ -1359,50 +1359,39 @@
   <script src="static/js/datasets-data.js"></script>
   <script>
     (function initExampleTabs() {
-      function setupTabs(tabsId, contentSelector, dataKey) {
+      function setupSimpleTabs(tabsId, contentSelector, dataKey) {
         var tabs = document.querySelectorAll('#' + tabsId + ' .tab-pill');
         var panels = document.querySelectorAll(contentSelector);
         tabs.forEach(function (tab) {
           tab.addEventListener('click', function () {
             tabs.forEach(function (t) { t.classList.toggle('is-active', t === tab); });
             var val = tab.dataset[dataKey];
-            panels.forEach(function (p) {
-              var match = p.dataset[dataKey] === val;
-              if (contentSelector === '.phys-content') {
-                var activeMethod = document.querySelector('#phys-method-tabs .tab-pill.is-active').dataset.method;
-                var activeAttr = document.querySelector('#phys-attr-tabs .tab-pill.is-active').dataset.attr;
-                p.style.display = (p.dataset.method === activeMethod && p.dataset.attr === activeAttr) ? 'block' : 'none';
-              } else {
-                p.classList.toggle('is-visible', match);
-              }
-            });
+            panels.forEach(function (p) { p.classList.toggle('is-visible', p.dataset[dataKey] === val); });
           });
         });
       }
 
       // Data Generator top-level tabs
-      setupTabs('datagen-tabs', '.datagen-panel', 'panel');
       document.querySelectorAll('#datagen-tabs .tab-pill').forEach(function (tab) {
         tab.addEventListener('click', function () {
+          document.querySelectorAll('#datagen-tabs .tab-pill').forEach(function (t) { t.classList.toggle('is-active', t === tab); });
           var panelId = tab.dataset.panel;
-          document.querySelectorAll('.datagen-panel').forEach(function (p) {
-            p.classList.toggle('is-visible', p.id === panelId);
-          });
+          document.querySelectorAll('.datagen-panel').forEach(function (p) { p.classList.toggle('is-visible', p.id === panelId); });
         });
       });
 
-      // Articulated method tabs
-      setupTabs('artic-method-tabs', '.artic-method-content', 'method');
+      // Articulated object tabs
+      setupSimpleTabs('artic-obj-tabs', '.artic-obj-content', 'obj');
 
-      // Physical method + attr tabs (dual filter)
+      // Physical: dual filter (method + object)
       function updatePhysContent() {
         var activeMethod = document.querySelector('#phys-method-tabs .tab-pill.is-active').dataset.method;
-        var activeAttr = document.querySelector('#phys-attr-tabs .tab-pill.is-active').dataset.attr;
+        var activeObj = document.querySelector('#phys-obj-tabs .tab-pill.is-active').dataset.obj;
         document.querySelectorAll('.phys-content').forEach(function (p) {
-          p.style.display = (p.dataset.method === activeMethod && p.dataset.attr === activeAttr) ? 'block' : 'none';
+          p.style.display = (p.dataset.method === activeMethod && p.dataset.obj === activeObj) ? 'block' : 'none';
         });
       }
-      document.querySelectorAll('#phys-method-tabs .tab-pill, #phys-attr-tabs .tab-pill').forEach(function (tab) {
+      document.querySelectorAll('#phys-method-tabs .tab-pill, #phys-obj-tabs .tab-pill').forEach(function (tab) {
         tab.addEventListener('click', function () {
           var siblings = tab.parentElement.querySelectorAll('.tab-pill');
           siblings.forEach(function (t) { t.classList.toggle('is-active', t === tab); });
@@ -1411,7 +1400,7 @@
       });
 
       // Sim2Real tabs
-      setupTabs('sim2real-tabs', '.sim2real-content', 'method');
+      setupSimpleTabs('sim2real-tabs', '.sim2real-content', 'method');
     })();
 
     (function initCollections() {
