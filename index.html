@@ -783,13 +783,15 @@
     .datagen-panel,
     .artic-obj-content,
     .phys-content,
-    .sim2real-content {
+    .sim2real-content,
+    .scene-content {
       display: none;
     }
 
     .datagen-panel.is-visible,
     .artic-obj-content.is-visible,
-    .sim2real-content.is-visible {
+    .sim2real-content.is-visible,
+    .scene-content.is-visible {
       display: block;
     }
 
@@ -1226,6 +1228,28 @@
         </div>
       </div>
 
+      <div class="example-group" data-group="simulation-environments">
+        <h4 class="subsection-title">Simulation Environments</h4>
+        <p class="intro-text">
+          Visual examples from representative scene generation methods. Select a method to view its demonstration.
+        </p>
+        <div class="example-tabs" id="scene-tabs">
+          <button type="button" class="tab-pill is-active" data-method="sage">SAGE</button>
+          <button type="button" class="tab-pill" data-method="scenesmith">Scenesmith</button>
+        </div>
+
+        <div class="scene-content is-visible" data-method="sage">
+          <div class="video-row">
+            <div class="comparison-cell"><video src="assets/videos/sage/sage.mp4" autoplay loop muted playsinline></video><div class="video-label">SAGE</div></div>
+          </div>
+        </div>
+        <div class="scene-content" data-method="scenesmith">
+          <div class="video-row">
+            <div class="comparison-cell"><video src="assets/videos/scenesmith/scenesmith.mp4" autoplay loop muted playsinline></video><div class="video-label">Scenesmith</div></div>
+          </div>
+        </div>
+      </div>
+
       <div class="example-group" data-group="sim2real">
         <h4 class="subsection-title">Sim2Real Bridge</h4>
         <p class="intro-text">
@@ -1410,6 +1434,9 @@
 
       // Sim2Real tabs
       setupSimpleTabs('sim2real-tabs', '.sim2real-content', 'method');
+
+      // Simulation Environments (Scene Generation) tabs
+      setupSimpleTabs('scene-tabs', '.scene-content', 'method');
     })();
 
     (function initCollections() {
