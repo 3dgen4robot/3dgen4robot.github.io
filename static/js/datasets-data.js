@@ -55,19 +55,6 @@ window.DATASETS_DATA = {
     },
     {
       "group": "Object Assets",
-      "category": "Real Scans",
-      "name": "GSO",
-      "venue": "ICRA '22",
-      "type": "Real Scans",
-      "scale": "1,030 objects",
-      "summary": "Geometry, PBR Material",
-      "phys": "No",
-      "kin": "No",
-      "sim": "Yes",
-      "url": "https://huggingface.co/datasets/gso-bench/gso"
-    },
-    {
-      "group": "Object Assets",
       "category": "Artist-designed",
       "name": "ABO",
       "venue": "CVPR '22",
@@ -94,16 +81,16 @@ window.DATASETS_DATA = {
     },
     {
       "group": "Object Assets",
-      "category": "Mixed",
-      "name": "Objaverse",
-      "venue": "CVPR '23",
-      "type": "Mixed",
-      "scale": "800K+ objects",
-      "summary": "Geometry, Captions, Tags, Animations",
+      "category": "Real Scans",
+      "name": "GSO",
+      "venue": "ICRA '22",
+      "type": "Real Scans",
+      "scale": "1,030 objects",
+      "summary": "Geometry, PBR Material",
       "phys": "No",
       "kin": "No",
-      "sim": "No",
-      "url": "https://huggingface.co/datasets/allenai/objaverse"
+      "sim": "Yes",
+      "url": "https://huggingface.co/datasets/gso-bench/gso"
     },
     {
       "group": "Object Assets",
@@ -120,16 +107,16 @@ window.DATASETS_DATA = {
     },
     {
       "group": "Object Assets",
-      "category": "CAD Models",
-      "name": "ClothesNet",
-      "venue": "ICCV '23",
-      "type": "CAD Models",
-      "scale": "4,400+ garments / 11 cat.",
-      "summary": "Geometry, Boundary Lines, Keypoints",
+      "category": "Mixed",
+      "name": "Objaverse",
+      "venue": "CVPR '23",
+      "type": "Mixed",
+      "scale": "800K+ objects",
+      "summary": "Geometry, Captions, Tags, Animations",
       "phys": "No",
       "kin": "No",
-      "sim": "Partial",
-      "url": "https://sites.google.com/view/clothesnet"
+      "sim": "No",
+      "url": "https://huggingface.co/datasets/allenai/objaverse"
     },
     {
       "group": "Object Assets",
@@ -143,6 +130,19 @@ window.DATASETS_DATA = {
       "kin": "No",
       "sim": "No",
       "url": "https://objaverse.allenai.org/"
+    },
+    {
+      "group": "Object Assets",
+      "category": "CAD Models",
+      "name": "ClothesNet",
+      "venue": "ICCV '23",
+      "type": "CAD Models",
+      "scale": "4,400+ garments / 11 cat.",
+      "summary": "Geometry, Boundary Lines, Keypoints",
+      "phys": "No",
+      "kin": "No",
+      "sim": "Partial",
+      "url": "https://sites.google.com/view/clothesnet"
     },
     {
       "group": "Object Assets",
@@ -172,6 +172,19 @@ window.DATASETS_DATA = {
     },
     {
       "group": "Object Assets",
+      "category": "Real Scans",
+      "name": "DTC",
+      "venue": "CVPR '25",
+      "type": "Real Scans",
+      "scale": "2K objects / 40 cat.",
+      "summary": "Geometry, 4K PBR, Evaluation Seqs.",
+      "phys": "No",
+      "kin": "No",
+      "sim": "Yes",
+      "url": "https://www.projectaria.com/datasets/dtc/"
+    },
+    {
+      "group": "Object Assets",
       "category": "CAD Models",
       "name": "PhysXNet",
       "venue": "NeurIPS '25",
@@ -198,19 +211,6 @@ window.DATASETS_DATA = {
     },
     {
       "group": "Object Assets",
-      "category": "Real Scans",
-      "name": "DTC",
-      "venue": "CVPR '25",
-      "type": "Real Scans",
-      "scale": "2K objects / 40 cat.",
-      "summary": "Geometry, 4K PBR, Evaluation Seqs.",
-      "phys": "No",
-      "kin": "No",
-      "sim": "Yes",
-      "url": "https://www.projectaria.com/datasets/dtc/"
-    },
-    {
-      "group": "Object Assets",
       "category": "Mixed",
       "name": "ManiTwin",
       "venue": "arXiv '26",
@@ -225,24 +225,24 @@ window.DATASETS_DATA = {
     {
       "group": "Scene Datasets",
       "category": "Source Scene",
-      "name": "Matterport3D",
-      "venue": "CVPR '17",
-      "type": "Real Scans",
-      "scale": "90 scenes / 10.8K pans / 194K RGB-D",
-      "summary": "Geometry, Poses, Recon., 2D/3D Sem. Seg.",
-      "sim": "Partial",
-      "url": "https://niessner.github.io/Matterport/"
-    },
-    {
-      "group": "Scene Datasets",
-      "category": "Source Scene",
       "name": "ScanNet",
-      "venue": "3DV '17",
+      "venue": "CVPR '17",
       "type": "Real Scans",
       "scale": "1.5K scans / 2.5M views",
       "summary": "Geometry, Poses, Recon., Sem. Seg.",
       "sim": "Partial",
       "url": "http://www.scan-net.org/"
+    },
+    {
+      "group": "Scene Datasets",
+      "category": "Source Scene",
+      "name": "Matterport3D",
+      "venue": "3DV '17",
+      "type": "Real Scans",
+      "scale": "90 scenes / 10.8K pans / 194K RGB-D",
+      "summary": "Geometry, Poses, Recon., 2D/3D Sem. Seg.",
+      "sim": "Partial",
+      "url": "https://niessner.github.io/Matterport/"
     },
     {
       "group": "Scene Datasets",
@@ -281,7 +281,7 @@ window.DATASETS_DATA = {
       "group": "Scene Datasets",
       "category": "Source Scene",
       "name": "HM3D",
-      "venue": "NeurIPS '21",
+      "venue": "NeurIPS D&B '21",
       "type": "Real Scans",
       "scale": "1K scans",
       "summary": "Geometry, Texture, Recon.",
@@ -312,20 +312,9 @@ window.DATASETS_DATA = {
     },
     {
       "group": "Scene Datasets",
-      "category": "Generated Scene",
-      "name": "SAGE-10K",
-      "venue": "arXiv '26",
-      "type": "Agent-generated",
-      "scale": "10K scenes / 565K objs",
-      "summary": "Layout, Generated Objects, Sim-ready",
-      "sim": "Yes",
-      "url": "https://nvlabs.github.io/sage/"
-    },
-    {
-      "group": "Scene Datasets",
       "category": "Domain-oriented Scene",
       "name": "MesaTask-10K",
-      "venue": "arXiv '25",
+      "venue": "NeurIPS '25",
       "type": "Task-oriented Scenes",
       "scale": "10.7K tabletop scenes",
       "summary": "Tasks, Layouts, Relations",
@@ -344,26 +333,15 @@ window.DATASETS_DATA = {
       "url": "https://arxiv.org/abs/2511.21161"
     },
     {
-      "group": "Robot Demonstrations",
-      "category": "Real-World Corpus",
-      "name": "Open X-Embodiment",
-      "venue": "ICRA '24",
-      "type": "Real",
-      "robot": "22 embodiments (60 datasets)",
-      "scale": "1M+ trajectories / 527 skills",
-      "summary": "Multi-embodiment aggregation, cross-robot transfer",
-      "url": "https://robotics-transformer-x.github.io/"
-    },
-    {
-      "group": "Robot Demonstrations",
-      "category": "Real-World Corpus",
-      "name": "DROID",
-      "venue": "RSS '24",
-      "type": "Real",
-      "robot": "Franka Panda (18 robots)",
-      "scale": "76K trajectories / 86 tasks",
-      "summary": "In-the-wild collection, 564 scenes, stereo RGB",
-      "url": "https://droid-dataset.github.io/"
+      "group": "Scene Datasets",
+      "category": "Generated Scene",
+      "name": "SAGE-10K",
+      "venue": "CVPR '26",
+      "type": "Agent-generated",
+      "scale": "10K scenes / 565K objs",
+      "summary": "Layout, Generated Objects, Sim-ready",
+      "sim": "Yes",
+      "url": "https://nvlabs.github.io/sage/"
     },
     {
       "group": "Robot Demonstrations",
@@ -371,9 +349,9 @@ window.DATASETS_DATA = {
       "name": "RH20T",
       "venue": "ICRA '24",
       "type": "Real",
-      "robot": "4 robots / 7 configurations",
       "scale": "110K+ sequences / 147 tasks",
       "summary": "Multimodal (RGB-D, F/T, audio), human-robot paired",
+      "robot": "4 robots / 7 configurations",
       "url": "https://rh20t.github.io/"
     },
     {
@@ -382,87 +360,21 @@ window.DATASETS_DATA = {
       "name": "BridgeData V2",
       "venue": "CoRL '23",
       "type": "Real",
-      "robot": "WidowX 250",
       "scale": "60K trajectories / 24 envs / 13 skills",
       "summary": "Low-cost hardware, language annotations",
+      "robot": "WidowX 250",
       "url": "https://rail-berkeley.github.io/bridgedata/"
     },
     {
       "group": "Robot Demonstrations",
-      "category": "Sim-Based Benchmark",
-      "name": "RoboTwin",
-      "venue": "ECCV '24",
-      "type": "Both",
-      "robot": "ALOHA dual-arm",
-      "scale": "50 bimanual tasks / 731 objects",
-      "summary": "3D generative digital twins, SAPIEN sim",
-      "url": "https://arxiv.org/abs/2504.13059"
-    },
-    {
-      "group": "Robot Demonstrations",
-      "category": "Sim-Based Benchmark",
-      "name": "RoboTwin 2.0",
-      "venue": "arXiv '25",
-      "type": "Both",
-      "robot": "5 bimanual embodiments",
-      "scale": "100K+ trajectories / 50 tasks",
-      "summary": "Domain randomization, MLLM task generation",
-      "url": "https://robotwin-platform.github.io/"
-    },
-    {
-      "group": "Robot Demonstrations",
-      "category": "Sim-Based Benchmark",
-      "name": "RoboCasa",
-      "venue": "RSS '24",
-      "type": "Sim",
-      "robot": "Franka (robosuite/MuJoCo)",
-      "scale": "100K+ trajectories / 100 tasks",
-      "summary": "AI-generated textures & objects, kitchen domain",
-      "url": "https://robocasa.ai/"
-    },
-    {
-      "group": "Robot Demonstrations",
-      "category": "Sim-Based Benchmark",
-      "name": "ManiSkill2/3",
-      "venue": "ICLR '23",
-      "type": "Sim",
-      "robot": "Multi-robot (SAPIEN)",
-      "scale": "20+ task families / 2K+ objects",
-      "summary": "GPU-parallelized, rigid & soft body",
-      "url": "https://maniskill.ai/"
-    },
-    {
-      "group": "Robot Demonstrations",
-      "category": "Sim-Based Benchmark",
-      "name": "RLBench",
-      "venue": "RA-L '20",
-      "type": "Sim",
-      "robot": "Franka Panda (CoppeliaSim)",
-      "scale": "100 tasks / unlimited demos",
-      "summary": "Motion-planner demos, multi-view RGB-D",
-      "url": "https://sites.google.com/view/rlbench"
-    },
-    {
-      "group": "Robot Demonstrations",
-      "category": "Sim-Based Benchmark",
-      "name": "LIBERO",
-      "venue": "NeurIPS '23",
-      "type": "Sim",
-      "robot": "Franka Panda (robosuite)",
-      "scale": "130 tasks / 6.5K demos",
-      "summary": "Lifelong learning, controlled distribution shifts",
-      "url": "https://libero-project.github.io/"
-    },
-    {
-      "group": "Robot Demonstrations",
-      "category": "Sim-Based Benchmark",
-      "name": "CALVIN",
-      "venue": "RA-L '22",
-      "type": "Sim",
-      "robot": "Franka Panda (PyBullet)",
-      "scale": "34 tasks / 24h play data",
-      "summary": "Language-conditioned, long-horizon chains",
-      "url": "https://github.com/mees/calvin"
+      "category": "Real-World Corpus",
+      "name": "Open X-Embodiment",
+      "venue": "ICRA '24",
+      "type": "Real",
+      "scale": "1M+ trajectories / 527 skills",
+      "summary": "Multi-embodiment aggregation, cross-robot transfer",
+      "robot": "22 embodiments (60 datasets)",
+      "url": "https://robotics-transformer-x.github.io/"
     },
     {
       "group": "Robot Demonstrations",
@@ -470,10 +382,98 @@ window.DATASETS_DATA = {
       "name": "MimicGen",
       "venue": "CoRL '23",
       "type": "Sim",
-      "robot": "Franka Panda (robosuite)",
       "scale": "50K+ demos from ~200 seeds",
       "summary": "Trajectory augmentation, spatial adaptation",
+      "robot": "Franka Panda (robosuite)",
       "url": "https://mimicgen.github.io/"
+    },
+    {
+      "group": "Robot Demonstrations",
+      "category": "Real-World Corpus",
+      "name": "DROID",
+      "venue": "RSS '24",
+      "type": "Real",
+      "scale": "76K trajectories / 86 tasks",
+      "summary": "In-the-wild collection, 564 scenes, stereo RGB",
+      "robot": "Franka Panda (18 robots)",
+      "url": "https://droid-dataset.github.io/"
+    },
+    {
+      "group": "Robot Demonstrations",
+      "category": "Sim-Based Benchmark",
+      "name": "RLBench",
+      "venue": "RA-L '20",
+      "type": "Sim",
+      "scale": "100 tasks / unlimited demos",
+      "summary": "Motion-planner demos, multi-view RGB-D",
+      "robot": "Franka Panda (CoppeliaSim)",
+      "url": "https://sites.google.com/view/rlbench"
+    },
+    {
+      "group": "Robot Demonstrations",
+      "category": "Sim-Based Benchmark",
+      "name": "CALVIN",
+      "venue": "RA-L '22",
+      "type": "Sim",
+      "scale": "34 tasks / 24h play data",
+      "summary": "Language-conditioned, long-horizon chains",
+      "robot": "Franka Panda (PyBullet)",
+      "url": "https://github.com/mees/calvin"
+    },
+    {
+      "group": "Robot Demonstrations",
+      "category": "Sim-Based Benchmark",
+      "name": "ManiSkill2/3",
+      "venue": "ICLR '23",
+      "type": "Sim",
+      "scale": "20+ task families / 2K+ objects",
+      "summary": "GPU-parallelized, rigid & soft body",
+      "robot": "Multi-robot (SAPIEN)",
+      "url": "https://maniskill.ai/"
+    },
+    {
+      "group": "Robot Demonstrations",
+      "category": "Sim-Based Benchmark",
+      "name": "LIBERO",
+      "venue": "NeurIPS '23",
+      "type": "Sim",
+      "scale": "130 tasks / 6.5K demos",
+      "summary": "Lifelong learning, controlled distribution shifts",
+      "robot": "Franka Panda (robosuite)",
+      "url": "https://libero-project.github.io/"
+    },
+    {
+      "group": "Robot Demonstrations",
+      "category": "Sim-Based Benchmark",
+      "name": "RoboCasa",
+      "venue": "RSS '24",
+      "type": "Sim",
+      "scale": "100K+ trajectories / 100 tasks",
+      "summary": "AI-generated textures & objects, kitchen domain",
+      "robot": "Franka (robosuite/MuJoCo)",
+      "url": "https://robocasa.ai/"
+    },
+    {
+      "group": "Robot Demonstrations",
+      "category": "Sim-Based Benchmark",
+      "name": "RoboTwin",
+      "venue": "CVPR '25",
+      "type": "Both",
+      "scale": "50 bimanual tasks / 731 objects",
+      "summary": "3D generative digital twins, SAPIEN sim",
+      "robot": "ALOHA dual-arm",
+      "url": "https://arxiv.org/abs/2504.13059"
+    },
+    {
+      "group": "Robot Demonstrations",
+      "category": "Sim-Based Benchmark",
+      "name": "RoboTwin 2.0",
+      "venue": "ICML '26",
+      "type": "Both",
+      "scale": "100K+ trajectories / 50 tasks",
+      "summary": "Domain randomization, MLLM task generation",
+      "robot": "5 bimanual embodiments",
+      "url": "https://robotwin-platform.github.io/"
     }
   ]
 };

@@ -7,9 +7,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = ROOT / "index.html"
+# Both data files now come from the paper database (data/papers.yaml in the 3DGen4Robot list repo).
+# build_collections_data.py / build_datasets_data.py, which parsed the survey's LaTeX tables,
+# are kept for reference but no longer run.
 SCRIPTS = [
-    "build_collections_data.py",
-    "build_datasets_data.py",
+    "build_from_db.py",
 ]
 
 
@@ -17,7 +19,7 @@ def run_scripts():
     for script in SCRIPTS:
         print(f"\n=== {script} ===")
         result = subprocess.run(
-            [sys.executable, str(Path(__file__).parent / script)],
+            [sys.executable, str(Path(__file__).parent / script), *sys.argv[1:]],
             check=True,
         )
 
