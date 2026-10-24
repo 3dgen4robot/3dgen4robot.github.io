@@ -37,6 +37,12 @@ def sort_key(e):
     return (date if len(date) > 4 else date + "-12", 0)
 
 
+def by_section_newest_first(entries, order):
+    # unlike the README, newest first: the page shows only a few entries per category before
+    # "Expand", and recent additions should be among them
+    return sorted(sorted(entries, key=sort_key, reverse=True), key=lambda e: order[e["section"]])
+
+
 def is_new(e, since):
     # same rule as the README's 🆕: added after the survey and first released in or after `new_since`
     return e.get("in_paper") is False and sort_key(e)[0] >= since
@@ -63,7 +69,7 @@ def main():
     order = {t["key"]: i for i, t in enumerate(db["taxonomy"])}
     since = db["new_since"]
 
-    methods = sorted(db["methods"], key=lambda e: (order[e["section"]], sort_key(e)))
+    methods = by_section_newest_first(db["methods"], order)
     collections = []
     for e in methods:
         t = tax[e["section"]]
@@ -82,7 +88,7 @@ def main():
         })
     write_js(COLLECTIONS_PATH, "COLLECTIONS_DATA", {"Count": len(collections), "value": collections})
 
-    datasets = sorted(db["datasets"], key=lambda e: (order[e["section"]], sort_key(e)))
+    datasets = by_section_newest_first(db["datasets"], order)
     items = []
     for e in datasets:
         home = e.get("homepage", {})

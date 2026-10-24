@@ -549,6 +549,36 @@
       color: var(--muted-text);
     }
 
+    .new-badge,
+    .tab-new {
+      display: inline-block;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #f97316, #e11d48);
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      line-height: 1.5;
+      white-space: nowrap;
+    }
+
+    .new-badge {
+      padding: 1px 9px;
+      vertical-align: 2px;
+      box-shadow: 0 4px 12px rgba(225, 29, 72, 0.25);
+    }
+
+    .tab-new {
+      margin-left: 6px;
+      padding: 0 7px;
+    }
+
+    .collection-item.is-new,
+    .dataset-item.is-new {
+      border-color: rgba(249, 115, 22, 0.35);
+      background: linear-gradient(135deg, rgba(255, 247, 237, 0.98), rgba(255, 255, 255, 0.95));
+    }
+
     .collection-links {
       display: flex;
       align-items: center;
@@ -1025,7 +1055,7 @@
       <ul class="news-list">
         <li>
           <span class="news-date">2026-10-24</span>
-          <span><strong>v2 update:</strong> we added 83 new papers, tagged "New in v2".</span>
+          <span><strong>v2 update:</strong> we added 83 new papers, marked <span class="new-badge">NEW</span> in the lists below.</span>
         </li>
         <li>
           <span class="news-date">2026-04-29</span>
@@ -1437,9 +1467,19 @@
       </div>
     </footer>
   </main>
-  <script src="static/js/collections-data.js?v=202610241555"></script>
-  <script src="static/js/datasets-data.js?v=202610241555"></script>
+  <script src="static/js/collections-data.js?v=202610241606"></script>
+  <script src="static/js/datasets-data.js?v=202610241606"></script>
   <script>
+    // appends " NEW" after a card title for entries added in the v2 update
+    function appendNewBadge(el) {
+      const badge = document.createElement("span");
+      badge.className = "new-badge";
+      badge.textContent = "NEW";
+      badge.title = "Added in the v2 update (Oct 2026)";
+      el.appendChild(document.createTextNode(" "));
+      el.appendChild(badge);
+    }
+
     (function initExampleTabs() {
       function setupSimpleTabs(tabsId, contentSelector, dataKey) {
         var tabs = document.querySelectorAll('#' + tabsId + ' .tab-pill');
@@ -1503,11 +1543,18 @@
 
       const initialCount = 3;
 
-      function createTab(label, active, onClick) {
+      function createTab(label, active, onClick, newCount) {
         const button = document.createElement("button");
         button.type = "button";
         button.className = "tab-pill" + (active ? " is-active" : "");
         button.textContent = label;
+        if (newCount) {
+          const count = document.createElement("span");
+          count.className = "tab-new";
+          count.textContent = "+" + newCount;
+          button.appendChild(count);
+          button.title = newCount + " new in v2";
+        }
         button.addEventListener("click", onClick);
         return button;
       }
@@ -1597,12 +1644,15 @@
         function renderCategories() {
           categoryTabs.innerHTML = "";
           categoryOrder[domain].forEach(function (category) {
+            const newCount = data.filter(function (item) {
+              return item.domain === domain && item.category === category && item.isNew;
+            }).length;
             categoryTabs.appendChild(createTab(category, category === activeCategory, function () {
               activeCategory = category;
               expanded = false;
               renderCategories();
               renderList();
-            }));
+            }, newCount));
           });
         }
 
@@ -1623,7 +1673,7 @@
 
           visible.forEach(function (item) {
             const card = document.createElement("article");
-            card.className = "collection-item";
+            card.className = "collection-item" + (item.isNew ? " is-new" : "");
             card.dataset.domain = item.domain;
 
             const body = document.createElement("div");
@@ -1632,13 +1682,11 @@
             const title = document.createElement("h4");
             title.className = "collection-title";
             title.textContent = item.title;
+            if (item.isNew) appendNewBadge(title);
 
             const meta = document.createElement("div");
             meta.className = "collection-meta";
-            const metaParts = [];
-            if (item.venue) metaParts.push(item.venue);
-            if (item.isNew) metaParts.push("New in v2");
-            meta.textContent = metaParts.join(" | ");
+            meta.textContent = item.venue || "";
 
             body.appendChild(title);
             body.appendChild(meta);
@@ -1722,7 +1770,6 @@
 
       function tagsForItem(item) {
         const tags = [];
-        if (item.isNew) tags.push("New in v2");
         if (item.type) tags.push(item.type);
         if (item.group === "Object Assets") {
           if (item.phys) tags.push("Phys: " + item.phys);
@@ -1808,13 +1855,14 @@
 
           visible.forEach(function (item) {
             const card = document.createElement("article");
-            card.className = "dataset-item";
+            card.className = "dataset-item" + (item.isNew ? " is-new" : "");
 
             const body = document.createElement("div");
 
             const name = document.createElement("h4");
             name.className = "dataset-name";
             name.textContent = item.name;
+            if (item.isNew) appendNewBadge(name);
 
             const meta = document.createElement("div");
             meta.className = "dataset-meta";
