@@ -1,5 +1,5 @@
 window.COLLECTIONS_DATA = {
-  "Count": 256,
+  "Count": 257,
   "value": [
     {
       "domain": "Data Generator",
@@ -64,6 +64,19 @@ window.COLLECTIONS_DATA = {
       "projectUrl": "https://articraft3d.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2605.15187",
       "codeUrl": "https://github.com/articraftresearch/Articraft",
+      "isNew": true
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Articulated Objects",
+      "citeKey": "sketch2arti",
+      "title": "Sketch2Arti: Sketch-based Articulation Modeling of CAD Objects",
+      "venue": "SIGGRAPH '26",
+      "url": "https://arxiv.org/abs/2604.25781",
+      "authors": "Yang, Yi and Pan, Hao and Cui, Yijing and Sheffer, Alla and Li, Changjian",
+      "projectUrl": "https://arlo-yang.github.io/Sketch2Arti/",
+      "pdfUrl": "https://arxiv.org/abs/2604.25781",
+      "codeUrl": "",
       "isNew": true
     },
     {
