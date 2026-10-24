@@ -208,7 +208,7 @@ window.DATASETS_DATA = {
       "phys": "Yes",
       "kin": "Yes",
       "sim": "Yes",
-      "url": "https://arxiv.org/abs/2506.04941",
+      "url": "https://x-humanoid-artvip.github.io/",
       "isNew": false
     },
     {
@@ -278,7 +278,7 @@ window.DATASETS_DATA = {
       "phys": "Partial",
       "kin": "No",
       "sim": "Yes",
-      "url": "https://arxiv.org/abs/2604.23018",
+      "url": "https://huggingface.co/datasets/ZeroOneCreative/amara-spatial-10k",
       "isNew": true
     },
     {
@@ -292,7 +292,7 @@ window.DATASETS_DATA = {
       "phys": "Yes",
       "kin": "Yes",
       "sim": "Yes",
-      "url": "https://arxiv.org/abs/2605.24403",
+      "url": "https://3dlg-hcvc.github.io/artiverse/",
       "isNew": true
     },
     {
@@ -306,7 +306,7 @@ window.DATASETS_DATA = {
       "phys": "Yes",
       "kin": "No",
       "sim": "Partial",
-      "url": "https://arxiv.org/abs/2607.05390",
+      "url": "https://deform360.lhy.xyz/",
       "isNew": true
     },
     {
@@ -462,7 +462,7 @@ window.DATASETS_DATA = {
       "scale": "230K+ envs / 130K assets",
       "summary": "Simulator-agnostic (MuJoCo, Isaac, ManiSkill)",
       "sim": "Yes",
-      "url": "https://arxiv.org/abs/2602.11337",
+      "url": "https://molmospaces.allen.ai/",
       "isNew": false
     },
     {
@@ -558,7 +558,7 @@ window.DATASETS_DATA = {
       "scale": "DROID episodes with renderable scenes",
       "summary": "Calibration-aware feed-forward 3DGS, reliability scores",
       "robot": "Franka Panda (DROID)",
-      "url": "https://arxiv.org/abs/2610.01744",
+      "url": "https://huggingface.co/datasets/wonguen/3DROID",
       "isNew": true
     },
     {
@@ -642,7 +642,7 @@ window.DATASETS_DATA = {
       "scale": "15 task scenarios",
       "summary": "Garment assets, refined cloth simulation",
       "robot": "Bimanual dexterous hands",
-      "url": "https://arxiv.org/abs/2505.11032",
+      "url": "https://wayrise.github.io/DexGarmentLab/",
       "isNew": false
     },
     {
@@ -711,7 +711,7 @@ window.DATASETS_DATA = {
       "type": "Benchmark",
       "scale": "GPU simulators (Isaac Lab, Genesis, ...)",
       "summary": "Real-world grounding and execution determinism",
-      "url": "https://arxiv.org/abs/2607.13059",
+      "url": "https://github.com/zhanghuzhenyu/gpu_sim_bench",
       "isNew": true
     },
     {
@@ -722,7 +722,7 @@ window.DATASETS_DATA = {
       "type": "Benchmark",
       "scale": "22 task families",
       "summary": "Physics engines vs video world models against real physics",
-      "url": "https://arxiv.org/abs/2608.05948",
+      "url": "https://internrobotics.github.io/GAUGE/",
       "isNew": true
     },
     {

@@ -9,9 +9,9 @@ window.COLLECTIONS_DATA = {
       "venue": "NeurIPS '23",
       "url": "https://arxiv.org/abs/2305.16315",
       "authors": "Lei, Jiahui and Deng, Congyue and Shen, William B and Guibas, Leonidas J and Daniilidis, Kostas",
-      "projectUrl": "https://www.cis.upenn.edu/~leijh/projects/nap",
+      "projectUrl": "https://jiahuilei.com/projects/nap/",
       "pdfUrl": "https://arxiv.org/abs/2305.16315",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/JiahuiLei/NAP",
       "isNew": false
     },
     {
@@ -48,9 +48,9 @@ window.COLLECTIONS_DATA = {
       "venue": "ICLR '25",
       "url": "https://arxiv.org/abs/2406.08474",
       "authors": "Mandi, Zhao and Weng, Yijia and Bauer, Dominik and Song, Shuran",
-      "projectUrl": "",
+      "projectUrl": "https://real2code.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2406.08474",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/MandiZhao/real2code",
       "isNew": false
     },
     {
@@ -89,7 +89,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Su, Jiayi and Feng, Youhe and Li, Zheng and Song, Jinhua and He, Yangfan and Ren, Botao and Xu, Botian",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2412.07237",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/ShuYuMo2003/ArtFormer",
       "isNew": false
     },
     {
@@ -115,7 +115,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Qiu, Xiaowen and Yang, Jincheng and Wang, Yian and Chen, Zhehuan and Wang, Yufei and Wang, Tsun-Hsuan and Xian, Zhou and Gan, Chuang",
       "projectUrl": "https://articulate-anymesh.github.io",
       "pdfUrl": "https://arxiv.org/abs/2502.02590",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/UMass-Embodied-AGI/Articulate-Anymesh",
       "isNew": false
     },
     {
@@ -126,9 +126,9 @@ window.COLLECTIONS_DATA = {
       "venue": "TOG '26",
       "url": "https://arxiv.org/abs/2502.07278",
       "authors": "Vora, Aditya and Nag, Sauradip and Wang, Kai and Zhang, Hao",
-      "projectUrl": "",
+      "projectUrl": "https://aditya-vora.github.io/atop/",
       "pdfUrl": "https://arxiv.org/abs/2502.07278",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/aditya-vora/atop",
       "isNew": false
     },
     {
@@ -167,7 +167,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Gao, Mingju and Pan, Yike and Gao, Huan-ang and Zhang, Zongzheng and Li, Wenyi and Dong, Hao and Tang, Hao and Yi, Li and Zhao, Hao",
       "projectUrl": "https://partrm.c7w.tech",
       "pdfUrl": "https://arxiv.org/abs/2503.19913",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/GasaiYU/PartRM",
       "isNew": false
     },
     {
@@ -178,9 +178,9 @@ window.COLLECTIONS_DATA = {
       "venue": "CoRL '26",
       "url": "https://arxiv.org/abs/2505.10755",
       "authors": "Joshi, Abhishek and Han, Beining and Nugent, Jack and Saez-Diez, Max Gonzalez and Zuo, Yiming and Liu, Jonathan and Wen, Hongyu and Alexandropoulos, Stamatis and Kayan, Karhan and Calveri, Anna and Sun, Tao and Liu, Gaowen and Shao, Yi and Raistrick, Alexander and Deng, Jia",
-      "projectUrl": "",
+      "projectUrl": "https://princeton-vl.github.io/infinigen-articulated/",
       "pdfUrl": "https://arxiv.org/abs/2505.10755",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/princeton-vl/infinigen",
       "isNew": false
     },
     {
@@ -282,9 +282,9 @@ window.COLLECTIONS_DATA = {
       "venue": "CVPR '26",
       "url": "https://arxiv.org/abs/2512.01629",
       "authors": "He, Yumeng and Jiang, Ying and Lu, Jiayin and Yang, Yin and Jiang, Chenfanfu",
-      "projectUrl": "https://heyumeng.com/SPARK/index.html",
+      "projectUrl": "https://heyumeng.com/SPARK-web/",
       "pdfUrl": "https://arxiv.org/abs/2512.01629",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/YumengHe/SPARK",
       "isNew": false
     },
     {
@@ -310,7 +310,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Li, Ruining and Yao, Yuxin and Zheng, Chuanxia and Rupprecht, Christian and Lasenby, Joan and Wu, Shangzhe and Vedaldi, Andrea",
       "projectUrl": "https://ruiningli.com/particulate",
       "pdfUrl": "https://arxiv.org/abs/2512.11798",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/ruiningli/particulate",
       "isNew": false
     },
     {
@@ -336,7 +336,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Liu, Qingming and Yao, Xinyue and Zhang, Shuyuan and Deng, Yueci and Liu, Guiliang and Liu, Zhen and Jia, Kui",
       "projectUrl": "https://pact-project.github.io",
       "pdfUrl": "https://arxiv.org/abs/2602.14965",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/Mobiuslqm/PAct",
       "isNew": false
     },
     {
@@ -349,7 +349,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Wang, Penghao and Xie, Siyuan and Yan, Hongyu and Yang, Xianghui and Huang, Jingwei and Guo, Chunchao and Gu, Jiayuan",
       "projectUrl": "https://authoritywang.github.io/artllm",
       "pdfUrl": "https://arxiv.org/abs/2603.01142",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/AuthorityWang/ArtLLM",
       "isNew": false
     },
     {
@@ -360,7 +360,7 @@ window.COLLECTIONS_DATA = {
       "venue": "ECCV '26",
       "url": "https://arxiv.org/abs/2603.12936",
       "authors": "Xu, WenBo and Liu, Liu and Zhang, Li and Guo, Dan and Liu, RuoNan",
-      "projectUrl": "",
+      "projectUrl": "https://xwb0117.github.io/Motionanymesh/",
       "pdfUrl": "https://arxiv.org/abs/2603.12936",
       "codeUrl": "",
       "isNew": false
@@ -386,9 +386,9 @@ window.COLLECTIONS_DATA = {
       "venue": "SIGGRAPH '26",
       "url": "https://arxiv.org/abs/2603.23386",
       "authors": "Zhang, Chuanrui and Qin, Minghan and Wang, Yuang and Xie, Baifeng and Li, Hang and Wang, Ziwei",
-      "projectUrl": "",
+      "projectUrl": "https://simart-mllm.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2603.23386",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/ByteDance-Seed/SimArt",
       "isNew": false
     },
     {
@@ -401,7 +401,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Zhou, Matt and Li, Ruining and Lyu, Xiaoyang and Song, Zhaomou and Huang, Zhening and Zheng, Chuanxia and Rupprecht, Christian and Vedaldi, Andrea and Wu, Shangzhe",
       "projectUrl": "https://articraft3d.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2605.15187",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/articraftresearch/Articraft",
       "isNew": true
     },
     {
@@ -414,7 +414,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Li, Ruining and Yao, Yuxin and Zhou, Matt and Zheng, Chuanxia and Rupprecht, Christian and Lasenby, Joan and Wu, Shangzhe and Vedaldi, Andrea",
       "projectUrl": "https://instruct-particulate.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2606.14699",
-      "codeUrl": "",
+      "codeUrl": "https://huggingface.co/spaces/rayli/instruct-particulate",
       "isNew": true
     },
     {
@@ -427,7 +427,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Zheng, Wentao and Wu, Ancong",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2607.02045",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/Wentap123/PWM-ArtGen",
       "isNew": true
     },
     {
@@ -438,9 +438,9 @@ window.COLLECTIONS_DATA = {
       "venue": "ECCV '26",
       "url": "https://arxiv.org/abs/2607.27749",
       "authors": "Lee, Daeun and Lee, Jaeah and Kim, Woosung and Jung, Haebeom and Park, Jaesik",
-      "projectUrl": "",
+      "projectUrl": "https://da-eun07.github.io/rest2art/",
       "pdfUrl": "https://arxiv.org/abs/2607.27749",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/da-eun07/rest2art",
       "isNew": true
     },
     {
@@ -453,7 +453,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Cai, Xudong and Zhu, Ruijie and Shang, Haoliang and Li, Ruining and Pollefeys, Marc and Wu, Shangzhe and Vedaldi, Andrea and Zheng, Chuanxia",
       "projectUrl": "https://physicalvision.github.io/artisan/",
       "pdfUrl": "https://arxiv.org/abs/2610.13947",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/physicalvision/Artisan",
       "isNew": true
     },
     {
@@ -466,7 +466,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Xie, Tianyi and Zong, Zeshun and Qiu, Yuxing and Li, Xuan and Feng, Yutao and Yang, Yin and Jiang, Chenfanfu",
       "projectUrl": "https://xpandora.github.io/PhysGaussian",
       "pdfUrl": "https://arxiv.org/abs/2311.12198",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/XPandora/PhysGaussian",
       "isNew": false
     },
     {
@@ -503,9 +503,9 @@ window.COLLECTIONS_DATA = {
       "venue": "NeurIPS '24",
       "url": "https://arxiv.org/abs/2405.20510",
       "authors": "Guo, Minghao and Wang, Bohan and Ma, Pingchuan and Zhang, Tianyuan and Owens, Crystal E and Gan, Chuang and Tenenbaum, Joshua B and He, Kaiming and Matusik, Wojciech",
-      "projectUrl": "",
+      "projectUrl": "https://gmh14.github.io/phys-comp/",
       "pdfUrl": "https://arxiv.org/abs/2405.20510",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/gmh14/PhysComp",
       "isNew": false
     },
     {
@@ -518,7 +518,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Luo, Rundong and Geng, Haoran and Deng, Congyue and Li, Puhao and Wang, Zan and Jia, Baoxiong and Guibas, Leonidas and Huang, Siyuan",
       "projectUrl": "https://red-fairy.github.io/physpart-webpage",
       "pdfUrl": "https://arxiv.org/abs/2408.13724",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/Red-Fairy/physpart",
       "isNew": false
     },
     {
@@ -544,7 +544,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Xu, Xinli and Ge, Wenhang and Qiu, Dicong and Chen, ZhiFei and Yan, Dongyu and Liu, Zhuoyun and Zhao, Haoyu and Zhao, Hanfeng and Zhang, Shunsi and Liang, Junwei and others",
       "projectUrl": "https://Gaussian-Property.github.io",
       "pdfUrl": "https://arxiv.org/abs/2412.11258",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/EnVision-Research/Gaussian-Property",
       "isNew": false
     },
     {
@@ -555,9 +555,9 @@ window.COLLECTIONS_DATA = {
       "venue": "ICRA '25",
       "url": "https://arxiv.org/abs/2503.05887",
       "authors": "Wang, Yian and Tang, Bingjie and Gan, Chuang and Fox, Dieter and Mo, Kaichun and Narang, Yashraj and Akinola, Iretiayo",
-      "projectUrl": "",
+      "projectUrl": "https://wangyian-me.github.io/MatchMaker/",
       "pdfUrl": "https://arxiv.org/abs/2503.05887",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/wangyian-me/MatchMaker_Code/tree/match_maker",
       "isNew": false
     },
     {
@@ -570,7 +570,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Li, Ruining and Zheng, Chuanxia and Rupprecht, Christian and Vedaldi, Andrea",
       "projectUrl": "https://ruiningli.com/dso",
       "pdfUrl": "https://arxiv.org/abs/2503.22677",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/RuiningLi/dso",
       "isNew": false
     },
     {
@@ -594,9 +594,9 @@ window.COLLECTIONS_DATA = {
       "venue": "arXiv '25",
       "url": "https://arxiv.org/abs/2506.14763",
       "authors": "Lin, Chunru and Yuan, Haotian and Wang, Yian and Qiu, Xiaowen and Wang, Tsun-Hsuan and Guo, Minghao and Wang, Bohan and Narang, Yashraj and Fox, Dieter and Gan, Chuang",
-      "projectUrl": "",
+      "projectUrl": "https://umass-embodied-agi.github.io/RobotSmith/",
       "pdfUrl": "https://arxiv.org/abs/2506.14763",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/UMass-Embodied-AGI/RobotSmith",
       "isNew": false
     },
     {
@@ -635,7 +635,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Dang, Shengqi and Chai, Fu and Li, Jiaxin and Yuan, Chao and Ye, Wei and Cao, Nan",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2511.09298",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/idvxlab/DensiCrafter",
       "isNew": false
     },
     {
@@ -661,7 +661,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Yang, Yunhan and Wang, Chunshi and Ye, Junliang and Li, Yang and Chen, Zanxin and Huang, Zehuan and Mu, Yao and Chen, Zhuo and Guo, Chunchao and Liu, Xihui",
       "projectUrl": "https://hku-mmlab.github.io/PhysForge/",
       "pdfUrl": "https://arxiv.org/abs/2605.05163",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/HKU-MMLab/PhysForge",
       "isNew": true
     },
     {
@@ -687,7 +687,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Cao, Ziang and Liu, Yinghao and Li, Haitian and Yao, Runmao and Hong, Fangzhou and Chen, Zhaoxi and Pan, Liang and Liu, Ziwei",
       "projectUrl": "https://physx-omni.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2605.21572",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/ziangcao0312/PhysX-Omni",
       "isNew": true
     },
     {
@@ -739,7 +739,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Li, Xian and Wei, Rong and Yang, Lujie and Huang, Haolin and Fang, Junyuan and Tang, Siliang and Xiao, Jun and Tang, Rui and Li, Juncheng",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2607.13586",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/breezexian/UniPhysGen",
       "isNew": true
     },
     {
@@ -752,7 +752,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Huang, Bei and Chen, Yixin and Zha, Hongbin and Pei, Yuru and Huang, Siyuan",
       "projectUrl": "https://hb-pencil-zero.github.io/AutoPhyX/",
       "pdfUrl": "https://arxiv.org/abs/2610.29517",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/HB-pencil-zero/AutoPhyX",
       "isNew": true
     },
     {
@@ -791,7 +791,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Li, Boqian and Li, Xuan and Jiang, Ying and Xie, Tianyi and Gao, Feng and Wang, Huamin and Yang, Yin and Jiang, Chenfanfu",
       "projectUrl": "https://xuan-li.github.io/GarmentDreamerDemo",
       "pdfUrl": "https://arxiv.org/abs/2405.12420",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/boqian-li/GarmentDreamer",
       "isNew": false
     },
     {
@@ -815,9 +815,9 @@ window.COLLECTIONS_DATA = {
       "venue": "ToG (SIG. Asia '25)",
       "url": "https://arxiv.org/abs/2504.01483",
       "authors": "Li, Siran and Liu, Ruiyang and Liu, Chen and Wang, Zhendong and He, Gaofeng and Li, Yong-Lu and Jin, Xiaogang and Wang, Huamin",
-      "projectUrl": "",
+      "projectUrl": "https://style3d.github.io/garmagenet/",
       "pdfUrl": "https://arxiv.org/abs/2504.01483",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/Style3D/garmagenet-impl",
       "isNew": false
     },
     {
@@ -841,9 +841,9 @@ window.COLLECTIONS_DATA = {
       "venue": "CVPR '26",
       "url": "https://arxiv.org/abs/2601.16672",
       "authors": "Li, Ming and Shan, Hui and Zheng, Kai and Shen, Chentao and Liu, Siyu and Fu, Yanwei and Chen, Zhen and Huang, Xiangru",
-      "projectUrl": "",
+      "projectUrl": "https://sii-liming.github.io/ReWeaver/",
       "pdfUrl": "https://arxiv.org/abs/2601.16672",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/SII-LiMing/ReWeaver-Code",
       "isNew": false
     },
     {
@@ -854,7 +854,7 @@ window.COLLECTIONS_DATA = {
       "venue": "NeurIPS '26",
       "url": "https://arxiv.org/abs/2602.16502",
       "authors": "Tao, Zeng and Jiang, Ying and Chen, Yunuo and Xie, Tianyi and Wang, Huamin and Wu, Yingnian and Yang, Yin and Kumar, Abishek Sampath and Tashiro, Kenji and Jiang, Chenfanfu",
-      "projectUrl": "",
+      "projectUrl": "https://dresswild.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2602.16502",
       "codeUrl": "",
       "isNew": false
@@ -869,7 +869,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Li, Can and Gu, Jie and Deng, Zishun and Chen, Jingmin and Sun, Lei",
       "projectUrl": "https://can-lee.github.io/deformsmith-web/",
       "pdfUrl": "https://arxiv.org/abs/2609.18620",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/CAN-Lee/DeformSmith",
       "isNew": true
     },
     {
@@ -880,7 +880,7 @@ window.COLLECTIONS_DATA = {
       "venue": "arXiv '26",
       "url": "https://arxiv.org/abs/2610.15582",
       "authors": "Jiang, Nanxiang and Chen, Yunuo and Tao, Zeng and Li, Zizhang and Guo, Qi and Wu, Jiajun and Yang, Yin and Jiang, Chenfanfu",
-      "projectUrl": "",
+      "projectUrl": "https://nxjiang-jnx.github.io/dress-agent/",
       "pdfUrl": "https://arxiv.org/abs/2610.15582",
       "codeUrl": "",
       "isNew": true
@@ -908,7 +908,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Wang, Xinjie and Liu, Liu and Cao, Yu and Wu, Ruiqi and Qin, Wenkang and Wang, Dehui and Sui, Wei and Su, Zhizhong",
       "projectUrl": "https://horizonrobotics.github.io/robot_lab/embodied_gen/index.html",
       "pdfUrl": "https://arxiv.org/abs/2506.10600",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/HorizonRobotics/EmbodiedGen",
       "isNew": false
     },
     {
@@ -921,7 +921,7 @@ window.COLLECTIONS_DATA = {
       "authors": "ByteDance Seed",
       "projectUrl": "https://seed.bytedance.com/en/seed3d",
       "pdfUrl": "https://arxiv.org/abs/2510.19944",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/Seed3D/Seed3D",
       "isNew": false
     },
     {
@@ -958,7 +958,7 @@ window.COLLECTIONS_DATA = {
       "venue": "arXiv '26",
       "url": "https://arxiv.org/abs/2606.17446",
       "authors": "Lu, Haoran and Shen, Mutian and Yu, Shuyang and Xiao, Yu and Liu, Songling and Zhang, Jianshu and Wu, Shang and Chen, Yue and Ye, Guo and Wang, Jiayi and Wang, Zhaoran and Liu, Han",
-      "projectUrl": "",
+      "projectUrl": "https://tourmaline-caramel-169490.netlify.app/",
       "pdfUrl": "https://arxiv.org/abs/2606.17446",
       "codeUrl": "",
       "isNew": true
@@ -973,7 +973,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Wang, Xinjie and Liu, Liu and Ding, Taojun and Choi, Andrew and Huang, Chaodong and Zhao, Mengao and Li, Ziang and Jiang, Jackson and Yu, Chunlei and Liu, Shengxiang and Xu, Wei and Su, Zhizhong",
       "projectUrl": "https://horizonrobotics.github.io/EmbodiedGen/",
       "pdfUrl": "https://arxiv.org/abs/2607.07459",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/HorizonRobotics/EmbodiedGen",
       "isNew": true
     },
     {
@@ -986,7 +986,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Liu, Ruoshi and Wu, Rundi and Hoorick, Basile Van and Tokmakov, Pavel and Zakharov, Sergey and Vondrick, Carl",
       "projectUrl": "https://zero123.cs.columbia.edu/",
       "pdfUrl": "https://arxiv.org/abs/2303.11328",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/cvlab-columbia/zero123",
       "isNew": false
     },
     {
@@ -997,7 +997,7 @@ window.COLLECTIONS_DATA = {
       "venue": "ICLR '24",
       "url": "https://arxiv.org/abs/2311.04400",
       "authors": "Hong, Yicong and Zhang, Kai and Gu, Jiuxiang and Bi, Sai and Zhou, Yang and Liu, Difan and Liu, Feng and Sunkavalli, Kalyan and Bui, Trung and Tan, Hao",
-      "projectUrl": "",
+      "projectUrl": "https://yiconghong.me/LRM",
       "pdfUrl": "https://arxiv.org/abs/2311.04400",
       "codeUrl": "",
       "isNew": false
@@ -1012,7 +1012,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Zhang, Longwen and Wang, Ziyu and Zhang, Qixuan and Qiu, Qiwei and Pang, Anqi and Jiang, Haoran and Yang, Wei and Xu, Lan and Yu, Jingyi",
       "projectUrl": "https://sites.google.com/view/clay-3dlm",
       "pdfUrl": "https://arxiv.org/abs/2406.13897",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/CLAY-3D/OpenCLAY",
       "isNew": false
     },
     {
@@ -1023,7 +1023,7 @@ window.COLLECTIONS_DATA = {
       "venue": "arXiv '25",
       "url": "https://arxiv.org/abs/2501.12202",
       "authors": "Zhao, Zibo and Lai, Zeqiang and Lin, Qingxiang and Zhao, Yunfei and Liu, Haolin and Yang, Shuhui and Feng, Yifei and Yang, Mingxin and Zhang, Sheng and Yang, Xianghui and Shi, Huiwen and Liu, Sicong and Wu, Junta and Lian, Yihang and Yang, Fan and Tang, Ruining and He, Zebin and Wang, Xinzhou and Liu, Jian and Zuo, Xuhui and Chen, Zhuo and Lei, Biwen and Weng, Haohan and Xu, Jing and Zhu, Yiling and Liu, Xinhai and Xu, Lixin and Hu, Changrong and Yang, Shaoxiong and Zhang, Song and Liu, Yang and Huang, Tianyu and Wang, Lifu and Zhang, Jihong and Chen, Meng and Dong, Liang and Jia, Yiwen and Cai, Yulin and Yu, Jiaao and Tang, Yixuan and Zhang, Hao and Ye, Zheng and He, Peng and Wu, Runzhou and Zhang, Chao and Tan, Yonghao and Xiao, Jie and Tao, Yangyu and Zhu, Jianchen and Xue, Jinbao and Liu, Kai and Zhao, Chongqing and Wu, Xinming and Hu, Zhichao and Qin, Lei and Peng, Jianbing and Li, Zhan and Chen, Minghui and Zhang, Xipeng and Niu, Lin and Wang, Paige and Wang, Yingkai and Kuang, Haozhao and Fan, Zhongyi and Zheng, Xu and Zhuang, Weihao and He, YingPing and Liu, Tian and Yang, Yong and Wang, Di and Liu, Yuhong and Jiang, Jie and Huang, Jingwei and Guo, Chunchao",
-      "projectUrl": "",
+      "projectUrl": "https://3d-models.hunyuan.tencent.com/",
       "pdfUrl": "https://arxiv.org/abs/2501.12202",
       "codeUrl": "https://github.com/Tencent/Hunyuan3D-2",
       "isNew": false
@@ -1038,7 +1038,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Lin, Yuchen and Lin, Chenguo and Pan, Panwang and Yan, Honglei and Feng, Yiqiang and Mu, Yadong and Fragkiadaki, Katerina",
       "projectUrl": "https://wgsxm.github.io/projects/partcrafter/",
       "pdfUrl": "https://arxiv.org/abs/2506.05573",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/wgsxm/PartCrafter",
       "isNew": false
     },
     {
@@ -1051,7 +1051,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Yang, Yunhan and Zhou, Yufan and Guo, Yuan-Chen and Zou, Zi-Xin and Huang, Yukun and Liu, Ying-Tian and Xu, Hao and Liang, Ding and Cao, Yan-Pei and Liu, Xihui",
       "projectUrl": "https://omnipart.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2507.06165",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/HKU-MMLab/OmniPart",
       "isNew": false
     },
     {
@@ -1168,7 +1168,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Raistrick, Alexander and Mei, Lingjie and Kayan, Karhan and Yan, David and Zuo, Yiming and Han, Beining and Wen, Hongyu and Parakh, Meenal and Alexandropoulos, Stamatis and Lipson, Lahav and others",
       "projectUrl": "https://infinigen.org",
       "pdfUrl": "https://arxiv.org/abs/2406.11824",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/princeton-vl/infinigen",
       "isNew": false
     },
     {
@@ -1205,7 +1205,7 @@ window.COLLECTIONS_DATA = {
       "venue": "ICML '26",
       "url": "https://arxiv.org/abs/2604.11808",
       "authors": "Ran, Xingjian and Zhang, Shujie and Zhong, Weipeng and Luo, Li and Dai, Bo",
-      "projectUrl": "",
+      "projectUrl": "https://rxjfighting.github.io/Pair2Scene-Page/",
       "pdfUrl": "https://arxiv.org/abs/2604.11808",
       "codeUrl": "",
       "isNew": true
@@ -1220,7 +1220,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Feng, Haoran and Niu, Yifan and Huang, Zehuan and Sun, Yang-Tian and Peng, Yuxin and Sheng, Lu",
       "projectUrl": "https://fenghora.github.io/LaviGen-Page/",
       "pdfUrl": "https://arxiv.org/abs/2604.16299",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/fenghora/LaviGen",
       "isNew": true
     },
     {
@@ -1231,7 +1231,7 @@ window.COLLECTIONS_DATA = {
       "venue": "arXiv '26",
       "url": "https://arxiv.org/abs/2604.26943",
       "authors": "Raistrick, Alexander and Kayan, Karhan and Nugent, Jack and Yan, David and Mei, Lingjie and Parakh, Meenal and Wen, Hongyu and Li, Dylan and Zuo, Yiming and Liang, Erich and Deng, Jia",
-      "projectUrl": "",
+      "projectUrl": "https://procfunc.readthedocs.io",
       "pdfUrl": "https://arxiv.org/abs/2604.26943",
       "codeUrl": "https://github.com/princeton-vl/procfunc",
       "isNew": true
@@ -1348,7 +1348,7 @@ window.COLLECTIONS_DATA = {
       "venue": "ICLR '25",
       "url": "https://arxiv.org/abs/2511.04769",
       "authors": "Nguyen, Phat and Wang, Tsun-Hsuan and Hong, Zhang-Wei and Aasi, Erfan and Silva, Andrew and Rosman, Guy and Karaman, Sertac and Rus, Daniela",
-      "projectUrl": "",
+      "projectUrl": "https://regen-sim.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2511.04769",
       "codeUrl": "",
       "isNew": false
@@ -1363,7 +1363,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Chen, ChunTeng and Hsu, YiChen and Liu, YiWen and Sun, WeiFang and Ni, TsaiChing and Lee, ChunYi and Sun, Min and Yang, YuanFu",
       "projectUrl": "https://anc891203.github.io/SceneFoundry-Demo",
       "pdfUrl": "https://arxiv.org/abs/2601.05810",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/anc891203/SceneFoundry",
       "isNew": false
     },
     {
@@ -1374,9 +1374,9 @@ window.COLLECTIONS_DATA = {
       "venue": "CVPR '26",
       "url": "https://arxiv.org/abs/2603.17583",
       "authors": "Noh, Seongrae and Seo, SeungWon and Park, Gyeong-Moon and Kang, HyeongYeop",
-      "projectUrl": "",
+      "projectUrl": "https://seongraenoh.github.io/edit-as-act/",
       "pdfUrl": "https://arxiv.org/abs/2603.17583",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/SeongRaeNoh/Edit-As-Act",
       "isNew": false
     },
     {
@@ -1400,9 +1400,9 @@ window.COLLECTIONS_DATA = {
       "venue": "arXiv '26",
       "url": "https://arxiv.org/abs/2608.26947",
       "authors": "Qi, Zehao and Luo, Haochen and Bian, Jia-Wang and Ma, Zeyu and Sun, Shuyang",
-      "projectUrl": "",
+      "projectUrl": "https://qzephyr.github.io/4DSynth/",
       "pdfUrl": "https://arxiv.org/abs/2608.26947",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/QZepHyr/4DSynth",
       "isNew": true
     },
     {
@@ -1491,7 +1491,7 @@ window.COLLECTIONS_DATA = {
       "venue": "ICLR '26",
       "url": "https://arxiv.org/abs/2505.02836",
       "authors": "Ling, Lu and Lin, Chen-Hsuan and Lin, Tsung-Yi and Ding, Yifan and Zeng, Yu and Sheng, Yichen and Ge, Yunhao and Liu, Ming-Yu and Bera, Aniket and Li, Zhaoshuo",
-      "projectUrl": "",
+      "projectUrl": "https://research.nvidia.com/labs/cosmos-lab/scenethesis/",
       "pdfUrl": "https://arxiv.org/abs/2505.02836",
       "codeUrl": "",
       "isNew": false
@@ -1506,7 +1506,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Yang, Yixuan and Luo, Zhen and Ding, Tongsheng and Lu, Junru and Gao, Mingqi and Yang, Jinyu and Sanchez, Victor and Zheng, Feng",
       "projectUrl": "https://polysummit.github.io/optiscene.github.io",
       "pdfUrl": "https://arxiv.org/abs/2506.07570",
-      "codeUrl": "https://github.com/YxuanAr/OptiScene",
+      "codeUrl": "https://github.com/PolySummit/OptiScene",
       "isNew": false
     },
     {
@@ -1582,9 +1582,9 @@ window.COLLECTIONS_DATA = {
       "venue": "ICLR '26",
       "url": "https://arxiv.org/abs/2511.21978",
       "authors": "Lin, Guying and Huang, Kemeng and Liu, Michael and Gao, Ruihan and Chen, Hanke and Chen, Lyuhao and Lu, Beijia and Komura, Taku and Liu, Yuan and Zhu, Jun-Yan and others",
-      "projectUrl": "",
+      "projectUrl": "https://simulation-intelligence.github.io/PAT3D/",
       "pdfUrl": "https://arxiv.org/abs/2511.21978",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/Simulation-Intelligence/PAT3D",
       "isNew": false
     },
     {
@@ -1610,7 +1610,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Sautter, Tobias and Dihlmann, Jan-Niklas and Lensch, Hendrik P.A.",
       "projectUrl": "https://3dregen.jdihlmann.com",
       "pdfUrl": "https://arxiv.org/abs/2512.17459",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/cgtuebingen/3D-RE-GEN",
       "isNew": false
     },
     {
@@ -1660,9 +1660,9 @@ window.COLLECTIONS_DATA = {
       "venue": "CVPR '26",
       "url": "https://arxiv.org/abs/2603.11554",
       "authors": "Che, Lirong and Wen, Shuo and Huang, Shan and Wang, Chuang and Yang, Yuzhe and Dudek, Gregory and Wang, Xueqian and Su, Jian",
-      "projectUrl": "",
+      "projectUrl": "https://agibotgeneral.github.io/mansion-site/",
       "pdfUrl": "https://arxiv.org/abs/2603.11554",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/AgibotGeneral/MANSION",
       "isNew": false
     },
     {
@@ -1673,7 +1673,7 @@ window.COLLECTIONS_DATA = {
       "venue": "NeurIPS '26",
       "url": "https://arxiv.org/abs/2605.09423",
       "authors": "Kang, Haoqiang and Ye, Xiaokang and Liu, Yuhan and Mantri, Siddhant Hitesh and Mao, Lingjun and Fleming, James and Regmi, Drishti and Qin, Lianhui",
-      "projectUrl": "",
+      "projectUrl": "https://simworld.org/simworld-studio/",
       "pdfUrl": "https://arxiv.org/abs/2605.09423",
       "codeUrl": "",
       "isNew": true
@@ -1686,7 +1686,7 @@ window.COLLECTIONS_DATA = {
       "venue": "ICML '26",
       "url": "https://arxiv.org/abs/2605.16137",
       "authors": "Luo, Zhen and Yang, Yixuan and Xu, Xudong and Hao, Jinkun and Lyu, Zhaoyang and Zheng, Feng and Pang, Jiangmiao and Fu, Yanwei",
-      "projectUrl": "",
+      "projectUrl": "https://lan555.github.io/stable/",
       "pdfUrl": "https://arxiv.org/abs/2605.16137",
       "codeUrl": "",
       "isNew": true
@@ -1699,9 +1699,9 @@ window.COLLECTIONS_DATA = {
       "venue": "arXiv '26",
       "url": "https://arxiv.org/abs/2605.19587",
       "authors": "Wang, Puyi and Wang, Yuhao and Li, Linjie and Yang, Zhengyuan and Lin, Kevin Qinghong and Li, Yangguang and Cheng, Yu",
-      "projectUrl": "",
+      "projectUrl": "https://scene-code.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2605.19587",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/wangpuyi/SceneCode",
       "isNew": true
     },
     {
@@ -1712,9 +1712,9 @@ window.COLLECTIONS_DATA = {
       "venue": "ECCV '26",
       "url": "https://arxiv.org/abs/2606.06390",
       "authors": "Li, Wenbo and Ju, Xiaoliang and Qin, Zipeng and Fang, Rongyao and Li, Hongsheng",
-      "projectUrl": "",
+      "projectUrl": "https://kairos-homeworld.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2606.06390",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/Kairos-HomeWorld/HomeWorld",
       "isNew": true
     },
     {
@@ -1725,7 +1725,7 @@ window.COLLECTIONS_DATA = {
       "venue": "CoRL '26",
       "url": "https://arxiv.org/abs/2609.05927",
       "authors": "Xu, Long and Zhang, Zhiqi and Yan, Mi and Deng, Shengliang and Xia, Chong and Dong, Mingyu and Chen, Jiayi and Lyu, Jiangran and Gao, Fei and Zhang, Zhizheng and Wang, He",
-      "projectUrl": "",
+      "projectUrl": "https://fufumeichi.github.io/gif-project-page/",
       "pdfUrl": "https://arxiv.org/abs/2609.05927",
       "codeUrl": "",
       "isNew": true
@@ -1764,7 +1764,7 @@ window.COLLECTIONS_DATA = {
       "venue": "CVPR '26",
       "url": "https://arxiv.org/abs/2511.16825",
       "authors": "Wang, Dilin and Jung, Hyunyoung and Monnier, Tom and Sohn, Kihyuk and Zou, Chuhang and Xiang, Xiaoyu and Yeh, Yu-Ying and Liu, Di and Huang, Zixuan and Nguyen-Phuoc, Thu and Fan, Yuchen and Oprea, Sergiu and Wang, Ziyan and Shapovalov, Roman and Sarafianos, Nikolaos and Groueix, Thibault and Toisoul, Antoine and Dhar, Prithviraj and Chu, Xiao and Chen, Minghao and Park, Geon Yeong and Gupta, Mahima and Azziz, Yassir and Ranjan, Rakesh and Vedaldi, Andrea",
-      "projectUrl": "",
+      "projectUrl": "https://www.meta.com/blog/worldgen-3d-world-generation-reality-labs-generative-ai-research/",
       "pdfUrl": "https://arxiv.org/abs/2511.16825",
       "codeUrl": "",
       "isNew": false
@@ -1777,9 +1777,9 @@ window.COLLECTIONS_DATA = {
       "venue": "arXiv '26",
       "url": "https://arxiv.org/abs/2604.13036",
       "authors": "Shen, Tianchang and Bahmani, Sherwin and He, Kai and Srinivasan, Sangeetha Grama and Cao, Tianshi and Ren, Jiawei and Li, Ruilong and Wang, Zian and Sharp, Nicholas and Gojcic, Zan and Fidler, Sanja and Huang, Jiahui and Ling, Huan and Gao, Jun and Ren, Xuanchi",
-      "projectUrl": "https://research.nvidia.com/labs/sil/projects/lyra2/",
+      "projectUrl": "https://nv-tlabs.github.io/Project-Lyra/",
       "pdfUrl": "https://arxiv.org/abs/2604.13036",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/nv-tlabs/lyra/tree/main/Lyra-2",
       "isNew": true
     },
     {
@@ -1805,7 +1805,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Hu, Jichen and Guo, Jiawei and Cen, Jiazhong and Yang, Chen and Li, Sikuang and Shen, Wei",
       "projectUrl": "https://sjtu-deepvisionlab.github.io/WorldAct",
       "pdfUrl": "https://arxiv.org/abs/2605.15843",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/SJTU-DeepVisionLab/WorldAct",
       "isNew": true
     },
     {
@@ -1818,7 +1818,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Zhang, Kaifeng and Li, Baoyu and Hauser, Kris and Li, Yunzhu",
       "projectUrl": "https://kywind.github.io/pgnd",
       "pdfUrl": "https://arxiv.org/abs/2506.15680",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/kywind/pgnd",
       "isNew": false
     },
     {
@@ -1829,9 +1829,9 @@ window.COLLECTIONS_DATA = {
       "venue": "CVPR '26",
       "url": "https://arxiv.org/abs/2601.03782",
       "authors": "Huang, Wenlong and Chao, Yu-Wei and Mousavian, Arsalan and Liu, Ming-Yu and Fox, Dieter and Mo, Kaichun and Fei-Fei, Li",
-      "projectUrl": "",
+      "projectUrl": "https://point-world.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2601.03782",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/NVlabs/PointWorld",
       "isNew": false
     },
     {
@@ -1842,9 +1842,9 @@ window.COLLECTIONS_DATA = {
       "venue": "ICLR '26",
       "url": "https://arxiv.org/abs/2602.00148",
       "authors": "Li, Shiqian and Shen, Ruihong and Ni, Junfeng and Pan, Chang and Zhang, Chi and Zhu, Yixin",
-      "projectUrl": "",
+      "projectUrl": "https://neuralgaussianforcefield.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2602.00148",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/lishiqianhugh/NeuralGaussianForceField",
       "isNew": false
     },
     {
@@ -1857,7 +1857,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Zhan, Jiahao and Li, Zizhang and Yu, Hong-Xing and Wu, Jiajun",
       "projectUrl": "https://johnzhan2023.github.io/PerpetualWonder/",
       "pdfUrl": "https://arxiv.org/abs/2602.04876",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/JohnZhan2023/PerpetualWonder",
       "isNew": false
     },
     {
@@ -1870,7 +1870,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Xu, Mutian and Zhang, Tianbao and Liu, Tianqi and Chen, Zhaoxi and Han, Xiaoguang and Liu, Ziwei",
       "projectUrl": "https://mutianxu.github.io/Kinema4D-project-page/",
       "pdfUrl": "https://arxiv.org/abs/2603.16669",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/mutianxu/Kinema4D",
       "isNew": false
     },
     {
@@ -1881,9 +1881,9 @@ window.COLLECTIONS_DATA = {
       "venue": "ECCV '26",
       "url": "https://arxiv.org/abs/2604.01001",
       "authors": "Hao, Jinkun and Jia, Mingda and Wang, Ruiyan and Zhu, Hongrui and Cao, Jiafei and Liu, Xihui and Yi, Ran and Ma, Lizhuang and Pang, Jiangmiao and Xu, Xudong",
-      "projectUrl": "",
+      "projectUrl": "https://egosimulator.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2604.01001",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/jinkun-hao/EgoSim",
       "isNew": true
     },
     {
@@ -1896,7 +1896,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Duisterhof, Bardienus P. and Zhang, Kaifeng and Hung, Adam and Wen, Bowen and Birchfield, Stan and Li, Yunzhu and Ramanan, Deva and Ichnowski, Jeffrey",
       "projectUrl": "https://pointzero-wm.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2609.19142",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/Duisterhof/pointzero",
       "isNew": true
     },
     {
@@ -1909,7 +1909,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Bardhan, Jai and Sivic, Josef and Petrik, Vladimir",
       "projectUrl": "https://www.jaibardhan.com/depthworld",
       "pdfUrl": "https://arxiv.org/abs/2610.08780",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/Jai2500/depthworld",
       "isNew": true
     },
     {
@@ -1946,9 +1946,9 @@ window.COLLECTIONS_DATA = {
       "venue": "ICRA '26",
       "url": "https://arxiv.org/abs/2502.08645",
       "authors": "Han, Xiaoshen and Yu, Junqiu and Liu, Minghuan and Chen, Yilun and Lyu, Xiaoyang and Tian, Yang and Wang, Bolun and Zhang, Weinan and Pang, Jiangmiao",
-      "projectUrl": "",
+      "projectUrl": "https://re3sim.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2502.08645",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/InternRobotics/Re3Sim",
       "isNew": false
     },
     {
@@ -2013,7 +2013,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Xia, Hongchi and Lin, Chih-Hao and Hsu, Hao-Yu and Leboutet, Quentin and Gao, Katelyn and Paulitsch, Michael and Ummenhofer, Benjamin and Wang, Shenlong",
       "projectUrl": "https://xiahongchi.github.io/HoloScene",
       "pdfUrl": "https://arxiv.org/abs/2510.05560",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/xiahongchi/HoloScene",
       "isNew": false
     },
     {
@@ -2039,7 +2039,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Miao, Bingchen and Wei, Rong and Ge, Zhiqi and sun, Xiaoquan and Gao, Shiqi and Zhu, Jingzhe and Wang, Renhan and Tang, Siliang and Xiao, Jun and Tang, Rui and Li, Juncheng",
       "projectUrl": "https://sage-3d.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2510.21307",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/Galery23/SAGE-3D_Official",
       "isNew": false
     },
     {
@@ -2052,7 +2052,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Jain, Arhan and Zhang, Mingtong and Arora, Kanav and Chen, William and Torne, Marcel and Irshad, Muhammad Zubair and Zakharov, Sergey and Wang, Yue and Levine, Sergey and Finn, Chelsea and Ma, Wei-Chiu and Shah, Dhruv and Gupta, Abhishek and Pertsch, Karl",
       "projectUrl": "https://polaris-evals.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2512.16881",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/arhanjain/PolaRiS",
       "isNew": false
     },
     {
@@ -2065,7 +2065,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Yu, Xihang and Talak, Rajat and Shaikewitz, Lorenzo and Carlone, Luca",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2602.08058",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/MIT-SPARK/Picasso",
       "isNew": false
     },
     {
@@ -2078,7 +2078,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Xia, Chong and Zhu, Kai and Wang, Zizhuo and Liu, Fangfu and Zhang, Zhizheng and Duan, Yueqi",
       "projectUrl": "https://xiac20.github.io/SimRecon/",
       "pdfUrl": "https://arxiv.org/abs/2603.02133",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/xiac20/SimRecon",
       "isNew": false
     },
     {
@@ -2091,7 +2091,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Lee, Inhee and Baik, Sangwon and Kim, Sungjoo and Kim, Hyeonwoo and Cha, Hyunsoo and Joo, Hanbyul",
       "projectUrl": "https://snuvclab.github.io/SimuScene/",
       "pdfUrl": "https://arxiv.org/abs/2606.03994",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/snuvclab/SimuScene",
       "isNew": true
     },
     {
@@ -2104,7 +2104,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Gauthier, Charlie and Morin, Sacha and Paull, Liam",
       "projectUrl": "https://percept-twin.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2606.04226",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/Velythyl/PerceptTwin",
       "isNew": true
     },
     {
@@ -2115,9 +2115,9 @@ window.COLLECTIONS_DATA = {
       "venue": "CoRL '26",
       "url": "https://arxiv.org/abs/2606.28276",
       "authors": "Ranawaka, Nadun and Wong, Josiah and Pai, Wei-Lin and Chu, Wei-Teng and Dai, Tianyuan and Moghani, Masoud and Yin, Hang and Jiang, Yunfan and Durbano, Wesley and Huynh, Brandon and Fang, Yu and Xu, Danfei and Zhang, Ruohan and Fei-Fei, Li and Fan, Linxi and Wen, Bowen and Mandlekar, Ajay and Zhu, Yuke",
-      "projectUrl": "",
+      "projectUrl": "https://research.nvidia.com/labs/gear/simfoundry/",
       "pdfUrl": "https://arxiv.org/abs/2606.28276",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/NVlabs/SimFoundry",
       "isNew": true
     },
     {
@@ -2130,7 +2130,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Chen, Junhao and Zhang, Boran and Chen, Mingjin and Zhang, Henghaofan and Zhang, Saining and Zhu, Congcong and Zhao, Hao and Huang, Ruqi and Li, Zhihao and Wang, Yufei",
       "projectUrl": "https://OneVideoOneWorld.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2606.31388",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/yisuanwang/OVOW",
       "isNew": true
     },
     {
@@ -2143,7 +2143,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Zhang, Shujie and Yi, Jingkun and Zhong, Weipeng and Zhou, Zirui and Zhu, Yangkun and Wang, Hanqing and Xu, Xudong and Zhang, Weinan and Shen, Chunhua",
       "projectUrl": "https://robosnap.github.io",
       "pdfUrl": "https://arxiv.org/abs/2607.06699",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/robosnap/robosnap",
       "isNew": true
     },
     {
@@ -2167,9 +2167,9 @@ window.COLLECTIONS_DATA = {
       "venue": "arXiv '26",
       "url": "https://arxiv.org/abs/2610.05249",
       "authors": "Lv, Kai and Yin, Yibo and Guo, Lijun and Fan, Heng and Zhang, Kaihao and Dong, Xingping",
-      "projectUrl": "",
+      "projectUrl": "https://johnnyboy1013.github.io/articutable-project/",
       "pdfUrl": "https://arxiv.org/abs/2610.05249",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/bryceyin13/articutable-code",
       "isNew": true
     },
     {
@@ -2180,9 +2180,9 @@ window.COLLECTIONS_DATA = {
       "venue": "arXiv '26",
       "url": "https://arxiv.org/abs/2610.27690",
       "authors": "Soong, Eachen and Niu, Zijian and Xu, Haoran and Dong, Yihong and Wang, Yunbo and Yang, Xiaokang",
-      "projectUrl": "",
+      "projectUrl": "https://neoworldproject.github.io/Studio/",
       "pdfUrl": "https://arxiv.org/abs/2610.27690",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/NeoWorldProject/NeoWorldStudio",
       "isNew": true
     },
     {
@@ -2206,9 +2206,9 @@ window.COLLECTIONS_DATA = {
       "venue": "CVPR '25",
       "url": "https://arxiv.org/abs/2503.08135",
       "authors": "Guo, Junfu and Xin, Yu and Liu, Gaoyi and Xu, Kai and Liu, Ligang and Hu, Ruizhen",
-      "projectUrl": "",
+      "projectUrl": "https://guojunfu-tech.github.io/articulatedGS-io/",
       "pdfUrl": "https://arxiv.org/abs/2503.08135",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/GuoJunfu-tech/ArticulatedGaussians",
       "isNew": false
     },
     {
@@ -2219,9 +2219,9 @@ window.COLLECTIONS_DATA = {
       "venue": "NeurIPS '25",
       "url": "https://arxiv.org/abs/2505.20460",
       "authors": "Wu, Ruiqi and Wang, Xinjie and Liu, Liu and Guo, Chunle and Qiu, Jiaxiong and Li, Chongyi and Huang, Lichao and Su, Zhizhong and Cheng, Ming-Ming",
-      "projectUrl": "",
+      "projectUrl": "https://rq-wu.github.io/projects/DIPO/index.html",
       "pdfUrl": "https://arxiv.org/abs/2505.20460",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/RQ-Wu/DIPO",
       "isNew": false
     },
     {
@@ -2232,9 +2232,9 @@ window.COLLECTIONS_DATA = {
       "venue": "RA-L '26",
       "url": "https://arxiv.org/abs/2510.11340",
       "authors": "Huang, Zhao and Sun, Boyang and Delitzas, Alexandros and Chen, Jiaqi and Pollefeys, Marc",
-      "projectUrl": "",
+      "projectUrl": "https://react3d.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2510.11340",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/troyehuang/REACT3D",
       "isNew": false
     },
     {
@@ -2258,9 +2258,9 @@ window.COLLECTIONS_DATA = {
       "venue": "arXiv '25",
       "url": "https://arxiv.org/abs/2511.17883",
       "authors": "Lin, Jiong and Ruan, Jinchen and Lipson, Hod",
-      "projectUrl": "",
+      "projectUrl": "https://jl6017.github.io/ArticFlow/",
       "pdfUrl": "https://arxiv.org/abs/2511.17883",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/jl6017/ArticFlow",
       "isNew": false
     },
     {
@@ -2284,9 +2284,9 @@ window.COLLECTIONS_DATA = {
       "venue": "CVPR '26",
       "url": "https://arxiv.org/abs/2603.22102",
       "authors": "Dai, Hang and Fan, Hongwei and Zhang, Han and Wu, Duojin and Zhang, Jiyao and Dong, Hao",
-      "projectUrl": "",
+      "projectUrl": "https://freeartgs.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2603.22102",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/FreeArtGS/FreeArtGS",
       "isNew": false
     },
     {
@@ -2323,7 +2323,7 @@ window.COLLECTIONS_DATA = {
       "venue": "SIG. Asia '26",
       "url": "https://arxiv.org/abs/2606.21938",
       "authors": "Wang, Xuyang and Li, Zhenyu and Ding, Jian and Slim, Habib and Wonka, Peter and Li, Hongdong and Elhoseiny, Mohamed",
-      "projectUrl": "",
+      "projectUrl": "https://wxyxixixi.github.io/Artic-O/",
       "pdfUrl": "https://arxiv.org/abs/2606.21938",
       "codeUrl": "https://github.com/Wxyxixixi/Artic-O",
       "isNew": true
@@ -2336,9 +2336,9 @@ window.COLLECTIONS_DATA = {
       "venue": "arXiv '26",
       "url": "https://arxiv.org/abs/2609.19119",
       "authors": "Zhang, Jiaming and Bharadhwaj, Homanga",
-      "projectUrl": "",
+      "projectUrl": "https://track-articulate-act.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2609.19119",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/brains-bots-n-behavior/track-articulate-act",
       "isNew": true
     },
     {
@@ -2349,7 +2349,7 @@ window.COLLECTIONS_DATA = {
       "venue": "arXiv '26",
       "url": "https://arxiv.org/abs/2609.37067",
       "authors": "Shao, Kuixiang and Nie, Chuansen and Bai, Yinuo and Gu, Jiayuan and Yu, Jingyi",
-      "projectUrl": "",
+      "projectUrl": "https://l-avenir.github.io/fact-project-page/",
       "pdfUrl": "https://arxiv.org/abs/2609.37067",
       "codeUrl": "",
       "isNew": true
@@ -2388,9 +2388,9 @@ window.COLLECTIONS_DATA = {
       "venue": "RSS '25",
       "url": "https://arxiv.org/abs/2504.16693",
       "authors": "Li, Wenxuan and Zhao, Hang and Yu, Zhiyuan and Du, Yu and Zou, Qin and Hu, Ruizhen and Xu, Kai",
-      "projectUrl": "",
+      "projectUrl": "https://pinwm.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2504.16693",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/XuAdventurer/PIN-WM",
       "isNew": false
     },
     {
@@ -2416,7 +2416,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Wang, Boyuan and Meng, Xinpan and Wang, Xiaofeng and Zhu, Zheng and Ye, Angen and Wang, Yang and Yang, Zhiqin and Ni, Chaojun and Huang, Guan and Wang, Xingang",
       "projectUrl": "https://embodiedreamer.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2507.05198",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/GigaAI-research/EmbodieDreamer",
       "isNew": false
     },
     {
@@ -2442,7 +2442,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Wu, Di and Liu, Liu and Huang, Anran and Liu, Yuyan and Yu, Qiaojun and Liu, Shaofan and Song, Liangtu and Lu, Cewu",
       "projectUrl": "https://sites.google.com/view/reartgs2/home",
       "pdfUrl": "https://arxiv.org/abs/2511.17059",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/wd-ustc-cs/REArtGS2",
       "isNew": false
     },
     {
@@ -2468,7 +2468,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Huang, Mu and Wang, Hui and Ren, Kerui and Xu, Linning and Zhou, Yunsong and Yu, Mulin and Dai, Bo and Pang, Jiangmiao",
       "projectUrl": "https://city-super.github.io/SoMA/",
       "pdfUrl": "https://arxiv.org/abs/2602.02402",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/Wrioste/SoMA",
       "isNew": false
     },
     {
@@ -2479,9 +2479,9 @@ window.COLLECTIONS_DATA = {
       "venue": "ECCV '26",
       "url": "https://arxiv.org/abs/2604.07882",
       "authors": "Wang, Boyuan and Wang, Xiaofeng and Li, Yongkang and Zhu, Zheng and Chang, Yifan and Ye, Angen and Zhao, Guosheng and Ni, Chaojun and Huang, Guan and Ren, Yijie and Duan, Yueqi and Wang, Xingang",
-      "projectUrl": "",
+      "projectUrl": "https://chuanshuogushi.github.io/ReconPhys/",
       "pdfUrl": "https://arxiv.org/abs/2604.07882",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/chuanshuogushi/ReconPhys",
       "isNew": true
     },
     {
@@ -2494,7 +2494,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Li, Can and Li, Zhoujian and Li, Ren and Gu, Jie and Lei, Lei and Chen, Jingmin and Sun, Lei",
       "projectUrl": "https://can-lee.github.io/deformmaster-web/",
       "pdfUrl": "https://arxiv.org/abs/2605.09586",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/CAN-Lee/DeformMaster",
       "isNew": true
     },
     {
@@ -2520,7 +2520,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Pottier, Louen",
       "projectUrl": "https://louenpottier.github.io/lagsplat.html",
       "pdfUrl": "https://arxiv.org/abs/2608.16324",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/LouenPottier/LaGSplat",
       "isNew": true
     },
     {
@@ -2531,9 +2531,9 @@ window.COLLECTIONS_DATA = {
       "venue": "CoRL '24",
       "url": "https://arxiv.org/abs/2405.04378",
       "authors": "Shorinwa, Ola and Tucker, Johnathan and Smith, Aliyah and Swann, Aiden and Chen, Timothy and Firoozi, Roya and Kennedy III, Monroe and Schwager, Mac",
-      "projectUrl": "",
+      "projectUrl": "https://splatmover.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2405.04378",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/StanfordMSL/Splat-MOVER",
       "isNew": false
     },
     {
@@ -2544,9 +2544,9 @@ window.COLLECTIONS_DATA = {
       "venue": "CoRL '24",
       "url": "https://arxiv.org/abs/2407.15815",
       "authors": "Yuan, Zhecheng and Wei, Tianming and Cheng, Shuiqi and Zhang, Gu and Chen, Yuanpei and Xu, Huazhe",
-      "projectUrl": "",
+      "projectUrl": "https://gemcollector.github.io/maniwhere/",
       "pdfUrl": "https://arxiv.org/abs/2407.15815",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/gemcollector/maniwhere",
       "isNew": false
     },
     {
@@ -2585,7 +2585,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Fang, Yu and Yang, Yue and Zhu, Xinghao and Zheng, Kaiyuan and Bertasius, Gedas and Szafir, Daniel and Ding, Mingyu",
       "projectUrl": "https://yuffish.github.io/rebot/",
       "pdfUrl": "https://arxiv.org/abs/2503.14526",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/yuffish/rebot",
       "isNew": false
     },
     {
@@ -2622,9 +2622,9 @@ window.COLLECTIONS_DATA = {
       "venue": "CVPR Find. '26",
       "url": "https://arxiv.org/abs/2505.23171",
       "authors": "Liu, Liu and Wang, Xiaofeng and Zhao, Guosheng and Li, Keyu and Qin, Wenkang and Zhu, Jiagang and Qiu, Jiaxiong and Zhu, Zheng and Huang, Guan and Su, Zhizhong",
-      "projectUrl": "",
+      "projectUrl": "https://horizonrobotics.github.io/robot_lab/robotransfer/",
       "pdfUrl": "https://arxiv.org/abs/2505.23171",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/HorizonRobotics/RoboTransfer",
       "isNew": false
     },
     {
@@ -2635,9 +2635,9 @@ window.COLLECTIONS_DATA = {
       "venue": "ICRA '26",
       "url": "https://arxiv.org/abs/2506.14135",
       "authors": "Chai, Ying and Deng, Litao and Shao, Ruizhi and Zhang, Jiajun and Lv, Kangchen and Xing, Liangjun and Li, Xiang and Zhang, Hongwen and Liu, Yebin",
-      "projectUrl": "http://chaiying1.github.io/GAF.github.io/project_page",
+      "projectUrl": "https://chaiying1.github.io/projects/GAF/",
       "pdfUrl": "https://arxiv.org/abs/2506.14135",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/ChaiYing1/GAF",
       "isNew": false
     },
     {
@@ -2674,7 +2674,7 @@ window.COLLECTIONS_DATA = {
       "venue": "arXiv '25",
       "url": "https://arxiv.org/abs/2509.22578",
       "authors": "Xu, Yuan and Yang, Jiabing and Wang, Xiaofeng and Chen, Yixiang and Zhu, Zheng and Fang, Bowen and Huang, Guan and Chen, Xinze and Ye, Yun and Zhang, Qiang and others",
-      "projectUrl": "",
+      "projectUrl": "https://egodemogen.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2509.22578",
       "codeUrl": "",
       "isNew": false
@@ -2702,7 +2702,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Wang, Sen and Dong, Huaiyi and Tian, Jingyi and Li, Jiayi and Yang, Zhuo and Cao, Tongtong and Chen, Anlin and Wu, Shuang and Wang, Le and Zhou, Sanping",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2603.29192",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/SanMumumu/GenSplat",
       "isNew": false
     },
     {
@@ -2713,9 +2713,9 @@ window.COLLECTIONS_DATA = {
       "venue": "arXiv '26",
       "url": "https://arxiv.org/abs/2605.01799",
       "authors": "Tu, Peiyan and Zhu, Hanxin and Sun, Jingwen and Ren, Shaojie and Wang, Cong and Xu, Yuyan and Luo, Jiayi and Cheng, Xiaoqian and Chen, Zhibo",
-      "projectUrl": "",
+      "projectUrl": "https://peiyantu.github.io/Embody4D/page.html",
       "pdfUrl": "https://arxiv.org/abs/2605.01799",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/peiyantu/Embody4D",
       "isNew": true
     },
     {
@@ -2728,7 +2728,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Ye, Junjie and Xue, Rong and Hoorick, Basile Van and Li, Runhao and Rajaprakash, Harshitha and Tokmakov, Pavel and Irshad, Muhammad Zubair and Guizilini, Vitor and Wang, Yue",
       "projectUrl": "https://junjieye.com/RoboDream/",
       "pdfUrl": "https://arxiv.org/abs/2606.02577",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/Jay-Ye/RoboDream",
       "isNew": true
     },
     {
@@ -2739,7 +2739,7 @@ window.COLLECTIONS_DATA = {
       "venue": "NeurIPS '26",
       "url": "https://arxiv.org/abs/2606.20118",
       "authors": "Lee, Jonghoon and Park, Seong Hyeon and Jeon, Byungwoo and Lee, Minha and Shin, Jinwoo",
-      "projectUrl": "",
+      "projectUrl": "https://jhoonjwa.github.io/pose6daug/",
       "pdfUrl": "https://arxiv.org/abs/2606.20118",
       "codeUrl": "",
       "isNew": true
@@ -2806,7 +2806,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Dan, Prithwish and Kedia, Kushal and Chao, Angela and Duan, Edward Weiyi and Pace, Maximus Adrian and Ma, Wei-Chiu and Choudhury, Sanjiban",
       "projectUrl": "https://portal-cornell.github.io/X-Sim/",
       "pdfUrl": "https://arxiv.org/abs/2505.07096",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/portal-cornell/X-Sim",
       "isNew": false
     },
     {
@@ -2819,7 +2819,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Yu, Justin and Fu, Letian and Huang, Huang and El-Refai, Karim and Ambrus, Rares Andrei and Cheng, Richard and Irshad, Muhammad Zubair and Goldberg, Ken",
       "projectUrl": "https://real2render2real.com",
       "pdfUrl": "https://arxiv.org/abs/2505.09601",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/uynitsuj/real2render2real",
       "isNew": false
     },
     {
@@ -2832,7 +2832,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Dai, Liu and Wang, Haina and Wan, Weikang and Su, Hao",
       "projectUrl": "https://manitaskgen.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2505.20726",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/bbbbbMatrix/ManiTaskGen",
       "isNew": false
     },
     {
@@ -2845,7 +2845,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Lin, Kevin and Ragunath, Varun and McAlinden, Andrew and Prasad, Aaditya and Wu, Jimmy and Zhu, Yuke and Bohg, Jeannette",
       "projectUrl": "https://cp-gen.github.io",
       "pdfUrl": "https://arxiv.org/abs/2508.03944",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/kevin-thankyou-lin/cpgen",
       "isNew": false
     },
     {
@@ -2858,7 +2858,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Li, Ying and Wei, Xiaobao and Chi, Xiaowei and Li, Yuming and Zhao, Zhongyu and Wang, Hao and Ma, Ningning and Lu, Ming and Han, Sirui",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2509.05314",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/myendless1/ManipDreamer3D",
       "isNew": false
     },
     {
@@ -2869,9 +2869,9 @@ window.COLLECTIONS_DATA = {
       "venue": "CoRL '25",
       "url": "https://arxiv.org/abs/2509.22970",
       "authors": "Zhao, Siheng and Mao, Jiageng and Chow, Wei and Shangguan, Zeyu and Shi, Tianheng and Xue, Rong and Zheng, Yuxi and Weng, Yijia and You, Yang and Seita, Daniel and Guibas, Leonidas and Zakharov, Sergey and Guizilini, Vitor and Wang, Yue",
-      "projectUrl": "",
+      "projectUrl": "https://sihengz02.github.io/RoLA/",
       "pdfUrl": "https://arxiv.org/abs/2509.22970",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/sihengz02/RoLA",
       "isNew": false
     },
     {
@@ -2884,7 +2884,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Xu, Xiuwei and Ma, Angyuan and Li, Hankun and Yu, Bingyao and Zhu, Zheng and Zhou, Jie and Lu, Jiwen",
       "projectUrl": "https://r2rgen.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2510.08547",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/r2rgen/R2RGen",
       "isNew": false
     },
     {
@@ -2895,9 +2895,9 @@ window.COLLECTIONS_DATA = {
       "venue": "CVPR '26",
       "url": "https://arxiv.org/abs/2512.01773",
       "authors": "Gu, Chenghao and Kang, Haolan and Lin, Junchao and Wang, Jinghe and Wu, Duo and Xie, Shuzhao and Huang, Fanding and Ge, Junchen and Gong, Ziyang and Li, Letian and Zheng, Hongying and Lv, Changwei and Wang, Zhi",
-      "projectUrl": "",
+      "projectUrl": "https://chenghaogu.github.io/IGen/",
       "pdfUrl": "https://arxiv.org/abs/2512.01773",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/ChenghaoGu/IGen_Robot",
       "isNew": false
     },
     {
@@ -2908,9 +2908,9 @@ window.COLLECTIONS_DATA = {
       "venue": "CVPR '26",
       "url": "https://arxiv.org/abs/2512.02729",
       "authors": "Zhang, Yuhong and Gao, Zihan and Li, Shengpeng and Chen, Ling-Hao and Liu, Kaisheng and Cheng, Runqing and Lin, Xiao and Liu, Junjia and Li, Zhuoheng and Feng, Jingyi and He, Ziyan and Lin, Jintian and Huang, Zheyan and Liu, Zhifang and Wang, Haoqian",
-      "projectUrl": "",
+      "projectUrl": "https://zhangyuhong01.github.io/Robowheel/",
       "pdfUrl": "https://arxiv.org/abs/2512.02729",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/zhangyuhong01/Robowheel-Toolkits",
       "isNew": false
     },
     {
@@ -2923,7 +2923,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Zhou, Huayi and Jia, Kui",
       "projectUrl": "https://hnuzhy.github.io/projects/BiDemoSyn/",
       "pdfUrl": "https://arxiv.org/abs/2512.09297",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/hnuzhy/BiRoMan",
       "isNew": false
     },
     {
@@ -2934,9 +2934,9 @@ window.COLLECTIONS_DATA = {
       "venue": "CVPR '26",
       "url": "https://arxiv.org/abs/2512.19402",
       "authors": "Zhao, Yujie and Fan, Hongwei and Chen, Di and Chen, Shengcong and Chen, Liliang and Li, Xiaoqi and Ren, Guanghui and Dong, Hao",
-      "projectUrl": "",
+      "projectUrl": "https://real2edit2real.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2512.19402",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/Real2Edit2Real/Real2Edit2Real",
       "isNew": false
     },
     {
@@ -2949,7 +2949,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Zhou, Yunsong and Liu, Hangxu and Jiang, Xuekun and Shen, Xing and Zhou, Yuanzhen and Wang, Hui and Fang, Baole and Tian, Yang and Yu, Mulin and Yu, Qiaojun and Ma, Li and Li, Hengjie and Wang, Hanqing and Zeng, Jia and Pang, Jiangmiao",
       "projectUrl": "https://internrobotics.github.io/sim1.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2604.08544",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/InternRobotics/SIM1",
       "isNew": true
     },
     {
@@ -2960,9 +2960,9 @@ window.COLLECTIONS_DATA = {
       "venue": "CVPR '26",
       "url": "https://arxiv.org/abs/2604.10579",
       "authors": "Zhang, Jiawei and Hu, Kaizhe and Huang, Yingqian and Ju, Yuanchen and Xue, Zhengrong and Xu, Huazhe",
-      "projectUrl": "",
+      "projectUrl": "https://jiaweiz9.github.io/AffordGen-release/",
       "pdfUrl": "https://arxiv.org/abs/2604.10579",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/jiaweiz9/AffordGen-release",
       "isNew": true
     },
     {
@@ -2999,9 +2999,9 @@ window.COLLECTIONS_DATA = {
       "venue": "CoRL '26",
       "url": "https://arxiv.org/abs/2606.12604",
       "authors": "Liu, Yangcen and Cheng, Shuo and Yin, Xinchen and Shin, Woo Chul and Cueva, Alfred and Yang, Yiran and Chen, Zhenyang and Zhang, Chuye and Xu, Danfei",
-      "projectUrl": "",
+      "projectUrl": "https://egoengine.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2606.12604",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/GaTech-RL2/EgoEngine-CoRL2026",
       "isNew": true
     },
     {
@@ -3012,9 +3012,9 @@ window.COLLECTIONS_DATA = {
       "venue": "NeurIPS '26",
       "url": "https://arxiv.org/abs/2606.25939",
       "authors": "Lin, Zili and Zhang, Wenyao and Zhang, Yuyang and Qi, Zekun and Lin, Junyan and Zhu, Hanxin and Yang, Jiaolong and Chen, Zhibo and Mu, Yao and Yang, Xiaokang and Jin, Xin and Zeng, Wenjun",
-      "projectUrl": "",
+      "projectUrl": "https://zili2002.github.io/DeformGen/",
       "pdfUrl": "https://arxiv.org/abs/2606.25939",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/Zili2002/DeformGen",
       "isNew": true
     },
     {
@@ -3105,7 +3105,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Guo, Yanjiang and Shi, Lucy Xiaoyang and Chen, Jianyu and Finn, Chelsea",
       "projectUrl": "https://ctrl-world.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2510.10125",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/Robert-gyj/Ctrl-World",
       "isNew": false
     },
     {
@@ -3142,9 +3142,9 @@ window.COLLECTIONS_DATA = {
       "venue": "arXiv '25",
       "url": "https://arxiv.org/abs/2512.03044",
       "authors": "Jia, Yueru and Liu, Jiaming and Liu, Shengbang and Zhou, Rui and Yu, Wanhe and Yan, Yuyang and Chi, Xiaowei and Guo, Yandong and Shi, Boxin and Zhang, Shanghang",
-      "projectUrl": "",
+      "projectUrl": "https://video2act.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2512.03044",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/jiayueru/Video2Act",
       "isNew": false
     },
     {
@@ -3157,7 +3157,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Ye, Junjie and Xue, Rong and Van Hoorick, Basile and Tokmakov, Pavel and Irshad, Muhammad Zubair and Wang, Yue and Guizilini, Vitor",
       "projectUrl": "https://junjieye.com/AnchorDream",
       "pdfUrl": "https://arxiv.org/abs/2512.11797",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/Jay-Ye/AnchorDream",
       "isNew": false
     },
     {
@@ -3168,7 +3168,7 @@ window.COLLECTIONS_DATA = {
       "venue": "ICRA '26",
       "url": "https://arxiv.org/abs/2512.14217",
       "authors": "Bai, Yang and Yang, Liudi and Eskandar, George and Shen, Fengyi and Altillawi, Mohammad and Liu, Ziyuan and Kutyniok, Gitta",
-      "projectUrl": "",
+      "projectUrl": "https://baaiy0610.github.io/draw2act/",
       "pdfUrl": "https://arxiv.org/abs/2512.14217",
       "codeUrl": "",
       "isNew": false
@@ -3183,7 +3183,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Wang, Yixuan and Syed, Rhythm and Wu, Fangyu and Zhang, Mengchao and Onol, Aykut and Barreiros, Jose and Nayyeri, Hooshang and Dear, Tony and Zhang, Huan and Li, Yunzhu",
       "projectUrl": "https://yixuanwang.me/interactive_world_sim",
       "pdfUrl": "https://arxiv.org/abs/2603.08546",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/WangYixuan12/interactive_world_sim",
       "isNew": false
     },
     {
@@ -3207,9 +3207,9 @@ window.COLLECTIONS_DATA = {
       "venue": "arXiv '26",
       "url": "https://arxiv.org/abs/2606.22136",
       "authors": "Chen, Yangtao and Chen, Zixuan and Wang, Peiyang and Li, Yong-Lu and Huo, Jing and Shi, Jieqi and Gao, Yang",
-      "projectUrl": "",
+      "projectUrl": "https://chenyt31.github.io/wh0.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2606.22136",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/chenyt31/Wh0",
       "isNew": true
     },
     {
@@ -3233,9 +3233,9 @@ window.COLLECTIONS_DATA = {
       "venue": "CVPR '26",
       "url": "https://arxiv.org/abs/2511.16651",
       "authors": "Tian, Yang and Yang, Yuyin and Xie, Yiman and Cai, Zetao and Shi, Xu and Gao, Ning and Liu, Hangxu and Jiang, Xuekun and Qiu, Zherui and Yuan, Feng and Li, Yaping and Wang, Ping and Cai, Junhao and Zeng, Jia and Dong, Hao and Pang, Jiangmiao",
-      "projectUrl": "",
+      "projectUrl": "https://internrobotics.github.io/interndata-a1.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2511.16651",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/InternRobotics/InternDataEngine",
       "isNew": false
     },
     {
@@ -3259,7 +3259,7 @@ window.COLLECTIONS_DATA = {
       "venue": "CoRL '26",
       "url": "https://arxiv.org/abs/2608.02580",
       "authors": "Wang, Ye and Lin, Pei and Chen, Xiong-Hui and Yuan, Haoqi and Liang, Zhixuan and Huang, Yiyang and Chen, Anzhe and Lei, Zixing and Zhang, Jie and Zhang, Tao and Li, Haoyang and Zhang, Tong and Xiao, Chenxi and Jiao, Ziyuan and Jin, Qin",
-      "projectUrl": "",
+      "projectUrl": "https://www-ye.github.io/ego2robot_blog/",
       "pdfUrl": "https://arxiv.org/abs/2608.02580",
       "codeUrl": "",
       "isNew": true
@@ -3274,7 +3274,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Zhu, Jingxuan and Li, Jingyi and Chen, LiangLiang and Jing, Zhiyuan and Zhang, Jidong and Li, Hongming",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2609.08339",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/Tele-DLife/RoboCousin",
       "isNew": true
     },
     {
@@ -3285,7 +3285,7 @@ window.COLLECTIONS_DATA = {
       "venue": "arXiv '26",
       "url": "https://arxiv.org/abs/2610.07652",
       "authors": "Ao, Jicong and Jiang, Shuhan and Zhong, Yuling and Liu, Yanwen and Gao, Yuhan and Zhao, Jiangyuan and Zhang, Yang and Zhu, Shiqiang and Bai, Chenjia and Li, Xuelong",
-      "projectUrl": "",
+      "projectUrl": "https://teamillusion-smart.github.io/",
       "pdfUrl": "https://arxiv.org/abs/2610.07652",
       "codeUrl": "",
       "isNew": true
@@ -3298,9 +3298,9 @@ window.COLLECTIONS_DATA = {
       "venue": "Release '26",
       "url": "https://nvidia.github.io/simready-foundation/2026.08.0/index.html",
       "authors": "",
-      "projectUrl": "",
+      "projectUrl": "https://nvidia.github.io/simready-foundation/latest/",
       "pdfUrl": "https://nvidia.github.io/simready-foundation/2026.08.0/index.html",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/NVIDIA/simready-foundation",
       "isNew": false
     },
     {
@@ -3313,7 +3313,7 @@ window.COLLECTIONS_DATA = {
       "authors": "Dou, Zhiyang and Zhao, Ang and Peng, Chen and Guo, Minghao and Wu, Haixu and Lin, Cheng and Liu, Yuan and Yao, Junfeng and Guo, Xiaohu and Wang, Wenping and Matusik, Wojciech",
       "projectUrl": "https://frank-zy-dou.github.io/projects/S4R/index.html",
       "pdfUrl": "https://arxiv.org/abs/2609.20524",
-      "codeUrl": "",
+      "codeUrl": "https://github.com/Frank-ZY-Dou/Dynamics-Modeling",
       "isNew": true
     },
     {
