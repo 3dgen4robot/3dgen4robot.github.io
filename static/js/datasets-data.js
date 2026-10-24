@@ -1,5 +1,5 @@
 window.DATASETS_DATA = {
-  "count": 40,
+  "count": 58,
   "items": [
     {
       "group": "Object Assets",
@@ -12,7 +12,8 @@ window.DATASETS_DATA = {
       "phys": "No",
       "kin": "No",
       "sim": "No",
-      "url": "https://shapenet.org/"
+      "url": "https://shapenet.org/",
+      "isNew": false
     },
     {
       "group": "Object Assets",
@@ -25,7 +26,8 @@ window.DATASETS_DATA = {
       "phys": "No",
       "kin": "No",
       "sim": "No",
-      "url": "https://partnet.cs.stanford.edu/"
+      "url": "https://partnet.cs.stanford.edu/",
+      "isNew": false
     },
     {
       "group": "Object Assets",
@@ -38,7 +40,8 @@ window.DATASETS_DATA = {
       "phys": "No",
       "kin": "Yes",
       "sim": "Yes",
-      "url": "https://sapien.ucsd.edu/browse"
+      "url": "https://sapien.ucsd.edu/browse",
+      "isNew": false
     },
     {
       "group": "Object Assets",
@@ -51,7 +54,8 @@ window.DATASETS_DATA = {
       "phys": "No",
       "kin": "No",
       "sim": "No",
-      "url": "https://tianchi.aliyun.com/dataset/98063"
+      "url": "https://tianchi.aliyun.com/dataset/98063",
+      "isNew": false
     },
     {
       "group": "Object Assets",
@@ -64,7 +68,8 @@ window.DATASETS_DATA = {
       "phys": "No",
       "kin": "No",
       "sim": "Partial",
-      "url": "https://amazon-berkeley-objects.s3.amazonaws.com/index.html"
+      "url": "https://amazon-berkeley-objects.s3.amazonaws.com/index.html",
+      "isNew": false
     },
     {
       "group": "Object Assets",
@@ -77,7 +82,8 @@ window.DATASETS_DATA = {
       "phys": "Yes",
       "kin": "Yes",
       "sim": "Yes",
-      "url": "https://liuliu66.github.io/articulationobjects/"
+      "url": "https://liuliu66.github.io/articulationobjects/",
+      "isNew": false
     },
     {
       "group": "Object Assets",
@@ -90,7 +96,8 @@ window.DATASETS_DATA = {
       "phys": "No",
       "kin": "No",
       "sim": "Yes",
-      "url": "https://huggingface.co/datasets/gso-bench/gso"
+      "url": "https://huggingface.co/datasets/gso-bench/gso",
+      "isNew": false
     },
     {
       "group": "Object Assets",
@@ -103,7 +110,8 @@ window.DATASETS_DATA = {
       "phys": "No",
       "kin": "Yes",
       "sim": "Yes",
-      "url": "https://pku-epic.github.io/GAPartNet/"
+      "url": "https://pku-epic.github.io/GAPartNet/",
+      "isNew": false
     },
     {
       "group": "Object Assets",
@@ -116,7 +124,8 @@ window.DATASETS_DATA = {
       "phys": "No",
       "kin": "No",
       "sim": "No",
-      "url": "https://huggingface.co/datasets/allenai/objaverse"
+      "url": "https://huggingface.co/datasets/allenai/objaverse",
+      "isNew": false
     },
     {
       "group": "Object Assets",
@@ -129,7 +138,8 @@ window.DATASETS_DATA = {
       "phys": "No",
       "kin": "No",
       "sim": "No",
-      "url": "https://objaverse.allenai.org/"
+      "url": "https://objaverse.allenai.org/",
+      "isNew": false
     },
     {
       "group": "Object Assets",
@@ -142,7 +152,8 @@ window.DATASETS_DATA = {
       "phys": "No",
       "kin": "No",
       "sim": "Partial",
-      "url": "https://sites.google.com/view/clothesnet"
+      "url": "https://sites.google.com/view/clothesnet",
+      "isNew": false
     },
     {
       "group": "Object Assets",
@@ -155,7 +166,8 @@ window.DATASETS_DATA = {
       "phys": "Yes",
       "kin": "No",
       "sim": "Yes",
-      "url": "https://garmentlab.github.io/"
+      "url": "https://garmentlab.github.io/",
+      "isNew": false
     },
     {
       "group": "Object Assets",
@@ -168,7 +180,8 @@ window.DATASETS_DATA = {
       "phys": "No",
       "kin": "Yes",
       "sim": "Partial",
-      "url": "https://huggingface.co/datasets/Seed3D/Articulation-XL2.0"
+      "url": "https://huggingface.co/datasets/Seed3D/Articulation-XL2.0",
+      "isNew": false
     },
     {
       "group": "Object Assets",
@@ -181,7 +194,22 @@ window.DATASETS_DATA = {
       "phys": "No",
       "kin": "No",
       "sim": "Yes",
-      "url": "https://www.projectaria.com/datasets/dtc/"
+      "url": "https://www.projectaria.com/datasets/dtc/",
+      "isNew": false
+    },
+    {
+      "group": "Object Assets",
+      "category": "Articulated Assets",
+      "name": "ArtVIP",
+      "venue": "ICLR '26",
+      "type": "Artist-made",
+      "scale": "Articulated objects + scene assets",
+      "summary": "Visual realism, tuned dynamics, modular interaction",
+      "phys": "Yes",
+      "kin": "Yes",
+      "sim": "Yes",
+      "url": "https://arxiv.org/abs/2506.04941",
+      "isNew": false
     },
     {
       "group": "Object Assets",
@@ -194,7 +222,8 @@ window.DATASETS_DATA = {
       "phys": "Yes",
       "kin": "Yes",
       "sim": "Yes",
-      "url": "https://huggingface.co/datasets/Caoza/PhysX-3D"
+      "url": "https://huggingface.co/datasets/Caoza/PhysX-3D",
+      "isNew": false
     },
     {
       "group": "Object Assets",
@@ -207,7 +236,8 @@ window.DATASETS_DATA = {
       "phys": "Yes",
       "kin": "Yes",
       "sim": "Yes",
-      "url": "https://huggingface.co/datasets/Caoza/PhysX-Mobility"
+      "url": "https://huggingface.co/datasets/Caoza/PhysX-Mobility",
+      "isNew": false
     },
     {
       "group": "Object Assets",
@@ -220,7 +250,64 @@ window.DATASETS_DATA = {
       "phys": "Partial",
       "kin": "Partial",
       "sim": "Yes",
-      "url": "https://manitwin.github.io/"
+      "url": "https://manitwin.github.io/",
+      "isNew": false
+    },
+    {
+      "group": "Object Assets",
+      "category": "Interactive Objects",
+      "name": "EgoFun3D",
+      "venue": "arXiv '26",
+      "type": "Real Video + 3D",
+      "scale": "517 egocentric videos",
+      "summary": "Functional part mappings compiled to sim code",
+      "phys": "Partial",
+      "kin": "Yes",
+      "sim": "Yes",
+      "url": "https://3dlg-hcvc.github.io/EgoFun3D/",
+      "isNew": true
+    },
+    {
+      "group": "Object Assets",
+      "category": "Sim-Ready Assets",
+      "name": "AmaraSpatial-10K",
+      "venue": "NeurIPS '26",
+      "type": "Synthetic",
+      "scale": "10K+ assets",
+      "summary": "Metric scale, anchored pivots, PBR, convex hulls",
+      "phys": "Partial",
+      "kin": "No",
+      "sim": "Yes",
+      "url": "https://arxiv.org/abs/2604.23018",
+      "isNew": true
+    },
+    {
+      "group": "Object Assets",
+      "category": "Articulated Assets",
+      "name": "Artiverse",
+      "venue": "CVPR '26",
+      "type": "Human-authored",
+      "scale": "5.4K objects / 88 cat.",
+      "summary": "Multi-DoF joints, interiors, scale/material/mass",
+      "phys": "Yes",
+      "kin": "Yes",
+      "sim": "Yes",
+      "url": "https://arxiv.org/abs/2605.24403",
+      "isNew": true
+    },
+    {
+      "group": "Object Assets",
+      "category": "Deformable Objects",
+      "name": "Deform360",
+      "venue": "ECCV '26",
+      "type": "Real Captures",
+      "scale": "198 objects / 1,980 sequences",
+      "summary": "41-camera 3D tracking with tactile contact",
+      "phys": "Yes",
+      "kin": "No",
+      "sim": "Partial",
+      "url": "https://arxiv.org/abs/2607.05390",
+      "isNew": true
     },
     {
       "group": "Scene Datasets",
@@ -231,7 +318,8 @@ window.DATASETS_DATA = {
       "scale": "1.5K scans / 2.5M views",
       "summary": "Geometry, Poses, Recon., Sem. Seg.",
       "sim": "Partial",
-      "url": "http://www.scan-net.org/"
+      "url": "http://www.scan-net.org/",
+      "isNew": false
     },
     {
       "group": "Scene Datasets",
@@ -242,7 +330,8 @@ window.DATASETS_DATA = {
       "scale": "90 scenes / 10.8K pans / 194K RGB-D",
       "summary": "Geometry, Poses, Recon., 2D/3D Sem. Seg.",
       "sim": "Partial",
-      "url": "https://niessner.github.io/Matterport/"
+      "url": "https://niessner.github.io/Matterport/",
+      "isNew": false
     },
     {
       "group": "Scene Datasets",
@@ -253,7 +342,8 @@ window.DATASETS_DATA = {
       "scale": "18 scenes",
       "summary": "Geometry, HDR Texture, Sem./Inst. Labels",
       "sim": "Yes",
-      "url": "https://github.com/facebookresearch/Replica-Dataset"
+      "url": "https://github.com/facebookresearch/Replica-Dataset",
+      "isNew": false
     },
     {
       "group": "Scene Datasets",
@@ -264,7 +354,8 @@ window.DATASETS_DATA = {
       "scale": "1.5K SGs / 48K objs / 544K rels",
       "summary": "Semantics, Attributes, Relations",
       "sim": "No",
-      "url": "https://3dssg.github.io/"
+      "url": "https://3dssg.github.io/",
+      "isNew": false
     },
     {
       "group": "Scene Datasets",
@@ -275,7 +366,8 @@ window.DATASETS_DATA = {
       "scale": "18.9K rooms / 6.8K houses",
       "summary": "Layout, Semantics, Texture",
       "sim": "No",
-      "url": "https://tianchi.aliyun.com/specials/promotion/alibaba-3d-scene-dataset"
+      "url": "https://tianchi.aliyun.com/specials/promotion/alibaba-3d-scene-dataset",
+      "isNew": false
     },
     {
       "group": "Scene Datasets",
@@ -286,7 +378,8 @@ window.DATASETS_DATA = {
       "scale": "1K scans",
       "summary": "Geometry, Texture, Recon.",
       "sim": "Yes",
-      "url": "https://aihabitat.org/datasets/hm3d/"
+      "url": "https://aihabitat.org/datasets/hm3d/",
+      "isNew": false
     },
     {
       "group": "Scene Datasets",
@@ -297,7 +390,8 @@ window.DATASETS_DATA = {
       "scale": "10K houses",
       "summary": "Layout, Interactive Objects",
       "sim": "Yes",
-      "url": "https://procthor.allenai.org/"
+      "url": "https://procthor.allenai.org/",
+      "isNew": false
     },
     {
       "group": "Scene Datasets",
@@ -308,7 +402,20 @@ window.DATASETS_DATA = {
       "scale": "706 scenes / 15.4K objs",
       "summary": "Geometry, Texture, Replacements, Phys. Plaus.",
       "sim": "Yes",
-      "url": "https://meta-scenes.github.io/"
+      "url": "https://meta-scenes.github.io/",
+      "isNew": false
+    },
+    {
+      "group": "Scene Datasets",
+      "category": "Simulatable Scenes",
+      "name": "InternScenes",
+      "venue": "NeurIPS '25",
+      "type": "Real + Procedural + Designer",
+      "scale": "~40K scenes / 1.96M objects",
+      "summary": "Realistic layouts with small items, collision-resolved",
+      "sim": "Yes",
+      "url": "https://marjordcpz.github.io/InternScenes.github.io",
+      "isNew": false
     },
     {
       "group": "Scene Datasets",
@@ -319,7 +426,8 @@ window.DATASETS_DATA = {
       "scale": "10.7K tabletop scenes",
       "summary": "Tasks, Layouts, Relations",
       "sim": "Partial",
-      "url": "https://github.com/InternRobotics/MesaTask"
+      "url": "https://github.com/InternRobotics/MesaTask",
+      "isNew": false
     },
     {
       "group": "Scene Datasets",
@@ -330,7 +438,8 @@ window.DATASETS_DATA = {
       "scale": "Supermarket envs / 1.1K+ assets",
       "summary": "Layout Rules, Conditions, Benchmarks",
       "sim": "Yes",
-      "url": "https://arxiv.org/abs/2511.21161"
+      "url": "https://arxiv.org/abs/2511.21161",
+      "isNew": false
     },
     {
       "group": "Scene Datasets",
@@ -341,7 +450,20 @@ window.DATASETS_DATA = {
       "scale": "10K scenes / 565K objs",
       "summary": "Layout, Generated Objects, Sim-ready",
       "sim": "Yes",
-      "url": "https://nvlabs.github.io/sage/"
+      "url": "https://nvlabs.github.io/sage/",
+      "isNew": false
+    },
+    {
+      "group": "Scene Datasets",
+      "category": "Simulatable Scenes",
+      "name": "MolmoSpaces",
+      "venue": "arXiv '26",
+      "type": "Handcrafted + Procedural",
+      "scale": "230K+ envs / 130K assets",
+      "summary": "Simulator-agnostic (MuJoCo, Isaac, ManiSkill)",
+      "sim": "Yes",
+      "url": "https://arxiv.org/abs/2602.11337",
+      "isNew": false
     },
     {
       "group": "Robot Demonstrations",
@@ -352,7 +474,8 @@ window.DATASETS_DATA = {
       "scale": "110K+ sequences / 147 tasks",
       "summary": "Multimodal (RGB-D, F/T, audio), human-robot paired",
       "robot": "4 robots / 7 configurations",
-      "url": "https://rh20t.github.io/"
+      "url": "https://rh20t.github.io/",
+      "isNew": false
     },
     {
       "group": "Robot Demonstrations",
@@ -363,7 +486,8 @@ window.DATASETS_DATA = {
       "scale": "60K trajectories / 24 envs / 13 skills",
       "summary": "Low-cost hardware, language annotations",
       "robot": "WidowX 250",
-      "url": "https://rail-berkeley.github.io/bridgedata/"
+      "url": "https://rail-berkeley.github.io/bridgedata/",
+      "isNew": false
     },
     {
       "group": "Robot Demonstrations",
@@ -374,7 +498,8 @@ window.DATASETS_DATA = {
       "scale": "1M+ trajectories / 527 skills",
       "summary": "Multi-embodiment aggregation, cross-robot transfer",
       "robot": "22 embodiments (60 datasets)",
-      "url": "https://robotics-transformer-x.github.io/"
+      "url": "https://robotics-transformer-x.github.io/",
+      "isNew": false
     },
     {
       "group": "Robot Demonstrations",
@@ -385,7 +510,8 @@ window.DATASETS_DATA = {
       "scale": "50K+ demos from ~200 seeds",
       "summary": "Trajectory augmentation, spatial adaptation",
       "robot": "Franka Panda (robosuite)",
-      "url": "https://mimicgen.github.io/"
+      "url": "https://mimicgen.github.io/",
+      "isNew": false
     },
     {
       "group": "Robot Demonstrations",
@@ -396,7 +522,44 @@ window.DATASETS_DATA = {
       "scale": "76K trajectories / 86 tasks",
       "summary": "In-the-wild collection, 564 scenes, stereo RGB",
       "robot": "Franka Panda (18 robots)",
-      "url": "https://droid-dataset.github.io/"
+      "url": "https://droid-dataset.github.io/",
+      "isNew": false
+    },
+    {
+      "group": "Robot Demonstrations",
+      "category": "Synthetic + Real Corpus",
+      "name": "NVIDIA Physical AI Dataset",
+      "venue": "Release '25",
+      "type": "Both",
+      "scale": "320K+ trajectories (initial release)",
+      "summary": "Open Hugging Face collection with OpenUSD assets",
+      "robot": "Multiple embodiments",
+      "url": "https://huggingface.co/blog/nvidia-physical-ai",
+      "isNew": false
+    },
+    {
+      "group": "Robot Demonstrations",
+      "category": "Synthetic Corpus",
+      "name": "FoldNet++",
+      "venue": "CoRL '26",
+      "type": "Sim",
+      "scale": "120K episodes / 1K T-shirts",
+      "summary": "Simulatable garments with keypoint-driven demos",
+      "robot": "6 embodiments",
+      "url": "https://pku-epic.github.io/FoldNetXX/",
+      "isNew": true
+    },
+    {
+      "group": "Robot Demonstrations",
+      "category": "3D-Grounded Corpus",
+      "name": "3DROID",
+      "venue": "arXiv '26",
+      "type": "Real + 3DGS",
+      "scale": "DROID episodes with renderable scenes",
+      "summary": "Calibration-aware feed-forward 3DGS, reliability scores",
+      "robot": "Franka Panda (DROID)",
+      "url": "https://arxiv.org/abs/2610.01744",
+      "isNew": true
     },
     {
       "group": "Robot Demonstrations",
@@ -407,7 +570,8 @@ window.DATASETS_DATA = {
       "scale": "100 tasks / unlimited demos",
       "summary": "Motion-planner demos, multi-view RGB-D",
       "robot": "Franka Panda (CoppeliaSim)",
-      "url": "https://sites.google.com/view/rlbench"
+      "url": "https://sites.google.com/view/rlbench",
+      "isNew": false
     },
     {
       "group": "Robot Demonstrations",
@@ -418,7 +582,8 @@ window.DATASETS_DATA = {
       "scale": "34 tasks / 24h play data",
       "summary": "Language-conditioned, long-horizon chains",
       "robot": "Franka Panda (PyBullet)",
-      "url": "https://github.com/mees/calvin"
+      "url": "https://github.com/mees/calvin",
+      "isNew": false
     },
     {
       "group": "Robot Demonstrations",
@@ -429,7 +594,8 @@ window.DATASETS_DATA = {
       "scale": "20+ task families / 2K+ objects",
       "summary": "GPU-parallelized, rigid & soft body",
       "robot": "Multi-robot (SAPIEN)",
-      "url": "https://maniskill.ai/"
+      "url": "https://maniskill.ai/",
+      "isNew": false
     },
     {
       "group": "Robot Demonstrations",
@@ -440,7 +606,8 @@ window.DATASETS_DATA = {
       "scale": "130 tasks / 6.5K demos",
       "summary": "Lifelong learning, controlled distribution shifts",
       "robot": "Franka Panda (robosuite)",
-      "url": "https://libero-project.github.io/"
+      "url": "https://libero-project.github.io/",
+      "isNew": false
     },
     {
       "group": "Robot Demonstrations",
@@ -451,7 +618,8 @@ window.DATASETS_DATA = {
       "scale": "100K+ trajectories / 100 tasks",
       "summary": "AI-generated textures & objects, kitchen domain",
       "robot": "Franka (robosuite/MuJoCo)",
-      "url": "https://robocasa.ai/"
+      "url": "https://robocasa.ai/",
+      "isNew": false
     },
     {
       "group": "Robot Demonstrations",
@@ -462,7 +630,20 @@ window.DATASETS_DATA = {
       "scale": "50 bimanual tasks / 731 objects",
       "summary": "3D generative digital twins, SAPIEN sim",
       "robot": "ALOHA dual-arm",
-      "url": "https://arxiv.org/abs/2504.13059"
+      "url": "https://arxiv.org/abs/2504.13059",
+      "isNew": false
+    },
+    {
+      "group": "Robot Demonstrations",
+      "category": "Sim-Based Benchmark",
+      "name": "DexGarmentLab",
+      "venue": "NeurIPS '25",
+      "type": "Sim",
+      "scale": "15 task scenarios",
+      "summary": "Garment assets, refined cloth simulation",
+      "robot": "Bimanual dexterous hands",
+      "url": "https://arxiv.org/abs/2505.11032",
+      "isNew": false
     },
     {
       "group": "Robot Demonstrations",
@@ -473,7 +654,87 @@ window.DATASETS_DATA = {
       "scale": "100K+ trajectories / 50 tasks",
       "summary": "Domain randomization, MLLM task generation",
       "robot": "5 bimanual embodiments",
-      "url": "https://robotwin-platform.github.io/"
+      "url": "https://robotwin-platform.github.io/",
+      "isNew": false
+    },
+    {
+      "group": "Robot Demonstrations",
+      "category": "Real-to-Sim Benchmark",
+      "name": "RobotArena ∞",
+      "venue": "ICLR '26",
+      "type": "Sim",
+      "scale": "Scenes converted from robot datasets",
+      "summary": "2D-to-3D generation + human preference feedback",
+      "robot": "Dataset embodiments",
+      "url": "https://robotarenainf.github.io",
+      "isNew": false
+    },
+    {
+      "group": "Robot Demonstrations",
+      "category": "Sim-Based Benchmark",
+      "name": "RoboLab",
+      "venue": "RSS '26",
+      "type": "Sim",
+      "scale": "Human- and LLM-generated scenes/tasks",
+      "summary": "High-fidelity sim, real-policy performance analysis",
+      "robot": "Robot-agnostic",
+      "url": "https://research.nvidia.com/labs/srl/projects/robolab",
+      "isNew": true
+    },
+    {
+      "group": "Evaluation",
+      "category": "Scene Generation",
+      "name": "SceneEval",
+      "venue": "WACV '26",
+      "type": "Benchmark + Metrics",
+      "scale": "500 text descriptions",
+      "summary": "Explicit and implicit (support, collision, navigability) metrics",
+      "url": "https://3dlg-hcvc.github.io/SceneEval/",
+      "isNew": false
+    },
+    {
+      "group": "Evaluation",
+      "category": "Real-to-Sim Assets",
+      "name": "Single-View Mesh Recon for Robotics",
+      "venue": "BMVC '26",
+      "type": "Benchmark",
+      "scale": "Reconstruction models on robot scenes",
+      "summary": "Collision-free, stable, occlusion-robust, fast",
+      "url": "https://arxiv.org/abs/2505.17966",
+      "isNew": false
+    },
+    {
+      "group": "Evaluation",
+      "category": "Simulation Fidelity",
+      "name": "GPUSimBench",
+      "venue": "IROS '26",
+      "type": "Benchmark",
+      "scale": "GPU simulators (Isaac Lab, Genesis, ...)",
+      "summary": "Real-world grounding and execution determinism",
+      "url": "https://arxiv.org/abs/2607.13059",
+      "isNew": true
+    },
+    {
+      "group": "Evaluation",
+      "category": "Simulation Fidelity",
+      "name": "GAUGE",
+      "venue": "arXiv '26",
+      "type": "Benchmark",
+      "scale": "22 task families",
+      "summary": "Physics engines vs video world models against real physics",
+      "url": "https://arxiv.org/abs/2608.05948",
+      "isNew": true
+    },
+    {
+      "group": "Evaluation",
+      "category": "Articulated Assets",
+      "name": "ArticulateArena",
+      "venue": "arXiv '26",
+      "type": "Metric",
+      "scale": "Articulation predictions",
+      "summary": "Motion-based distance replacing per-parameter scores",
+      "url": "https://heyumeng.com/ArticulateArena-web/",
+      "isNew": true
     }
   ]
 };

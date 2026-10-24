@@ -1,5 +1,5 @@
 window.COLLECTIONS_DATA = {
-  "Count": 122,
+  "Count": 256,
   "value": [
     {
       "domain": "Data Generator",
@@ -11,7 +11,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Lei, Jiahui and Deng, Congyue and Shen, William B and Guibas, Leonidas J and Daniilidis, Kostas",
       "projectUrl": "https://www.cis.upenn.edu/~leijh/projects/nap",
       "pdfUrl": "https://arxiv.org/abs/2305.16315",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -23,7 +24,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Liu, Jiayi and Tam, Hou In Ivan and Mahdavi-Amiri, Ali and Savva, Manolis",
       "projectUrl": "https://3dlg-hcvc.github.io/cage",
       "pdfUrl": "https://arxiv.org/abs/2312.09570",
-      "codeUrl": "https://github.com/3dlg-hcvc/cage"
+      "codeUrl": "https://github.com/3dlg-hcvc/cage",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -35,7 +37,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Chen, Zoey and Walsman, Aaron and Memmel, Marius and Mo, Kaichun and Fang, Alex and Vemuri, Karthikeya and Wu, Alan and Fox, Dieter and Gupta, Abhishek",
       "projectUrl": "https://urdformer.github.io",
       "pdfUrl": "https://arxiv.org/abs/2405.11656",
-      "codeUrl": "https://github.com/WEIRDLabUW/urdformer"
+      "codeUrl": "https://github.com/WEIRDLabUW/urdformer",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -47,7 +50,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Mandi, Zhao and Weng, Yijia and Bauer, Dominik and Song, Shuran",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2406.08474",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -59,7 +63,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Le, Long and Xie, Jason and Liang, William and Wang, Hung-Ju and Yang, Yue and Ma, Yecheng Jason and Vedder, Kyle and Krishna, Arjun and Jayaraman, Dinesh and Eaton, Eric",
       "projectUrl": "https://articulate-anything.github.io",
       "pdfUrl": "https://arxiv.org/abs/2410.13882",
-      "codeUrl": "https://github.com/vlongle/articulate-anything"
+      "codeUrl": "https://github.com/vlongle/articulate-anything",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -71,7 +76,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Liu, Jiayi and Iliash, Denys and Chang, Angel X and Savva, Manolis and Mahdavi-Amiri, Ali",
       "projectUrl": "https://3dlg-hcvc.github.io/singapo",
       "pdfUrl": "https://arxiv.org/abs/2410.16499",
-      "codeUrl": "https://github.com/3dlg-hcvc/singapo"
+      "codeUrl": "https://github.com/3dlg-hcvc/singapo",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -83,7 +89,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Su, Jiayi and Feng, Youhe and Li, Zheng and Song, Jinhua and He, Yangfan and Ren, Botao and Xu, Botian",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2412.07237",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -95,7 +102,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Gao, Daoyi and Siddiqui, Yawar and Li, Lei and Dai, Angela",
       "projectUrl": "https://daoyig.github.io/Mesh_Art",
       "pdfUrl": "https://arxiv.org/abs/2412.11596",
-      "codeUrl": "https://github.com/DaoyiG/MeshArt"
+      "codeUrl": "https://github.com/DaoyiG/MeshArt",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -107,7 +115,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Qiu, Xiaowen and Yang, Jincheng and Wang, Yian and Chen, Zhehuan and Wang, Yufei and Wang, Tsun-Hsuan and Xian, Zhou and Gan, Chuang",
       "projectUrl": "https://articulate-anymesh.github.io",
       "pdfUrl": "https://arxiv.org/abs/2502.02590",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -119,7 +128,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Vora, Aditya and Nag, Sauradip and Wang, Kai and Zhang, Hao",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2502.07278",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -131,7 +141,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Song, Chaoyue and Zhang, Jianfeng and Li, Xiu and Yang, Fan and Chen, Yiwen and Xu, Zhongcong and Liew, Jun Hao and Guo, Xiaoyang and Liu, Fayao and Feng, Jiashi and others",
       "projectUrl": "https://chaoyuesong.github.io/MagicArticulate",
       "pdfUrl": "https://arxiv.org/abs/2502.12135",
-      "codeUrl": "https://github.com/Seed3D/MagicArticulate"
+      "codeUrl": "https://github.com/Seed3D/MagicArticulate",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -143,7 +154,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Lian, Xinyu and Yu, Zichao and Liang, Ruiming and Wang, Yitong and Luo, Li Ray and Chen, Kaixu and Zhou, Yuanzhen and Tang, Qihong and Xu, Xudong and Lyu, Zhaoyang and others",
       "projectUrl": "https://infinite-mobility.github.io",
       "pdfUrl": "https://arxiv.org/abs/2503.13424",
-      "codeUrl": "https://github.com/Intern-Nexus/Infinite-Mobility"
+      "codeUrl": "https://github.com/Intern-Nexus/Infinite-Mobility",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -155,7 +167,21 @@ window.COLLECTIONS_DATA = {
       "authors": "Gao, Mingju and Pan, Yike and Gao, Huan-ang and Zhang, Zongzheng and Li, Wenyi and Dong, Hao and Tang, Hao and Yi, Li and Zhao, Hao",
       "projectUrl": "https://partrm.c7w.tech",
       "pdfUrl": "https://arxiv.org/abs/2503.19913",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Articulated Objects",
+      "citeKey": "infinigen-articulated",
+      "title": "Procedural Generation of Articulated Simulation-Ready Assets",
+      "venue": "CoRL '26",
+      "url": "https://arxiv.org/abs/2505.10755",
+      "authors": "Joshi, Abhishek and Han, Beining and Nugent, Jack and Saez-Diez, Max Gonzalez and Zuo, Yiming and Liu, Jonathan and Wen, Hongyu and Alexandropoulos, Stamatis and Kayan, Karhan and Calveri, Anna and Sun, Tao and Liu, Gaowen and Shao, Yi and Raistrick, Alexander and Deng, Jia",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2505.10755",
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -167,7 +193,21 @@ window.COLLECTIONS_DATA = {
       "authors": "Lu, Ruijie and Liu, Yu and Tang, Jiaxiang and Ni, Junfeng and Wang, Yuxiang and Wan, Diwen and Zeng, Gang and Chen, Yixin and Huang, Siyuan",
       "projectUrl": "https://dream-art-0.github.io/DreamArt",
       "pdfUrl": "https://arxiv.org/abs/2507.05763",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Articulated Objects",
+      "citeKey": "lam",
+      "title": "LAM: Language Articulated Object Modelers",
+      "venue": "CVPR '26",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Gao_LAM_Language_Articulated_Object_Modelers_CVPR_2026_paper.html",
+      "authors": "",
+      "projectUrl": "https://gaoypeng.github.io/LAM/",
+      "pdfUrl": "https://openaccess.thecvf.com/content/CVPR2026/html/Gao_LAM_Language_Articulated_Object_Modelers_CVPR_2026_paper.html",
+      "codeUrl": "https://github.com/gaoypeng/LAM",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -179,7 +219,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Chen, Honghua and Lan, Yushi and Chen, Yongwei and Pan, Xingang",
       "projectUrl": "https://chenhonghua.github.io/MyProjects/ArtiLatent",
       "pdfUrl": "https://arxiv.org/abs/2510.21432",
-      "codeUrl": "https://github.com/chenhonghua/ArtiLatent"
+      "codeUrl": "https://github.com/chenhonghua/ArtiLatent",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -191,7 +232,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Li, Zhe and Bai, Xiang and Zhang, Jieyu and Wu, Zhuangzhe and Xu, Che and Li, Ying and Hou, Chengkai and Zhang, Shanghang",
       "projectUrl": "https://lzvsdy.github.io/URDF-Anything",
       "pdfUrl": "https://arxiv.org/abs/2511.00940",
-      "codeUrl": "https://github.com/LZVSDY/URDF-Anything_CODE"
+      "codeUrl": "https://github.com/LZVSDY/URDF-Anything_CODE",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -203,7 +245,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Wang, Jiawei and Wang, Dingyou and Hu, Jiaming and Zhang, Qixuan and Yu, Jingyi and Xu, Lan",
       "projectUrl": "https://sites.google.com/deemos.com/kinematify",
       "pdfUrl": "https://arxiv.org/abs/2511.01294",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -215,7 +258,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Yang, Yixuan and Xie, Luyang and Luo, Zhen and Zhao, Zixiang and Ding, Tongsheng and Gao, Mingqi and Zheng, Feng",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2511.12977",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -227,7 +271,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Jin, Bu and Li, Weize and Gu, Songen and Zheng, Yupeng and Zheng, Yuhang and Zhou, Zhengyi and Yao, Yao",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2511.21887",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -239,7 +284,8 @@ window.COLLECTIONS_DATA = {
       "authors": "He, Yumeng and Jiang, Ying and Lu, Jiayin and Yang, Yin and Jiang, Chenfanfu",
       "projectUrl": "https://heyumeng.com/SPARK/index.html",
       "pdfUrl": "https://arxiv.org/abs/2512.01629",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -251,7 +297,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Sun, Hao and Fan, Lei and Di, Donglin and Liu, Shaohui",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2512.03566",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -263,7 +310,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Li, Ruining and Yao, Yuxin and Zheng, Chuanxia and Rupprecht, Christian and Lasenby, Joan and Wu, Shangzhe and Vedaldi, Andrea",
       "projectUrl": "https://ruiningli.com/particulate",
       "pdfUrl": "https://arxiv.org/abs/2512.11798",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -275,7 +323,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Wang, Haowen and Yuan, Xiaoping and Zhang, Fugang and Jian, Rui and Zhu, Yuanwei and Qiao, Xiuquan and Huang, Yakun",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2512.12395",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -287,7 +336,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Liu, Qingming and Yao, Xinyue and Zhang, Shuyuan and Deng, Yueci and Liu, Guiliang and Liu, Zhen and Jia, Kui",
       "projectUrl": "https://pact-project.github.io",
       "pdfUrl": "https://arxiv.org/abs/2602.14965",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -299,7 +349,21 @@ window.COLLECTIONS_DATA = {
       "authors": "Wang, Penghao and Xie, Siyuan and Yan, Hongyu and Yang, Xianghui and Huang, Jingwei and Guo, Chunchao and Gu, Jiayuan",
       "projectUrl": "https://authoritywang.github.io/artllm",
       "pdfUrl": "https://arxiv.org/abs/2603.01142",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Articulated Objects",
+      "citeKey": "motionanymesh",
+      "title": "MotionAnymesh: Physics-Grounded Articulation for Simulation-Ready Digital Twins",
+      "venue": "ECCV '26",
+      "url": "https://arxiv.org/abs/2603.12936",
+      "authors": "Xu, WenBo and Liu, Liu and Zhang, Li and Guo, Dan and Liu, RuoNan",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2603.12936",
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -311,7 +375,86 @@ window.COLLECTIONS_DATA = {
       "authors": "Wu, Zhuangzhe and Xin, Yue and Hou, Chengkai and Chen, Minghao and Lyu, Yaoxu and Zhang, Jieyu and Zhang, Shanghang",
       "projectUrl": "https://urdf-anything-plus.github.io",
       "pdfUrl": "https://arxiv.org/abs/2603.14010",
-      "codeUrl": "https://github.com/URDF-Anything-plus/Code"
+      "codeUrl": "https://github.com/URDF-Anything-plus/Code",
+      "isNew": false
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Articulated Objects",
+      "citeKey": "simart",
+      "title": "SIMART: Decomposing Monolithic Meshes into Sim-ready Articulated Assets via MLLM",
+      "venue": "SIGGRAPH '26",
+      "url": "https://arxiv.org/abs/2603.23386",
+      "authors": "Zhang, Chuanrui and Qin, Minghan and Wang, Yuang and Xie, Baifeng and Li, Hang and Wang, Ziwei",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2603.23386",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Articulated Objects",
+      "citeKey": "articraft",
+      "title": "Articraft: An Agentic System for Scalable Articulated 3D Asset Generation",
+      "venue": "NeurIPS '26",
+      "url": "https://arxiv.org/abs/2605.15187",
+      "authors": "Zhou, Matt and Li, Ruining and Lyu, Xiaoyang and Song, Zhaomou and Huang, Zhening and Zheng, Chuanxia and Rupprecht, Christian and Vedaldi, Andrea and Wu, Shangzhe",
+      "projectUrl": "https://articraft3d.github.io/",
+      "pdfUrl": "https://arxiv.org/abs/2605.15187",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Articulated Objects",
+      "citeKey": "instruct-particulate",
+      "title": "Instruct-Particulate: Scaling Feed-Forward 3D Object Articulation with Kinematic Control",
+      "venue": "NeurIPS '26",
+      "url": "https://arxiv.org/abs/2606.14699",
+      "authors": "Li, Ruining and Yao, Yuxin and Zhou, Matt and Zheng, Chuanxia and Rupprecht, Christian and Lasenby, Joan and Wu, Shangzhe and Vedaldi, Andrea",
+      "projectUrl": "https://instruct-particulate.github.io/",
+      "pdfUrl": "https://arxiv.org/abs/2606.14699",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Articulated Objects",
+      "citeKey": "pwm-artgen",
+      "title": "PWM-ArtGen: Part World Model for Articulated Object Generation",
+      "venue": "ECCV '26",
+      "url": "https://arxiv.org/abs/2607.02045",
+      "authors": "Zheng, Wentao and Wu, Ancong",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2607.02045",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Articulated Objects",
+      "citeKey": "rest-state-articulation",
+      "title": "Articulated Object Reconstruction from Rest-State Observation",
+      "venue": "ECCV '26",
+      "url": "https://arxiv.org/abs/2607.27749",
+      "authors": "Lee, Daeun and Lee, Jaeah and Kim, Woosung and Jung, Haebeom and Park, Jaesik",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2607.27749",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Articulated Objects",
+      "citeKey": "artisan",
+      "title": "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2610.13947",
+      "authors": "Cai, Xudong and Zhu, Ruijie and Shang, Haoliang and Li, Ruining and Pollefeys, Marc and Wu, Shangzhe and Vedaldi, Andrea and Zheng, Chuanxia",
+      "projectUrl": "https://physicalvision.github.io/artisan/",
+      "pdfUrl": "https://arxiv.org/abs/2610.13947",
+      "codeUrl": "",
+      "isNew": true
     },
     {
       "domain": "Data Generator",
@@ -323,7 +466,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Xie, Tianyi and Zong, Zeshun and Qiu, Yuxing and Li, Xuan and Feng, Yutao and Yang, Yin and Jiang, Chenfanfu",
       "projectUrl": "https://xpandora.github.io/PhysGaussian",
       "pdfUrl": "https://arxiv.org/abs/2311.12198",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -335,7 +479,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Zhai, Albert J and Shen, Yuan and Chen, Emily Y and Wang, Gloria X and Wang, Xinlei and Wang, Sheng and Guan, Kaiyu and Wang, Shenlong",
       "projectUrl": "https://ajzhai.github.io/NeRF2Physics",
       "pdfUrl": "https://arxiv.org/abs/2404.04242",
-      "codeUrl": "https://github.com/ajzhai/NeRF2Physics"
+      "codeUrl": "https://github.com/ajzhai/NeRF2Physics",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -347,7 +492,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Chen, Yunuo and Xie, Tianyi and Zong, Zeshun and Li, Xuan and Gao, Feng and Yang, Yin and Wu, Ying Nian and Jiang, Chenfanfu",
       "projectUrl": "https://yunuoch.github.io/Atlas3D",
       "pdfUrl": "https://arxiv.org/abs/2405.18515",
-      "codeUrl": "https://github.com/yunuoch/Atlas3D"
+      "codeUrl": "https://github.com/yunuoch/Atlas3D",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -359,7 +505,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Guo, Minghao and Wang, Bohan and Ma, Pingchuan and Zhang, Tianyuan and Owens, Crystal E and Gan, Chuang and Tenenbaum, Joshua B and He, Kaiming and Matusik, Wojciech",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2405.20510",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -371,7 +518,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Luo, Rundong and Geng, Haoran and Deng, Congyue and Li, Puhao and Wang, Zan and Jia, Baoxiong and Guibas, Leonidas and Huang, Siyuan",
       "projectUrl": "https://red-fairy.github.io/physpart-webpage",
       "pdfUrl": "https://arxiv.org/abs/2408.13724",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -383,7 +531,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Yan, Han and Zhang, Mingrui and Li, Yang and Ma, Chao and Ji, Pan",
       "projectUrl": "https://wolfball.github.io/phycage",
       "pdfUrl": "https://arxiv.org/abs/2411.18548",
-      "codeUrl": "https://github.com/Tencent/Tencent-XR-3DGen/tree/main/character/phy_cage"
+      "codeUrl": "https://github.com/Tencent/Tencent-XR-3DGen/tree/main/character/phy_cage",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -395,7 +544,21 @@ window.COLLECTIONS_DATA = {
       "authors": "Xu, Xinli and Ge, Wenhang and Qiu, Dicong and Chen, ZhiFei and Yan, Dongyu and Liu, Zhuoyun and Zhao, Haoyu and Zhao, Hanfeng and Zhang, Shunsi and Liang, Junwei and others",
       "projectUrl": "https://Gaussian-Property.github.io",
       "pdfUrl": "https://arxiv.org/abs/2412.11258",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Physically-grounded Objects",
+      "citeKey": "matchmaker",
+      "title": "MatchMaker: Automated Asset Generation for Robotic Assembly",
+      "venue": "ICRA '25",
+      "url": "https://arxiv.org/abs/2503.05887",
+      "authors": "Wang, Yian and Tang, Bingjie and Gan, Chuang and Fox, Dieter and Mo, Kaichun and Narang, Yashraj and Akinola, Iretiayo",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2503.05887",
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -407,7 +570,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Li, Ruining and Zheng, Chuanxia and Rupprecht, Christian and Vedaldi, Andrea",
       "projectUrl": "https://ruiningli.com/dso",
       "pdfUrl": "https://arxiv.org/abs/2503.22677",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -419,7 +583,21 @@ window.COLLECTIONS_DATA = {
       "authors": "Cao, Junyi and Kalogerakis, Evangelos",
       "projectUrl": "https://xjay18.github.io/SOPHY_page",
       "pdfUrl": "https://arxiv.org/abs/2504.12684",
-      "codeUrl": "https://github.com/microsoft/TRELLIS"
+      "codeUrl": "https://github.com/microsoft/TRELLIS",
+      "isNew": false
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Physically-grounded Objects",
+      "citeKey": "robotsmith",
+      "title": "RobotSmith: Generative Robotic Tool Design for Acquisition of Complex Manipulation Skills",
+      "venue": "arXiv '25",
+      "url": "https://arxiv.org/abs/2506.14763",
+      "authors": "Lin, Chunru and Yuan, Haotian and Wang, Yian and Qiu, Xiaowen and Wang, Tsun-Hsuan and Guo, Minghao and Wang, Bohan and Narang, Yashraj and Fox, Dieter and Gan, Chuang",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2506.14763",
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -431,7 +609,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Cao, Ziang and Chen, Zhaoxi and Pan, Liang and Liu, Ziwei",
       "projectUrl": "https://physx-3d.github.io",
       "pdfUrl": "https://arxiv.org/abs/2507.12465",
-      "codeUrl": "https://github.com/ziangcao0312/PhysX-3D"
+      "codeUrl": "https://github.com/ziangcao0312/PhysX-3D",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -443,7 +622,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Le, Long and Lucas, Ryan and Wang, Chen and Chen, Chuhao and Jayaraman, Dinesh and Eaton, Eric and Liu, Lingjie",
       "projectUrl": "https://pixie-3d.github.io",
       "pdfUrl": "https://arxiv.org/abs/2508.17437",
-      "codeUrl": "https://github.com/vlongle/pixie"
+      "codeUrl": "https://github.com/vlongle/pixie",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -455,7 +635,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Dang, Shengqi and Chai, Fu and Li, Jiaxin and Yuan, Chao and Ye, Wei and Cao, Nan",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2511.09298",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -467,7 +648,112 @@ window.COLLECTIONS_DATA = {
       "authors": "Cao, Ziang and Hong, Fangzhou and Chen, Zhaoxi and Pan, Liang and Liu, Ziwei",
       "projectUrl": "https://physx-anything.github.io",
       "pdfUrl": "https://arxiv.org/abs/2511.13648",
-      "codeUrl": "https://github.com/ziangcao0312/PhysX-Anything"
+      "codeUrl": "https://github.com/ziangcao0312/PhysX-Anything",
+      "isNew": false
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Physically-grounded Objects",
+      "citeKey": "physforge",
+      "title": "PhysForge: Generating Physics-Grounded 3D Assets for Interactive Virtual World",
+      "venue": "ICML '26",
+      "url": "https://arxiv.org/abs/2605.05163",
+      "authors": "Yang, Yunhan and Wang, Chunshi and Ye, Junliang and Li, Yang and Chen, Zanxin and Huang, Zehuan and Mu, Yao and Chen, Zhuo and Guo, Chunchao and Liu, Xihui",
+      "projectUrl": "https://hku-mmlab.github.io/PhysForge/",
+      "pdfUrl": "https://arxiv.org/abs/2605.05163",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Physically-grounded Objects",
+      "citeKey": "joda",
+      "title": "JODA: Composable Joint Dynamics for Articulated Objects",
+      "venue": "NeurIPS '26",
+      "url": "https://arxiv.org/abs/2605.09954",
+      "authors": "Gao, Tianhong and Yu, Cheng and Xu, Yinghao and Chu, Mengyu",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2605.09954",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Physically-grounded Objects",
+      "citeKey": "physx-omni",
+      "title": "PhysX-Omni: Unified Simulation-Ready Physical 3D Generation for Rigid, Deformable, and Articulated Objects",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2605.21572",
+      "authors": "Cao, Ziang and Liu, Yinghao and Li, Haitian and Yao, Runmao and Hong, Fangzhou and Chen, Zhaoxi and Pan, Liang and Liu, Ziwei",
+      "projectUrl": "https://physx-omni.github.io/",
+      "pdfUrl": "https://arxiv.org/abs/2605.21572",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Physically-grounded Objects",
+      "citeKey": "sagrid",
+      "title": "SAGrid: Scaling Robot Simulation through Automatic Affordance Annotation on In-the-Wild 3D Assets",
+      "venue": "ICRA '26",
+      "url": "https://doi.org/10.1109/ICRA57385.2026.11697139",
+      "authors": "",
+      "projectUrl": "",
+      "pdfUrl": "https://doi.org/10.1109/ICRA57385.2026.11697139",
+      "codeUrl": "https://github.com/cgokmen/SAGrid",
+      "isNew": true
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Physically-grounded Objects",
+      "citeKey": "unipixie",
+      "title": "UniPixie: Unified and Probabilistic 3D Physics Learning via Flow Matching",
+      "venue": "CVPR '26",
+      "url": "https://arxiv.org/abs/2606.05399",
+      "authors": "Huang, Qilin and Huynh, Quynh Anh and Le, Long and Wang, Chen and Chen, Chuhao and Lucas, Ryan and Eaton, Eric and Liu, Lingjie",
+      "projectUrl": "https://unipixie.github.io/",
+      "pdfUrl": "https://arxiv.org/abs/2606.05399",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Physically-grounded Objects",
+      "citeKey": "adavomp",
+      "title": "Adaptive Volumetric Mechanical Property Fields Invariant to Resolution",
+      "venue": "ICML '26",
+      "url": "https://arxiv.org/abs/2606.18231",
+      "authors": "Dagli, Rishit and Xiang, Donglai and Modi, Vismay and Yang, Xuning and State, Gavriel and Levin, David I. W. and Shugrina, Maria",
+      "projectUrl": "https://research.nvidia.com/labs/sil/projects/adavomp/",
+      "pdfUrl": "https://arxiv.org/abs/2606.18231",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Physically-grounded Objects",
+      "citeKey": "uniphys",
+      "title": "UniPhysGen: Unified Physical Grounding for Simulation-Ready 3D Assets",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2607.13586",
+      "authors": "Li, Xian and Wei, Rong and Yang, Lujie and Huang, Haolin and Fang, Junyuan and Tang, Siliang and Xiao, Jun and Tang, Rui and Li, Juncheng",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2607.13586",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Physically-grounded Objects",
+      "citeKey": "autophyx",
+      "title": "AutoPhyX: Automatic Text-Condition Physics Property Generation",
+      "venue": "ECCV '26",
+      "url": "https://arxiv.org/abs/2610.29517",
+      "authors": "Huang, Bei and Chen, Yixin and Zha, Hongbin and Pei, Yuru and Huang, Siyuan",
+      "projectUrl": "https://hb-pencil-zero.github.io/AutoPhyX/",
+      "pdfUrl": "https://arxiv.org/abs/2610.29517",
+      "codeUrl": "",
+      "isNew": true
     },
     {
       "domain": "Data Generator",
@@ -479,7 +765,8 @@ window.COLLECTIONS_DATA = {
       "authors": "He, Kai and Yao, Kaixin and Zhang, Qixuan and Yu, Jingyi and Liu, Lingjie and Xu, Lan",
       "projectUrl": "https://ihe-kaii.github.io/DressCode",
       "pdfUrl": "https://arxiv.org/abs/2401.16465",
-      "codeUrl": "https://github.com/IHe-KaiI/DressCode"
+      "codeUrl": "https://github.com/IHe-KaiI/DressCode",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -491,7 +778,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Zhang, Tianyuan and Yu, Hong-Xing and Wu, Rundi and Feng, Brandon Y and Zheng, Changxi and Snavely, Noah and Wu, Jiajun and Freeman, William T",
       "projectUrl": "https://physdreamer.github.io",
       "pdfUrl": "https://arxiv.org/abs/2404.13026",
-      "codeUrl": "https://github.com/a1600012888/PhysDreamer"
+      "codeUrl": "https://github.com/a1600012888/PhysDreamer",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -503,7 +791,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Li, Boqian and Li, Xuan and Jiang, Ying and Xie, Tianyi and Gao, Feng and Wang, Huamin and Yang, Yin and Jiang, Chenfanfu",
       "projectUrl": "https://xuan-li.github.io/GarmentDreamerDemo",
       "pdfUrl": "https://arxiv.org/abs/2405.12420",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -515,7 +804,21 @@ window.COLLECTIONS_DATA = {
       "authors": "Li, Xuan and Yu, Chang and Du, Wenxin and Jiang, Ying and Xie, Tianyi and Chen, Yunuo and Yang, Yin and Jiang, Chenfanfu",
       "projectUrl": "https://dress-1-to-3.github.io",
       "pdfUrl": "https://arxiv.org/abs/2502.03449",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Deformable Objects",
+      "citeKey": "garmagenet",
+      "title": "GarmageNet: A Multimodal Generative Framework for Sewing Pattern Design and Generic Garment Modeling",
+      "venue": "ToG (SIG. Asia '25)",
+      "url": "https://arxiv.org/abs/2504.01483",
+      "authors": "Li, Siran and Liu, Ruiyang and Liu, Chen and Wang, Zhendong and He, Gaofeng and Li, Yong-Lu and Jin, Xiaogang and Wang, Huamin",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2504.01483",
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -527,7 +830,60 @@ window.COLLECTIONS_DATA = {
       "authors": "Can, Selim Emir and Ackermann, Jan and Nakayama, Kiyohiro and Liu, Ruofan and Wu, Tong and Zheng, Yang and Bertiche, Hugo and Chai, Menglei and Beeler, Thabo and Wetzstein, Gordon",
       "projectUrl": "https://image2garment.github.io",
       "pdfUrl": "https://arxiv.org/abs/2601.09658",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Deformable Objects",
+      "citeKey": "reweaver",
+      "title": "ReWeaver: Towards Simulation-Ready and Topology-Accurate Garment Reconstruction",
+      "venue": "CVPR '26",
+      "url": "https://arxiv.org/abs/2601.16672",
+      "authors": "Li, Ming and Shan, Hui and Zheng, Kai and Shen, Chentao and Liu, Siyu and Fu, Yanwei and Chen, Zhen and Huang, Xiangru",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2601.16672",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Deformable Objects",
+      "citeKey": "dresswild",
+      "title": "DressWild: Feed-Forward Pose-Agnostic Garment Sewing Pattern Generation from In-the-Wild Images",
+      "venue": "NeurIPS '26",
+      "url": "https://arxiv.org/abs/2602.16502",
+      "authors": "Tao, Zeng and Jiang, Ying and Chen, Yunuo and Xie, Tianyi and Wang, Huamin and Wu, Yingnian and Yang, Yin and Kumar, Abishek Sampath and Tashiro, Kenji and Jiang, Chenfanfu",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2602.16502",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Deformable Objects",
+      "citeKey": "deformsmith",
+      "title": "DeformSmith: Physics Harness-Guided Hierarchical Generation of Deformable Assets for Robot Manipulation",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2609.18620",
+      "authors": "Li, Can and Gu, Jie and Deng, Zishun and Chen, Jingmin and Sun, Lei",
+      "projectUrl": "https://can-lee.github.io/deformsmith-web/",
+      "pdfUrl": "https://arxiv.org/abs/2609.18620",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Data Generator",
+      "category": "Deformable Objects",
+      "citeKey": "dressagent",
+      "title": "Inverse Garment Design with Visual Agents",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2610.15582",
+      "authors": "Jiang, Nanxiang and Chen, Yunuo and Tao, Zeng and Li, Zizhang and Guo, Qi and Wu, Jiajun and Yang, Yin and Jiang, Chenfanfu",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2610.15582",
+      "codeUrl": "",
+      "isNew": true
     },
     {
       "domain": "Data Generator",
@@ -539,7 +895,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Xiang, Jianfeng and Lv, Zelong and Xu, Sicheng and Deng, Yu and Wang, Ruicheng and Zhang, Bowen and Chen, Dong and Tong, Xin and Yang, Jiaolong",
       "projectUrl": "https://microsoft.github.io/TRELLIS",
       "pdfUrl": "https://arxiv.org/abs/2412.01506",
-      "codeUrl": "https://github.com/Microsoft/TRELLIS"
+      "codeUrl": "https://github.com/Microsoft/TRELLIS",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -551,7 +908,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Wang, Xinjie and Liu, Liu and Cao, Yu and Wu, Ruiqi and Qin, Wenkang and Wang, Dehui and Sui, Wei and Su, Zhizhong",
       "projectUrl": "https://horizonrobotics.github.io/robot_lab/embodied_gen/index.html",
       "pdfUrl": "https://arxiv.org/abs/2506.10600",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -563,7 +921,8 @@ window.COLLECTIONS_DATA = {
       "authors": "ByteDance Seed",
       "projectUrl": "https://seed.bytedance.com/en/seed3d",
       "pdfUrl": "https://arxiv.org/abs/2510.19944",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Data Generator",
@@ -575,7 +934,138 @@ window.COLLECTIONS_DATA = {
       "authors": "Xiang, Jianfeng and Chen, Xiaoxue and Xu, Sicheng and Wang, Ruicheng and Lv, Zelong and Deng, Yu and Zhu, Hongyuan and Dong, Yue and Zhao, Hao and Yuan, Nicholas Jing and others",
       "projectUrl": "https://microsoft.github.io/TRELLIS.2",
       "pdfUrl": "https://arxiv.org/abs/2512.14692",
-      "codeUrl": "https://github.com/microsoft/TRELLIS.2"
+      "codeUrl": "https://github.com/microsoft/TRELLIS.2",
+      "isNew": false
+    },
+    {
+      "domain": "Data Generator",
+      "category": "End-to-End Pipelines",
+      "citeKey": "seed3d-2-0",
+      "title": "Seed3D 2.0: Advancing High-Fidelity Simulation-Ready 3D Content Generation",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2605.13862",
+      "authors": "Gu, Diandian and Lin, Jing and Liu, Gaohong and Liu, Jiahang and Ma, Su and Shi, Guang and Wang, Jun and Wang, Qinlong and Wu, Qianyi and Xu, Zhongcong and Yi, Xuanyu and Yu, Zihao and Zhang, Jianfeng and Zheng, Zhuolin and Zhu, Yifan and Chen, Rui and Guo, Hengkai and Guo, Xiaoyang and Han, Mingcong and Han, Xu and Li, Xiu and Liang, Yixun and Lou, Weiqiang and Lu, Junzhe and Luo, Guan and Qin, Minghan and Wang, Shuguang and Wang, Yuang",
+      "projectUrl": "https://seed.bytedance.com/seed3d_2_0",
+      "pdfUrl": "https://arxiv.org/abs/2605.13862",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Data Generator",
+      "category": "End-to-End Pipelines",
+      "citeKey": "annotateanything",
+      "title": "AnnotateAnything: Automatic Annotation of 3D Assets for Robot Manipulation",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2606.17446",
+      "authors": "Lu, Haoran and Shen, Mutian and Yu, Shuyang and Xiao, Yu and Liu, Songling and Zhang, Jianshu and Wu, Shang and Chen, Yue and Ye, Guo and Wang, Jiayi and Wang, Zhaoran and Liu, Han",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2606.17446",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Data Generator",
+      "category": "End-to-End Pipelines",
+      "citeKey": "embodiedgen-v2",
+      "title": "EmbodiedGen V2: An Agentic, Simulation-Ready 3D World Engine for Embodied AI",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2607.07459",
+      "authors": "Wang, Xinjie and Liu, Liu and Ding, Taojun and Choi, Andrew and Huang, Chaodong and Zhao, Mengao and Li, Ziang and Jiang, Jackson and Yu, Chunlei and Liu, Shengxiang and Xu, Wei and Su, Zhizhong",
+      "projectUrl": "https://horizonrobotics.github.io/EmbodiedGen/",
+      "pdfUrl": "https://arxiv.org/abs/2607.07459",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Data Generator",
+      "category": "3D Backbones",
+      "citeKey": "zero-1-to-3",
+      "title": "Zero-1-to-3: Zero-shot One Image to 3D Object",
+      "venue": "ICCV '23",
+      "url": "https://arxiv.org/abs/2303.11328",
+      "authors": "Liu, Ruoshi and Wu, Rundi and Hoorick, Basile Van and Tokmakov, Pavel and Zakharov, Sergey and Vondrick, Carl",
+      "projectUrl": "https://zero123.cs.columbia.edu/",
+      "pdfUrl": "https://arxiv.org/abs/2303.11328",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Data Generator",
+      "category": "3D Backbones",
+      "citeKey": "lrm",
+      "title": "LRM: Large Reconstruction Model for Single Image to 3D",
+      "venue": "ICLR '24",
+      "url": "https://arxiv.org/abs/2311.04400",
+      "authors": "Hong, Yicong and Zhang, Kai and Gu, Jiuxiang and Bi, Sai and Zhou, Yang and Liu, Difan and Liu, Feng and Sunkavalli, Kalyan and Bui, Trung and Tan, Hao",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2311.04400",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Data Generator",
+      "category": "3D Backbones",
+      "citeKey": "clay",
+      "title": "CLAY: A Controllable Large-scale Generative Model for Creating High-quality 3D Assets",
+      "venue": "TOG (SIG. '24)",
+      "url": "https://arxiv.org/abs/2406.13897",
+      "authors": "Zhang, Longwen and Wang, Ziyu and Zhang, Qixuan and Qiu, Qiwei and Pang, Anqi and Jiang, Haoran and Yang, Wei and Xu, Lan and Yu, Jingyi",
+      "projectUrl": "https://sites.google.com/view/clay-3dlm",
+      "pdfUrl": "https://arxiv.org/abs/2406.13897",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Data Generator",
+      "category": "3D Backbones",
+      "citeKey": "hunyuan3d",
+      "title": "Hunyuan3D 2.0: Scaling Diffusion Models for High Resolution Textured 3D Assets Generation",
+      "venue": "arXiv '25",
+      "url": "https://arxiv.org/abs/2501.12202",
+      "authors": "Zhao, Zibo and Lai, Zeqiang and Lin, Qingxiang and Zhao, Yunfei and Liu, Haolin and Yang, Shuhui and Feng, Yifei and Yang, Mingxin and Zhang, Sheng and Yang, Xianghui and Shi, Huiwen and Liu, Sicong and Wu, Junta and Lian, Yihang and Yang, Fan and Tang, Ruining and He, Zebin and Wang, Xinzhou and Liu, Jian and Zuo, Xuhui and Chen, Zhuo and Lei, Biwen and Weng, Haohan and Xu, Jing and Zhu, Yiling and Liu, Xinhai and Xu, Lixin and Hu, Changrong and Yang, Shaoxiong and Zhang, Song and Liu, Yang and Huang, Tianyu and Wang, Lifu and Zhang, Jihong and Chen, Meng and Dong, Liang and Jia, Yiwen and Cai, Yulin and Yu, Jiaao and Tang, Yixuan and Zhang, Hao and Ye, Zheng and He, Peng and Wu, Runzhou and Zhang, Chao and Tan, Yonghao and Xiao, Jie and Tao, Yangyu and Zhu, Jianchen and Xue, Jinbao and Liu, Kai and Zhao, Chongqing and Wu, Xinming and Hu, Zhichao and Qin, Lei and Peng, Jianbing and Li, Zhan and Chen, Minghui and Zhang, Xipeng and Niu, Lin and Wang, Paige and Wang, Yingkai and Kuang, Haozhao and Fan, Zhongyi and Zheng, Xu and Zhuang, Weihao and He, YingPing and Liu, Tian and Yang, Yong and Wang, Di and Liu, Yuhong and Jiang, Jie and Huang, Jingwei and Guo, Chunchao",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2501.12202",
+      "codeUrl": "https://github.com/Tencent/Hunyuan3D-2",
+      "isNew": false
+    },
+    {
+      "domain": "Data Generator",
+      "category": "3D Backbones",
+      "citeKey": "partcrafter",
+      "title": "PartCrafter: Structured 3D Mesh Generation via Compositional Latent Diffusion Transformers",
+      "venue": "NeurIPS '25",
+      "url": "https://arxiv.org/abs/2506.05573",
+      "authors": "Lin, Yuchen and Lin, Chenguo and Pan, Panwang and Yan, Honglei and Feng, Yiqiang and Mu, Yadong and Fragkiadaki, Katerina",
+      "projectUrl": "https://wgsxm.github.io/projects/partcrafter/",
+      "pdfUrl": "https://arxiv.org/abs/2506.05573",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Data Generator",
+      "category": "3D Backbones",
+      "citeKey": "omnipart",
+      "title": "OmniPart: Part-Aware 3D Generation with Semantic Decoupling and Structural Cohesion",
+      "venue": "SIG. Asia '25",
+      "url": "https://arxiv.org/abs/2507.06165",
+      "authors": "Yang, Yunhan and Zhou, Yufan and Guo, Yuan-Chen and Zou, Zi-Xin and Huang, Yukun and Liu, Ying-Tian and Xu, Hao and Liang, Ding and Cao, Yan-Pei and Liu, Xihui",
+      "projectUrl": "https://omnipart.github.io/",
+      "pdfUrl": "https://arxiv.org/abs/2507.06165",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Data Generator",
+      "category": "3D Backbones",
+      "citeKey": "sam-3d",
+      "title": "SAM 3D: 3Dfy Anything in Images",
+      "venue": "CVPR '26",
+      "url": "https://arxiv.org/abs/2511.16624",
+      "authors": "Team, SAM 3D and Chen, Xingyu and Chu, Fu-Jen and Gleize, Pierre and Liang, Kevin J and Sax, Alexander and Tang, Hao and Wang, Weiyao and Guo, Michelle and Hardin, Thibaut and Li, Xiang and Lin, Aohan and Liu, Jiawei and Ma, Ziqi and Sagar, Anushka and Song, Bowen and Wang, Xiaodong and Yang, Jianing and Zhang, Bowen and Dollár, Piotr and Gkioxari, Georgia and Feiszli, Matt and Malik, Jitendra",
+      "projectUrl": "https://ai.meta.com/sam3d/",
+      "pdfUrl": "https://arxiv.org/abs/2511.16624",
+      "codeUrl": "https://github.com/facebookresearch/sam-3d-objects",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -587,7 +1077,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Dhamo, Helisa and Manhardt, Fabian and Navab, Nassir and Tombari, Federico",
       "projectUrl": "https://he-dhamo.github.io/Graphto3D",
       "pdfUrl": "https://arxiv.org/abs/2108.08841",
-      "codeUrl": "https://github.com/he-dhamo/graphto3d"
+      "codeUrl": "https://github.com/he-dhamo/graphto3d",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -599,7 +1090,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Paschalidou, Despoina and Kar, Amlan and Shugrina, Maria and Kreis, Karsten and Geiger, Andreas and Fidler, Sanja",
       "projectUrl": "https://research.nvidia.com/labs/toronto-ai/ATISS",
       "pdfUrl": "https://arxiv.org/abs/2110.03675",
-      "codeUrl": "https://github.com/nv-tlabs/atiss"
+      "codeUrl": "https://github.com/nv-tlabs/atiss",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -611,7 +1103,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Deitke, Matt and VanderBilt, Eli and Herrasti, Alvaro and Weihs, Luca and Ehsani, Kiana and Salvador, Jordi and Han, Winson and Kolve, Eric and Kembhavi, Aniruddha and Mottaghi, Roozbeh",
       "projectUrl": "https://procthor.allenai.org",
       "pdfUrl": "https://arxiv.org/abs/2206.06994",
-      "codeUrl": "https://github.com/allenai/procthor"
+      "codeUrl": "https://github.com/allenai/procthor",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -623,7 +1116,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Bahmani, Sherwin and Park, Jeong Joon and Paschalidou, Despoina and Yan, Xingguang and Wetzstein, Gordon and Guibas, Leonidas and Tagliasacchi, Andrea",
       "projectUrl": "https://sherwinbahmani.github.io/cc3d",
       "pdfUrl": "https://arxiv.org/abs/2303.12074",
-      "codeUrl": "https://github.com/sherwinbahmani/cc3d"
+      "codeUrl": "https://github.com/sherwinbahmani/cc3d",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -635,7 +1129,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Tang, Jiapeng and Nie, Yinyu and Markhasin, Lev and Dai, Angela and Thies, Justus and Nie, Matthias",
       "projectUrl": "https://tangjiapeng.github.io/projects/DiffuScene",
       "pdfUrl": "https://arxiv.org/abs/2303.14207",
-      "codeUrl": "https://github.com/tangjiapeng/DiffuScene"
+      "codeUrl": "https://github.com/tangjiapeng/DiffuScene",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -647,7 +1142,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Feng, Weixi and Zhu, Wanrong and Fu, Tsu-jui and Jampani, Varun and Akula, Arjun and He, Xuehai and Basu, Sugato and Wang, Xin Eric and Wang, William Yang",
       "projectUrl": "https://layoutgpt.github.io",
       "pdfUrl": "https://arxiv.org/abs/2305.15393",
-      "codeUrl": "https://github.com/weixi-feng/LayoutGPT"
+      "codeUrl": "https://github.com/weixi-feng/LayoutGPT",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -659,7 +1155,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Yang, Yue and Sun, Fan-Yun and Weihs, Luca and VanderBilt, Eli and Herrasti, Alvaro and Han, Winson and Wu, Jiajun and Haber, Nick and Krishna, Ranjay and Liu, Lingjie and others",
       "projectUrl": "https://yueyang1996.github.io/holodeck",
       "pdfUrl": "https://arxiv.org/abs/2312.09067",
-      "codeUrl": "https://github.com/allenai/Holodeck"
+      "codeUrl": "https://github.com/allenai/Holodeck",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -671,7 +1168,73 @@ window.COLLECTIONS_DATA = {
       "authors": "Raistrick, Alexander and Mei, Lingjie and Kayan, Karhan and Yan, David and Zuo, Yiming and Han, Beining and Wen, Hongyu and Parakh, Meenal and Alexandropoulos, Stamatis and Lipson, Lahav and others",
       "projectUrl": "https://infinigen.org",
       "pdfUrl": "https://arxiv.org/abs/2406.11824",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Structure-Driven",
+      "citeKey": "sceniris",
+      "title": "Sceniris: A Fast Procedural Scene Generation Framework",
+      "venue": "arXiv '25",
+      "url": "https://arxiv.org/abs/2512.16896",
+      "authors": "Shang, Jinghuan and Patel, Harsh and Gong, Ran and Schmeckpeper, Karl",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2512.16896",
+      "codeUrl": "https://github.com/rai-inst/sceniris",
+      "isNew": false
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Structure-Driven",
+      "citeKey": "parse",
+      "title": "PARSE: Part-Aware Relational Spatial Modeling",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2603.07704",
+      "authors": "Bai, Yinuo and Xu, Peijun and Shao, Kuixiang and Jiao, Yuyang and Zhang, Jingxuan and Yao, Kaixin and Gu, Jiayuan and Yu, Jingyi",
+      "projectUrl": "https://otanaaa.github.io/PARSE-project-page/",
+      "pdfUrl": "https://arxiv.org/abs/2603.07704",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Structure-Driven",
+      "citeKey": "pair2scene",
+      "title": "Pair2Scene: Learning Local Object Relations for Procedural Scene Generation",
+      "venue": "ICML '26",
+      "url": "https://arxiv.org/abs/2604.11808",
+      "authors": "Ran, Xingjian and Zhang, Shujie and Zhong, Weipeng and Luo, Li and Dai, Bo",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2604.11808",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Structure-Driven",
+      "citeKey": "lavigen",
+      "title": "Repurposing 3D Generative Model for Autoregressive Layout Generation",
+      "venue": "CVPR '26",
+      "url": "https://arxiv.org/abs/2604.16299",
+      "authors": "Feng, Haoran and Niu, Yifan and Huang, Zehuan and Sun, Yang-Tian and Peng, Yuxin and Sheng, Lu",
+      "projectUrl": "https://fenghora.github.io/LaviGen-Page/",
+      "pdfUrl": "https://arxiv.org/abs/2604.16299",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Structure-Driven",
+      "citeKey": "procfunc",
+      "title": "ProcFunc: Function-Oriented Abstractions for Procedural 3D Generation in Python",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2604.26943",
+      "authors": "Raistrick, Alexander and Kayan, Karhan and Nugent, Jack and Yan, David and Mei, Lingjie and Parakh, Meenal and Wen, Hongyu and Li, Dylan and Zuo, Yiming and Liang, Erich and Deng, Jia",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2604.26943",
+      "codeUrl": "https://github.com/princeton-vl/procfunc",
+      "isNew": true
     },
     {
       "domain": "Simulation Environments",
@@ -683,7 +1246,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Chenguo Lin and Yadong Mu",
       "projectUrl": "https://chenguolin.github.io/projects/InstructScene",
       "pdfUrl": "https://arxiv.org/abs/2402.04717",
-      "codeUrl": "https://github.com/chenguolin/InstructScene"
+      "codeUrl": "https://github.com/chenguolin/InstructScene",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -695,7 +1259,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Yang, Yandan and Jia, Baoxiong and Zhi, Peiyuan and Huang, Siyuan",
       "projectUrl": "https://physcene.github.io",
       "pdfUrl": "https://arxiv.org/abs/2404.09465",
-      "codeUrl": "https://github.com/PhyScene/PhyScene/tree/main"
+      "codeUrl": "https://github.com/PhyScene/PhyScene/tree/main",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -707,7 +1272,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Huang, Zehuan and Guo, Yuan-Chen and An, Xingqiao and Yang, Yunhan and Li, Yangguang and Zou, Zi-Xin and Liang, Ding and Liu, Xihui and Cao, Yan-Pei and Sheng, Lu",
       "projectUrl": "https://huanngzh.github.io/MIDI-Page",
       "pdfUrl": "https://arxiv.org/abs/2412.03558",
-      "codeUrl": "https://github.com/VAST-AI-Research/MIDI-3D"
+      "codeUrl": "https://github.com/VAST-AI-Research/MIDI-3D",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -719,7 +1285,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Pfaff, Nicholas Ezra and Dai, Hongkai and Zakharov, Sergey and Iwase, Shun and Tedrake, Russ",
       "projectUrl": "https://steerable-scene-generation.github.io",
       "pdfUrl": "https://arxiv.org/abs/2505.04831",
-      "codeUrl": "https://github.com/nepfaff/steerable-scene-generation"
+      "codeUrl": "https://github.com/nepfaff/steerable-scene-generation",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -731,7 +1298,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Lee, Sangmin and Park, Sungyong and Kim, Heewon",
       "projectUrl": "",
       "pdfUrl": "https://openaccess.thecvf.com/content/CVPR2025/papers/Lee_DynScene_Scalable_Generation_of_Dynamic_Robotic_Manipulation_Scenes_for_Embodied_CVPR_2025_paper.pdf",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -743,7 +1311,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Zhao, Qingcheng and Zhang, Xiang and Xu, Haiyang and Chen, Zeyuan and Xie, Jianwen and Gao, Yuan and Tu, Zhuowen",
       "projectUrl": "https://mlpc-ucsd.github.io/DepR",
       "pdfUrl": "https://arxiv.org/abs/2507.22825",
-      "codeUrl": "https://github.com/mlpc-ucsd/Uni-3D"
+      "codeUrl": "https://github.com/mlpc-ucsd/Uni-3D",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -755,7 +1324,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Meng, Yanxu and Wu, Haoning and Zhang, Ya and Xie, Weidi",
       "projectUrl": "https://mengmouxu.github.io/SceneGen",
       "pdfUrl": "https://arxiv.org/abs/2508.15769",
-      "codeUrl": "https://github.com/Mengmouxu/SceneGen"
+      "codeUrl": "https://github.com/Mengmouxu/SceneGen",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -767,7 +1337,21 @@ window.COLLECTIONS_DATA = {
       "authors": "Hsu, Joy and Jin, Emily and Wu, Jiajun and Mitra, Niloy J.",
       "projectUrl": "https://stanford.edu/~joycj/projects/factoredscenes_neurips_2025.html",
       "pdfUrl": "https://arxiv.org/abs/2510.10292",
-      "codeUrl": "https://github.com/joyhsu0504/factored_scenes"
+      "codeUrl": "https://github.com/joyhsu0504/factored_scenes",
+      "isNew": false
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Controllable",
+      "citeKey": "regen",
+      "title": "ReGen: Generative Robot Simulation via Inverse Design",
+      "venue": "ICLR '25",
+      "url": "https://arxiv.org/abs/2511.04769",
+      "authors": "Nguyen, Phat and Wang, Tsun-Hsuan and Hong, Zhang-Wei and Aasi, Erfan and Silva, Andrew and Rosman, Guy and Karaman, Sertac and Rus, Daniela",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2511.04769",
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -779,7 +1363,60 @@ window.COLLECTIONS_DATA = {
       "authors": "Chen, ChunTeng and Hsu, YiChen and Liu, YiWen and Sun, WeiFang and Ni, TsaiChing and Lee, ChunYi and Sun, Min and Yang, YuanFu",
       "projectUrl": "https://anc891203.github.io/SceneFoundry-Demo",
       "pdfUrl": "https://arxiv.org/abs/2601.05810",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Controllable",
+      "citeKey": "edit-as-act",
+      "title": "Edit-As-Act: Goal-Regressive Planning for Open-Vocabulary 3D Indoor Scene Editing",
+      "venue": "CVPR '26",
+      "url": "https://arxiv.org/abs/2603.17583",
+      "authors": "Noh, Seongrae and Seo, SeungWon and Park, Gyeong-Moon and Kang, HyeongYeop",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2603.17583",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Controllable",
+      "citeKey": "zonemaestro",
+      "title": "Orchestrating Spatial Semantics via a Zone-Graph Paradigm for Intricate Indoor Scene Generation",
+      "venue": "ICML '26",
+      "url": "https://arxiv.org/abs/2605.02537",
+      "authors": "Zhang, Meisheng and Sun, Shizhao and Zhao, Yang and Liu, Ziyuan and Gao, Zhijun and Bian, Jiang",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2605.02537",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Controllable",
+      "citeKey": "4dsynth",
+      "title": "4DSynth: Controllable Procedural World Synthesis for Dynamic Embodied Simulation",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2608.26947",
+      "authors": "Qi, Zehao and Luo, Haochen and Bian, Jia-Wang and Ma, Zeyu and Sun, Shuyang",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2608.26947",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Controllable",
+      "citeKey": "gala",
+      "title": "GALA: Geometry-Aware Language Model for Controllable Object Arrangement",
+      "venue": "SIG. Asia '26",
+      "url": "https://arxiv.org/abs/2610.28280",
+      "authors": "Xiang, Chucheng and Wang, Runze and Deng, Zhi and Bao, Ruchao and Zhang, Yuanwei and Xie, Yuxuan and Wang, Hanliu and Fei, Liangzhen and Wu, Wenzheng and Wan, Cheng and Li, Peifeng and Liu, Zhongyuan and Liu, Ligang",
+      "projectUrl": "https://xccelephant.github.io/paper/gala/",
+      "pdfUrl": "https://arxiv.org/abs/2610.28280",
+      "codeUrl": "",
+      "isNew": true
     },
     {
       "domain": "Simulation Environments",
@@ -791,7 +1428,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Hu, Ziniu and Iscen, Ahmet and Jain, Aashi and Kipf, Thomas and Yue, Yisong and Ross, David A and Schmid, Cordelia and Fathi, Alireza",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2403.01248",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -803,7 +1441,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Wang, Yian and Qiu, Xiaowen and Liu, Jiageng and Chen, Zhehuan and Cai, Jiting and Wang, Yufei and Wang, Tsun-Hsuan and Xian, Zhou and Gan, Chuang",
       "projectUrl": "https://wangyian-me.github.io/Architect",
       "pdfUrl": "https://arxiv.org/abs/2411.09823",
-      "codeUrl": "https://github.com/wangyian-me/architect_official_code/tree/main"
+      "codeUrl": "https://github.com/wangyian-me/architect_official_code/tree/main",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -815,7 +1454,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Sun, Fan-Yun and Liu, Weiyu and Gu, Siyi and Lim, Dylan and Bhat, Goutam and Tombari, Federico and Li, Manling and Haber, Nick and Wu, Jiajun",
       "projectUrl": "https://ai.stanford.edu/~sunfanyun/layoutvlm",
       "pdfUrl": "https://arxiv.org/abs/2412.02193",
-      "codeUrl": "https://github.com/sunfanyunn/LayoutVLM"
+      "codeUrl": "https://github.com/sunfanyunn/LayoutVLM",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -827,7 +1467,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Yao, Kaixin and Zhang, Longwen and Yan, Xinhao and Zeng, Yan and Zhang, Qixuan and Xu, Lan and Yang, Wei and Gu, Jiayuan and Yu, Jingyi",
       "projectUrl": "https://sites.google.com/view/cast4",
       "pdfUrl": "https://arxiv.org/abs/2502.12894",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -839,7 +1480,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Yu, Huangyue and Jia, Baoxiong and Chen, Yixin and Yang, Yandan and Li, Puhao and Su, Rongpeng and Li, Jiaxin and Li, Qing and Liang, Wei and Zhu, Song-Chun and others",
       "projectUrl": "https://meta-scenes.github.io",
       "pdfUrl": "https://arxiv.org/abs/2505.02388",
-      "codeUrl": "https://github.com/meta-scenes/MetaScenes"
+      "codeUrl": "https://github.com/meta-scenes/MetaScenes",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -851,7 +1493,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Ling, Lu and Lin, Chen-Hsuan and Lin, Tsung-Yi and Ding, Yifan and Zeng, Yu and Sheng, Yichen and Ge, Yunhao and Liu, Ming-Yu and Bera, Aniket and Li, Zhaoshuo",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2505.02836",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -863,7 +1506,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Yang, Yixuan and Luo, Zhen and Ding, Tongsheng and Lu, Junru and Gao, Mingqi and Yang, Jinyu and Sanchez, Victor and Zheng, Feng",
       "projectUrl": "https://polysummit.github.io/optiscene.github.io",
       "pdfUrl": "https://arxiv.org/abs/2506.07570",
-      "codeUrl": "https://github.com/YxuanAr/OptiScene"
+      "codeUrl": "https://github.com/YxuanAr/OptiScene",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -875,7 +1519,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Sun, Fan-Yun and Wu, Shengguang and Jacobsen, Christian and Yim, Thomas and Zou, Haoming and Zook, Alex and Li, Shangru and Chou, Yu-Hsin and Can, Ethem F and Wu, Xunlei and others",
       "projectUrl": "https://ai.stanford.edu/~sunfanyun/3d-generalist",
       "pdfUrl": "https://arxiv.org/abs/2507.06484",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -887,7 +1532,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Yang, Yandan and Jia, Baoxiong and Zhang, Shujie and Huang, Siyuan",
       "projectUrl": "https://scene-weaver.github.io",
       "pdfUrl": "https://arxiv.org/abs/2509.20414",
-      "codeUrl": "https://github.com/Scene-Weaver/SceneWeaver"
+      "codeUrl": "https://github.com/Scene-Weaver/SceneWeaver",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -899,7 +1545,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Hao, Jinkun and Liang, Naifu and Luo, Zhen and XU, Xudong and Zhong, Weipeng and Yi, Ran and Jin, Yichen and Lyu, Zhaoyang and Zheng, Feng and Ma, Lizhuang and others",
       "projectUrl": "https://mesatask.github.io",
       "pdfUrl": "https://arxiv.org/abs/2509.22281",
-      "codeUrl": "https://github.com/InternRobotics/MesaTask"
+      "codeUrl": "https://github.com/InternRobotics/MesaTask",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -911,7 +1558,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Gao, Jialin and Zhou, Donghao and Liang, Mingjian and Liu, Lihao and Fu, Chi-Wing and Hu, Xiaowei and Heng, Pheng-Ann",
       "projectUrl": "https://jialin75.github.io/DisCo-Layout",
       "pdfUrl": "https://arxiv.org/abs/2510.02178",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -923,7 +1571,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Hu, Xu and Feng, Yiyang and Peng, Junran and He, Jiawei and Chen, Liyi and Luo, Chuanchen and Yin, Xucheng and Li, Qing and Zhang, Zhaoxiang",
       "projectUrl": "https://xuhu0529.github.io/MarketGen",
       "pdfUrl": "https://arxiv.org/abs/2511.21161",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -935,7 +1584,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Lin, Guying and Huang, Kemeng and Liu, Michael and Gao, Ruihan and Chen, Hanke and Chen, Lyuhao and Lu, Beijia and Komura, Taku and Liu, Yuan and Zhu, Jun-Yan and others",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2511.21978",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -947,7 +1597,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Wang, Ziqian and He, Yonghao and Yang, Licheng and Zou, Wei and Ma, Hongxuan and Liu, Liu and Sui, Wei and Guo, Yuxin and Su, Hu",
       "projectUrl": "https://d-robotics-ai-lab.github.io/TabletopGen.project",
       "pdfUrl": "https://arxiv.org/abs/2512.01204",
-      "codeUrl": "https://github.com/D-Robotics-AI-Lab/TabletopGen"
+      "codeUrl": "https://github.com/D-Robotics-AI-Lab/TabletopGen",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -959,7 +1610,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Sautter, Tobias and Dihlmann, Jan-Niklas and Lensch, Hendrik P.A.",
       "projectUrl": "https://3dregen.jdihlmann.com",
       "pdfUrl": "https://arxiv.org/abs/2512.17459",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -971,7 +1623,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Pfaff, Nicholas and Cohn, Thomas and Zakharov, Sergey and Cory, Rick and Tedrake, Russ",
       "projectUrl": "https://scenesmith.github.io",
       "pdfUrl": "https://arxiv.org/abs/2602.09153",
-      "codeUrl": "https://github.com/nepfaff/scenesmith"
+      "codeUrl": "https://github.com/nepfaff/scenesmith",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -983,7 +1636,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Xia, Hongchi and Li, Xuan and Li, Zhaoshuo and Ma, Qianli and Xu, Jiashu and Liu, Ming-Yu and Cui, Yin and Lin, Tsung-Yi and Ma, Wei-Chiu and Wang, Shenlong and others",
       "projectUrl": "https://nvlabs.github.io/sage",
       "pdfUrl": "https://arxiv.org/abs/2602.10116",
-      "codeUrl": "https://github.com/NVlabs/sage"
+      "codeUrl": "https://github.com/NVlabs/sage",
+      "isNew": false
     },
     {
       "domain": "Simulation Environments",
@@ -995,11 +1649,272 @@ window.COLLECTIONS_DATA = {
       "authors": "Wang, Yian and Yang, Han and Guo, Minghao and Qiu, Xiaowen and Wang, Tsun-Hsuan and Matusik, Wojciech and Tenenbaum, Joshua B and Gan, Chuang",
       "projectUrl": "https://physcensis.github.io",
       "pdfUrl": "https://arxiv.org/abs/2602.14968",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Agentic",
+      "citeKey": "mansion",
+      "title": "MANSION: Multi-floor lANguage-to-3D Scene generatIOn for loNg-horizon tasks",
+      "venue": "CVPR '26",
+      "url": "https://arxiv.org/abs/2603.11554",
+      "authors": "Che, Lirong and Wen, Shuo and Huang, Shan and Wang, Chuang and Yang, Yuzhe and Dudek, Gregory and Wang, Xueqian and Su, Jian",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2603.11554",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Agentic",
+      "citeKey": "simworld-studio",
+      "title": "SimWorld Studio: Automatic Environment Generation with Evolving Coding Agent for Embodied Agent Learning",
+      "venue": "NeurIPS '26",
+      "url": "https://arxiv.org/abs/2605.09423",
+      "authors": "Kang, Haoqiang and Ye, Xiaokang and Liu, Yuhan and Mantri, Siddhant Hitesh and Mao, Lingjun and Fleming, James and Regmi, Drishti and Qin, Lianhui",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2605.09423",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Agentic",
+      "citeKey": "stable",
+      "title": "STABLE: Simulation-Ready Tabletop Layout Generation via a Semantics-Physics Dual System",
+      "venue": "ICML '26",
+      "url": "https://arxiv.org/abs/2605.16137",
+      "authors": "Luo, Zhen and Yang, Yixuan and Xu, Xudong and Hao, Jinkun and Lyu, Zhaoyang and Zheng, Feng and Pang, Jiangmiao and Fu, Yanwei",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2605.16137",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Agentic",
+      "citeKey": "scenecode",
+      "title": "SceneCode: Executable World Programs for Editable Indoor Scenes with Articulated Objects",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2605.19587",
+      "authors": "Wang, Puyi and Wang, Yuhao and Li, Linjie and Yang, Zhengyuan and Lin, Kevin Qinghong and Li, Yangguang and Cheng, Yu",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2605.19587",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Agentic",
+      "citeKey": "homeworld",
+      "title": "HomeWorld: A Unified Floorplan-to-Furnished Framework for Generating Controllable, Densely Interactive Whole-Home Scenes",
+      "venue": "ECCV '26",
+      "url": "https://arxiv.org/abs/2606.06390",
+      "authors": "Li, Wenbo and Ju, Xiaoliang and Qin, Zipeng and Fang, Rongyao and Li, Hongsheng",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2606.06390",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Agentic",
+      "citeKey": "gif",
+      "title": "GIF: Agentic Generation of Interactive and Functional Object Compositions for Robot Learning",
+      "venue": "CoRL '26",
+      "url": "https://arxiv.org/abs/2609.05927",
+      "authors": "Xu, Long and Zhang, Zhiqi and Yan, Mi and Deng, Shengliang and Xia, Chong and Dong, Mingyu and Chen, Jiayi and Lyu, Jiangran and Gao, Fei and Zhang, Zhizheng and Wang, He",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2609.05927",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Agentic",
+      "citeKey": "code2worlds-2",
+      "title": "Code2Worlds-2: Physically Plausible Agent Harness for Embodied World Simulation",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2610.17651",
+      "authors": "Zhang, Haoyu and Li, Siming and Zhang, Zeyu and Zhang, Yi and Chua, Tat-Seng and Tang, Hao",
+      "projectUrl": "https://aigeeksgroup.github.io/Code2Worlds-2",
+      "pdfUrl": "https://arxiv.org/abs/2610.17651",
+      "codeUrl": "https://github.com/AIGeeksGroup/Code2Worlds-2",
+      "isNew": true
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Generative Worlds",
+      "citeKey": "marble",
+      "title": "Marble: A Multimodal World Model (World Labs)",
+      "venue": "Release '25",
+      "url": "https://www.worldlabs.ai/blog/marble-world-model",
+      "authors": "",
+      "projectUrl": "https://marble.worldlabs.ai/",
+      "pdfUrl": "https://www.worldlabs.ai/blog/marble-world-model",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Generative Worlds",
+      "citeKey": "worldgen",
+      "title": "WorldGen: From Text to Traversable and Interactive 3D Worlds",
+      "venue": "CVPR '26",
+      "url": "https://arxiv.org/abs/2511.16825",
+      "authors": "Wang, Dilin and Jung, Hyunyoung and Monnier, Tom and Sohn, Kihyuk and Zou, Chuhang and Xiang, Xiaoyu and Yeh, Yu-Ying and Liu, Di and Huang, Zixuan and Nguyen-Phuoc, Thu and Fan, Yuchen and Oprea, Sergiu and Wang, Ziyan and Shapovalov, Roman and Sarafianos, Nikolaos and Groueix, Thibault and Toisoul, Antoine and Dhar, Prithviraj and Chu, Xiao and Chen, Minghao and Park, Geon Yeong and Gupta, Mahima and Azziz, Yassir and Ranjan, Rakesh and Vedaldi, Andrea",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2511.16825",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Generative Worlds",
+      "citeKey": "lyra-2-0",
+      "title": "Lyra 2.0: Explorable Generative 3D Worlds",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2604.13036",
+      "authors": "Shen, Tianchang and Bahmani, Sherwin and He, Kai and Srinivasan, Sangeetha Grama and Cao, Tianshi and Ren, Jiawei and Li, Ruilong and Wang, Zian and Sharp, Nicholas and Gojcic, Zan and Fidler, Sanja and Huang, Jiahui and Ling, Huan and Gao, Jun and Ren, Xuanchi",
+      "projectUrl": "https://research.nvidia.com/labs/sil/projects/lyra2/",
+      "pdfUrl": "https://arxiv.org/abs/2604.13036",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Generative Worlds",
+      "citeKey": "hy-world-2-0",
+      "title": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2604.14268",
+      "authors": "HY-World, Team and Cao, Chenjie and Zuo, Xuhui and Wang, Zhenwei and Zhang, Yisu and Wu, Junta and Liu, Zhenyang and Gong, Yuning and Liu, Yang and Yuan, Bo and Zhang, Chao and Li, Coopers and Guo, Dongyuan and Yang, Fan and Zhang, Haiyu and Cao, Hang and Zhu, Jianchen and Lin, Jiaxin and Xiao, Jie and Zhang, Jihong and Yu, Junlin and Wang, Lei and Wang, Lifu and Wang, Lilin and Linus and Chen, Minghui and He, Peng and Zhao, Penghao and Chen, Qi and Chen, Rui and Shao, Rui and Liu, Sicong and Qin, Wangchen and Niu, Xiaochuan and Yuan, Xiang and Sun, Yi and Tang, Yifei and Sun, Yifu and Lian, Yihang and Tan, Yonghao and Liu, Yuhong and Yin, Yuyang and Min, Zhiyuan and Wang, Tengfei and Guo, Chunchao",
+      "projectUrl": "https://3d-models.hunyuan.tencent.com/world/",
+      "pdfUrl": "https://arxiv.org/abs/2604.14268",
+      "codeUrl": "https://github.com/Tencent-Hunyuan/HY-World-2.0",
+      "isNew": true
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "Generative Worlds",
+      "citeKey": "worldact",
+      "title": "WorldAct: Activating Monolithic 3D Worlds into Interactive-Ready Object-Centric Scenes",
+      "venue": "NeurIPS '26",
+      "url": "https://arxiv.org/abs/2605.15843",
+      "authors": "Hu, Jichen and Guo, Jiawei and Cen, Jiazhong and Yang, Chen and Li, Sikuang and Shen, Wei",
+      "projectUrl": "https://sjtu-deepvisionlab.github.io/WorldAct",
+      "pdfUrl": "https://arxiv.org/abs/2605.15843",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "World Models",
+      "citeKey": "pgnd",
+      "title": "Particle-Grid Neural Dynamics for Learning Deformable Object Models from RGB-D Videos",
+      "venue": "arXiv '25",
+      "url": "https://arxiv.org/abs/2506.15680",
+      "authors": "Zhang, Kaifeng and Li, Baoyu and Hauser, Kris and Li, Yunzhu",
+      "projectUrl": "https://kywind.github.io/pgnd",
+      "pdfUrl": "https://arxiv.org/abs/2506.15680",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "World Models",
+      "citeKey": "pointworld",
+      "title": "PointWorld: Scaling 3D World Models for In-The-Wild Robotic Manipulation",
+      "venue": "CVPR '26",
+      "url": "https://arxiv.org/abs/2601.03782",
+      "authors": "Huang, Wenlong and Chao, Yu-Wei and Mousavian, Arsalan and Liu, Ming-Yu and Fox, Dieter and Mo, Kaichun and Fei-Fei, Li",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2601.03782",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "World Models",
+      "citeKey": "ngff",
+      "title": "Learning Physics-Grounded 4D Dynamics with Neural Gaussian Force Fields",
+      "venue": "ICLR '26",
+      "url": "https://arxiv.org/abs/2602.00148",
+      "authors": "Li, Shiqian and Shen, Ruihong and Ni, Junfeng and Pan, Chang and Zhang, Chi and Zhu, Yixin",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2602.00148",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "World Models",
+      "citeKey": "perpetualwonder",
+      "title": "PerpetualWonder: Long-Horizon Action-Conditioned 4D Scene Generation",
+      "venue": "CVPR '26",
+      "url": "https://arxiv.org/abs/2602.04876",
+      "authors": "Zhan, Jiahao and Li, Zizhang and Yu, Hong-Xing and Wu, Jiajun",
+      "projectUrl": "https://johnzhan2023.github.io/PerpetualWonder/",
+      "pdfUrl": "https://arxiv.org/abs/2602.04876",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "World Models",
+      "citeKey": "kinema4d",
+      "title": "Kinema4D: Kinematic 4D World Modeling for Spatiotemporal Embodied Simulation",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2603.16669",
+      "authors": "Xu, Mutian and Zhang, Tianbao and Liu, Tianqi and Chen, Zhaoxi and Han, Xiaoguang and Liu, Ziwei",
+      "projectUrl": "https://mutianxu.github.io/Kinema4D-project-page/",
+      "pdfUrl": "https://arxiv.org/abs/2603.16669",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "World Models",
+      "citeKey": "egosim",
+      "title": "EgoSim: Egocentric World Simulator for Embodied Interaction Generation",
+      "venue": "ECCV '26",
+      "url": "https://arxiv.org/abs/2604.01001",
+      "authors": "Hao, Jinkun and Jia, Mingda and Wang, Ruiyan and Zhu, Hongrui and Cao, Jiafei and Liu, Xihui and Yi, Ran and Ma, Lizhuang and Pang, Jiangmiao and Xu, Xudong",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2604.01001",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "World Models",
+      "citeKey": "pointzero",
+      "title": "PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2609.19142",
+      "authors": "Duisterhof, Bardienus P. and Zhang, Kaifeng and Hung, Adam and Wen, Bowen and Birchfield, Stan and Li, Yunzhu and Ramanan, Deva and Ichnowski, Jeffrey",
+      "projectUrl": "https://pointzero-wm.github.io/",
+      "pdfUrl": "https://arxiv.org/abs/2609.19142",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Simulation Environments",
+      "category": "World Models",
+      "citeKey": "depthworld",
+      "title": "DepthWorld: 3D World Model for Robot Manipulation",
+      "venue": "CoRL '26",
+      "url": "https://arxiv.org/abs/2610.08780",
+      "authors": "Bardhan, Jai and Sivic, Josef and Petrik, Vladimir",
+      "projectUrl": "https://www.jaibardhan.com/depthworld",
+      "pdfUrl": "https://arxiv.org/abs/2610.08780",
+      "codeUrl": "",
+      "isNew": true
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Digital Twin",
+      "category": "Scene Twins",
       "citeKey": "jiang2022ditto",
       "title": "Ditto: Building Digital Twins of Articulated Objects from Interaction",
       "venue": "CVPR '22",
@@ -1007,11 +1922,12 @@ window.COLLECTIONS_DATA = {
       "authors": "Jiang, Zhenyu and Hsu, Cheng-Chun and Zhu, Yuke",
       "projectUrl": "https://ut-austin-rpl.github.io/Ditto",
       "pdfUrl": "https://arxiv.org/abs/2202.08227",
-      "codeUrl": "https://github.com/UT-Austin-RPL/Ditto"
+      "codeUrl": "https://github.com/UT-Austin-RPL/Ditto",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Digital Twin",
+      "category": "Scene Twins",
       "citeKey": "paris",
       "title": "PARIS: Part-Level Reconstruction and Motion Analysis for Articulated Objects",
       "venue": "ICCV '23",
@@ -1019,59 +1935,25 @@ window.COLLECTIONS_DATA = {
       "authors": "Liu, Jiayi and Mahdavi-Amiri, Ali and Savva, Manolis",
       "projectUrl": "https://3dlg-hcvc.github.io/paris",
       "pdfUrl": "https://arxiv.org/abs/2308.07391",
-      "codeUrl": "https://github.com/3dlg-hcvc/paris"
+      "codeUrl": "https://github.com/3dlg-hcvc/paris",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Digital Twin",
-      "citeKey": "liu2025artgs",
-      "title": "ArtGS: Building Interactable Replicas of Complex Articulated Objects via Gaussian Splatting",
-      "venue": "ICLR '25",
-      "url": "https://arxiv.org/abs/2502.19459",
-      "authors": "Liu, Yu and Jia, Baoxiong and Lu, Ruijie and Ni, Junfeng and Zhu, Song-Chun and Huang, Siyuan",
-      "projectUrl": "https://articulate-gs.github.io",
-      "pdfUrl": "https://arxiv.org/abs/2502.19459",
-      "codeUrl": "https://github.com/YuLiu-LY/ArtGS"
-    },
-    {
-      "domain": "Sim2Real Bridge",
-      "category": "Digital Twin",
-      "citeKey": "scalable_robosimgs",
-      "title": "Scalable Real2Sim: Physics-Aware Asset Generation via Robotic Pick-And-Place Setups",
-      "venue": "IROS '25",
-      "url": "https://arxiv.org/abs/2503.00370",
-      "authors": "Pfaff, Nicholas and Fu, Evelyn and Binagia, Jeremy and Isola, Phillip and Tedrake, Russ",
-      "projectUrl": "https://scalable-real2sim.github.io",
-      "pdfUrl": "https://arxiv.org/abs/2503.00370",
-      "codeUrl": "https://github.com/nepfaff/scalable-real2sim"
-    },
-    {
-      "domain": "Sim2Real Bridge",
-      "category": "Digital Twin",
-      "citeKey": "guo2025articulatedgs",
-      "title": "ArticulatedGS: Self-Supervised Digital Twin Modeling of Articulated Objects Using 3D Gaussian Splatting",
-      "venue": "CVPR '25",
-      "url": "https://arxiv.org/abs/2503.08135",
-      "authors": "Guo, Junfu and Xin, Yu and Liu, Gaoyi and Xu, Kai and Liu, Ligang and Hu, Ruizhen",
+      "category": "Scene Twins",
+      "citeKey": "re3sim",
+      "title": "Re³Sim: Generating High-Fidelity Simulation Data via 3D-Photorealistic Real-to-Sim for Robotic Manipulation",
+      "venue": "ICRA '26",
+      "url": "https://arxiv.org/abs/2502.08645",
+      "authors": "Han, Xiaoshen and Yu, Junqiu and Liu, Minghuan and Chen, Yilun and Lyu, Xiaoyang and Tian, Yang and Wang, Bolun and Zhang, Weinan and Pang, Jiangmiao",
       "projectUrl": "",
-      "pdfUrl": "https://arxiv.org/abs/2503.08135",
-      "codeUrl": ""
+      "pdfUrl": "https://arxiv.org/abs/2502.08645",
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Digital Twin",
-      "citeKey": "jiang2025phystwin",
-      "title": "PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos",
-      "venue": "ICCV '25",
-      "url": "https://arxiv.org/abs/2503.17973",
-      "authors": "Jiang, Hanxiao and Hsu, Hao-Yu and Zhang, Kaifeng and Yu, Hsin-Ni and Wang, Shenlong and Li, Yunzhu",
-      "projectUrl": "https://jianghanxiao.github.io/phystwin-web",
-      "pdfUrl": "https://arxiv.org/abs/2503.17973",
-      "codeUrl": "https://github.com/Jianghanxiao/PhysTwin"
-    },
-    {
-      "domain": "Sim2Real Bridge",
-      "category": "Digital Twin",
+      "category": "Scene Twins",
       "citeKey": "realissim",
       "title": "Real-is-Sim: Bridging the Sim-To-Real Gap with a Dynamic Digital Twin",
       "venue": "ICRA '26",
@@ -1079,11 +1961,12 @@ window.COLLECTIONS_DATA = {
       "authors": "Abou-Chakra, Jad and Sun, Lingfeng and Rana, Krishan and May, Brandon and Schmeckpeper, Karl and Suenderhauf, Niko and Minniti, Maria Vittoria and Herlant, Laura",
       "projectUrl": "https://real-is-sim.github.io",
       "pdfUrl": "https://arxiv.org/abs/2504.03597",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Digital Twin",
+      "category": "Scene Twins",
       "citeKey": "drawer",
       "title": "DRAWER: Digital Reconstruction and Articulation with Environment Realism",
       "venue": "CVPR '25",
@@ -1091,23 +1974,12 @@ window.COLLECTIONS_DATA = {
       "authors": "Hongchi Xia and Entong Su and Marius Memmel and Arhan Jain and Raymond Yu and Numfor Mbiziwo-Tiapo and Ali Farhadi and Abhishek Gupta and Shenlong Wang and Wei-Chiu Ma",
       "projectUrl": "https://xiahongchi.github.io/DRAWER",
       "pdfUrl": "https://arxiv.org/abs/2504.15278",
-      "codeUrl": "https://github.com/xiahongchi/DRAWER"
+      "codeUrl": "https://github.com/xiahongchi/DRAWER",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Digital Twin",
-      "citeKey": "RoboScape",
-      "title": "RoboScape: Physics-informed embodied world model",
-      "venue": "NeurIPS '25",
-      "url": "https://arxiv.org/abs/2506.23135",
-      "authors": "Shang, Yu and Zhang, Xin and Tang, Yinzhou and Jin, Lei and Gao, Chen and Wu, Wei and Li, Yong",
-      "projectUrl": "",
-      "pdfUrl": "https://arxiv.org/abs/2506.23135",
-      "codeUrl": "https://github.com/tsinghua-fib-lab/RoboScape"
-    },
-    {
-      "domain": "Sim2Real Bridge",
-      "category": "Digital Twin",
+      "category": "Scene Twins",
       "citeKey": "litereality",
       "title": "LiteReality: Graphics-Ready 3D Scene Reconstruction from RGB-D Scans",
       "venue": "NeurIPS '25",
@@ -1115,11 +1987,12 @@ window.COLLECTIONS_DATA = {
       "authors": "Huang, Zhening and Wu, Xiaoyang and Zhong, Fangcheng and Zhao, Hengshuang and Nie, Matthias and Lasenby, Joan",
       "projectUrl": "https://litereality.github.io",
       "pdfUrl": "https://arxiv.org/abs/2507.02861",
-      "codeUrl": "https://github.com/LiteReality/LiteReality"
+      "codeUrl": "https://github.com/LiteReality/LiteReality",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Digital Twin",
+      "category": "Scene Twins",
       "citeKey": "latticeworld",
       "title": "LatticeWorld: A Multimodal Large Language Model-Empowered Framework for Interactive Complex World Generation",
       "venue": "arXiv '25",
@@ -1127,11 +2000,25 @@ window.COLLECTIONS_DATA = {
       "authors": "Duan, Yinglin and Zou, Zhengxia and Gu, Tongwei and Jia, Wei and Zhao, Zhan and Xu, Luyi and Liu, Xinzhu and Lin, Yenan and Jiang, Hao and Chen, Kang and others",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2509.05263",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Digital Twin",
+      "category": "Scene Twins",
+      "citeKey": "holoscene",
+      "title": "HoloScene: Simulation-Ready Interactive 3D Worlds from a Single Video",
+      "venue": "NeurIPS '25",
+      "url": "https://arxiv.org/abs/2510.05560",
+      "authors": "Xia, Hongchi and Lin, Chih-Hao and Hsu, Hao-Yu and Leboutet, Quentin and Gao, Katelyn and Paulitsch, Michael and Ummenhofer, Benjamin and Wang, Shenlong",
+      "projectUrl": "https://xiahongchi.github.io/HoloScene",
+      "pdfUrl": "https://arxiv.org/abs/2510.05560",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Scene Twins",
       "citeKey": "robosimgs",
       "title": "High-Fidelity Simulated Data Generation for Real-World Zero-Shot Robotic Manipulation Learning with Gaussian Splatting",
       "venue": "RA-L '26",
@@ -1139,23 +2026,233 @@ window.COLLECTIONS_DATA = {
       "authors": "Zhao, Haoyu and Zeng, Cheng and Zhuang, Linghao and Zhao, Yaxi and Xue, Shengke and Wang, Hao and Zhao, Xingyue and Li, Zhongyu and Li, Kehan and Huang, Siteng and others",
       "projectUrl": "https://robosimgs.github.io",
       "pdfUrl": "https://arxiv.org/abs/2510.10637",
-      "codeUrl": "https://github.com/Maxwell-Zhao/RoboSimGS"
+      "codeUrl": "https://github.com/Maxwell-Zhao/RoboSimGS",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Digital Twin",
-      "citeKey": "wu2025reartgs++",
-      "title": "REArtGS++: Generalizable Articulation Reconstruction with Temporal Geometry Constraint via Planar Gaussian Splatting",
+      "category": "Scene Twins",
+      "citeKey": "sage-3d",
+      "title": "Towards Physically Executable 3D Gaussian for Embodied Navigation",
+      "venue": "ICLR '26",
+      "url": "https://arxiv.org/abs/2510.21307",
+      "authors": "Miao, Bingchen and Wei, Rong and Ge, Zhiqi and sun, Xiaoquan and Gao, Shiqi and Zhu, Jingzhe and Wang, Renhan and Tang, Siliang and Xiao, Jun and Tang, Rui and Li, Juncheng",
+      "projectUrl": "https://sage-3d.github.io/",
+      "pdfUrl": "https://arxiv.org/abs/2510.21307",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Scene Twins",
+      "citeKey": "polaris",
+      "title": "PolaRiS: Scalable Real-to-Sim Evaluations for Generalist Robot Policies",
+      "venue": "RSS '26",
+      "url": "https://arxiv.org/abs/2512.16881",
+      "authors": "Jain, Arhan and Zhang, Mingtong and Arora, Kanav and Chen, William and Torne, Marcel and Irshad, Muhammad Zubair and Zakharov, Sergey and Wang, Yue and Levine, Sergey and Finn, Chelsea and Ma, Wei-Chiu and Shah, Dhruv and Gupta, Abhishek and Pertsch, Karl",
+      "projectUrl": "https://polaris-evals.github.io/",
+      "pdfUrl": "https://arxiv.org/abs/2512.16881",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Scene Twins",
+      "citeKey": "picasso",
+      "title": "Picasso: Holistic Scene Reconstruction with Physics-Constrained Sampling",
+      "venue": "RSS '26",
+      "url": "https://arxiv.org/abs/2602.08058",
+      "authors": "Yu, Xihang and Talak, Rajat and Shaikewitz, Lorenzo and Carlone, Luca",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2602.08058",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Scene Twins",
+      "citeKey": "simrecon",
+      "title": "SimRecon: SimReady Compositional Scene Reconstruction from Real Videos",
       "venue": "CVPR '26",
-      "url": "https://arxiv.org/abs/2511.17059",
-      "authors": "Wu, Di and Liu, Liu and Huang, Anran and Liu, Yuyan and Yu, Qiaojun and Liu, Shaofan and Song, Liangtu and Lu, Cewu",
-      "projectUrl": "https://sites.google.com/view/reartgs2/home",
-      "pdfUrl": "https://arxiv.org/abs/2511.17059",
-      "codeUrl": ""
+      "url": "https://arxiv.org/abs/2603.02133",
+      "authors": "Xia, Chong and Zhu, Kai and Wang, Zizhuo and Liu, Fangfu and Zhang, Zhizheng and Duan, Yueqi",
+      "projectUrl": "https://xiac20.github.io/SimRecon/",
+      "pdfUrl": "https://arxiv.org/abs/2603.02133",
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Digital Twin",
+      "category": "Scene Twins",
+      "citeKey": "simuscene",
+      "title": "SimuScene: Simulation-Ready Compositional 3D Scene Reconstruction from a Single Image",
+      "venue": "NeurIPS '26",
+      "url": "https://arxiv.org/abs/2606.03994",
+      "authors": "Lee, Inhee and Baik, Sangwon and Kim, Sungjoo and Kim, Hyeonwoo and Cha, Hyunsoo and Joo, Hanbyul",
+      "projectUrl": "https://snuvclab.github.io/SimuScene/",
+      "pdfUrl": "https://arxiv.org/abs/2606.03994",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Scene Twins",
+      "citeKey": "percepttwin",
+      "title": "PerceptTwin: Semantic Scene Reconstruction for Iterative LLM Planning and Verification",
+      "venue": "ICRA '26",
+      "url": "https://arxiv.org/abs/2606.04226",
+      "authors": "Gauthier, Charlie and Morin, Sacha and Paull, Liam",
+      "projectUrl": "https://percept-twin.github.io/",
+      "pdfUrl": "https://arxiv.org/abs/2606.04226",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Scene Twins",
+      "citeKey": "simfoundry",
+      "title": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
+      "venue": "CoRL '26",
+      "url": "https://arxiv.org/abs/2606.28276",
+      "authors": "Ranawaka, Nadun and Wong, Josiah and Pai, Wei-Lin and Chu, Wei-Teng and Dai, Tianyuan and Moghani, Masoud and Yin, Hang and Jiang, Yunfan and Durbano, Wesley and Huynh, Brandon and Fang, Yu and Xu, Danfei and Zhang, Ruohan and Fei-Fei, Li and Fan, Linxi and Wen, Bowen and Mandlekar, Ajay and Zhu, Yuke",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2606.28276",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Scene Twins",
+      "citeKey": "ovow",
+      "title": "One Video, One World: Turning Monocular Video into Physical 4D Scenes",
+      "venue": "ECCV '26",
+      "url": "https://arxiv.org/abs/2606.31388",
+      "authors": "Chen, Junhao and Zhang, Boran and Chen, Mingjin and Zhang, Henghaofan and Zhang, Saining and Zhu, Congcong and Zhao, Hao and Huang, Ruqi and Li, Zhihao and Wang, Yufei",
+      "projectUrl": "https://OneVideoOneWorld.github.io/",
+      "pdfUrl": "https://arxiv.org/abs/2606.31388",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Scene Twins",
+      "citeKey": "robosnap",
+      "title": "RoboSnap: One-Shot Real-to-Sim Scene Generation for Generalizable Robot Learning and Evaluation",
+      "venue": "CoRL '26",
+      "url": "https://arxiv.org/abs/2607.06699",
+      "authors": "Zhang, Shujie and Yi, Jingkun and Zhong, Weipeng and Zhou, Zirui and Zhu, Yangkun and Wang, Hanqing and Xu, Xudong and Zhang, Weinan and Shen, Chunhua",
+      "projectUrl": "https://robosnap.github.io",
+      "pdfUrl": "https://arxiv.org/abs/2607.06699",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Scene Twins",
+      "citeKey": "codimrecon",
+      "title": "CoDimRecon: Agentic Reconstruction of Sim-Ready 3D Scenes with Deformable Curves, Surfaces, and Volumes",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2609.36024",
+      "authors": "Xie, Shuzhao and Wang, Lelin and Lin, Guying and Wang, Zhi and Li, Minchen",
+      "projectUrl": "https://shuzhaoxie.github.io/CoDimRecon/",
+      "pdfUrl": "https://arxiv.org/abs/2609.36024",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Scene Twins",
+      "citeKey": "articutable",
+      "title": "ArticuTable: Generating Instance-Level Interactive Rigid-Articulated 3D Tabletop Scenes from a Single Image",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2610.05249",
+      "authors": "Lv, Kai and Yin, Yibo and Guo, Lijun and Fan, Heng and Zhang, Kaihao and Dong, Xingping",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2610.05249",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Scene Twins",
+      "citeKey": "neoworld-3",
+      "title": "NeoWorld-3: From Pixels to Code-Defined Physical Worlds",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2610.27690",
+      "authors": "Soong, Eachen and Niu, Zijian and Xu, Haoran and Dong, Yihong and Wang, Yunbo and Yang, Xiaokang",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2610.27690",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Kinematic Twins",
+      "citeKey": "liu2025artgs",
+      "title": "ArtGS: Building Interactable Replicas of Complex Articulated Objects via Gaussian Splatting",
+      "venue": "ICLR '25",
+      "url": "https://arxiv.org/abs/2502.19459",
+      "authors": "Liu, Yu and Jia, Baoxiong and Lu, Ruijie and Ni, Junfeng and Zhu, Song-Chun and Huang, Siyuan",
+      "projectUrl": "https://articulate-gs.github.io",
+      "pdfUrl": "https://arxiv.org/abs/2502.19459",
+      "codeUrl": "https://github.com/YuLiu-LY/ArtGS",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Kinematic Twins",
+      "citeKey": "guo2025articulatedgs",
+      "title": "ArticulatedGS: Self-Supervised Digital Twin Modeling of Articulated Objects Using 3D Gaussian Splatting",
+      "venue": "CVPR '25",
+      "url": "https://arxiv.org/abs/2503.08135",
+      "authors": "Guo, Junfu and Xin, Yu and Liu, Gaoyi and Xu, Kai and Liu, Ligang and Hu, Ruizhen",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2503.08135",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Kinematic Twins",
+      "citeKey": "dipo",
+      "title": "DIPO: Dual-State Images Controlled Articulated Object Generation Powered by Diverse Data",
+      "venue": "NeurIPS '25",
+      "url": "https://arxiv.org/abs/2505.20460",
+      "authors": "Wu, Ruiqi and Wang, Xinjie and Liu, Liu and Guo, Chunle and Qiu, Jiaxiong and Li, Chongyi and Huang, Lichao and Su, Zhizhong and Cheng, Ming-Ming",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2505.20460",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Kinematic Twins",
+      "citeKey": "react3d",
+      "title": "REACT3D: Recovering Articulations for Interactive Physical 3D Scenes",
+      "venue": "RA-L '26",
+      "url": "https://arxiv.org/abs/2510.11340",
+      "authors": "Huang, Zhao and Sun, Boyang and Delitzas, Alexandros and Chen, Jiaqi and Pollefeys, Marc",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2510.11340",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Kinematic Twins",
+      "citeKey": "freeart3d",
+      "title": "FreeArt3D: Training-Free Articulated Object Generation using 3D Diffusion",
+      "venue": "SIG. Asia '25",
+      "url": "https://arxiv.org/abs/2510.25765",
+      "authors": "Chen, Chuhao and Liu, Isabella and Wei, Xinyue and Su, Hao and Liu, Minghua",
+      "projectUrl": "https://czzzzh.github.io/FreeArt3D",
+      "pdfUrl": "https://arxiv.org/abs/2510.25765",
+      "codeUrl": "https://github.com/CzzzzH/FreeArt3D",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Kinematic Twins",
       "citeKey": "lin2025articflow",
       "title": "ArticFlow: Generative Simulation of Articulated Mechanisms",
       "venue": "arXiv '25",
@@ -1163,11 +2260,194 @@ window.COLLECTIONS_DATA = {
       "authors": "Lin, Jiong and Ruan, Jinchen and Lipson, Hod",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2511.17883",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Digital Twin",
+      "category": "Kinematic Twins",
+      "citeKey": "art",
+      "title": "ART: Articulated Reconstruction Transformer",
+      "venue": "CVPR '26",
+      "url": "https://arxiv.org/abs/2512.14671",
+      "authors": "Li, Zizhang and Zhang, Cheng and Li, Zhengqin and Howard-Jenkins, Henry and Lv, Zhaoyang and Geng, Chen and Wu, Jiajun and Newcombe, Richard and Engel, Jakob and Dong, Zhao",
+      "projectUrl": "https://kyleleey.github.io/ART/",
+      "pdfUrl": "https://arxiv.org/abs/2512.14671",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Kinematic Twins",
+      "citeKey": "freeartgs",
+      "title": "FreeArtGS: Articulated Gaussian Splatting Under Free-moving Scenario",
+      "venue": "CVPR '26",
+      "url": "https://arxiv.org/abs/2603.22102",
+      "authors": "Dai, Hang and Fan, Hongwei and Zhang, Han and Wu, Duojin and Zhang, Jiyao and Dong, Hao",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2603.22102",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Kinematic Twins",
+      "citeKey": "funrec",
+      "title": "FunRec: Reconstructing Functional 3D Scenes from Egocentric Interaction Videos",
+      "venue": "CVPR '26",
+      "url": "https://arxiv.org/abs/2604.05621",
+      "authors": "Delitzas, Alexandros and Zhang, Chenyangguang and Gavryushin, Alexey and Mario, Tommaso Di and Sun, Boyang and Dabral, Rishabh and Guibas, Leonidas and Theobalt, Christian and Pollefeys, Marc and Engelmann, Francis and Barath, Daniel",
+      "projectUrl": "https://functionalscenes.github.io",
+      "pdfUrl": "https://arxiv.org/abs/2604.05621",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Kinematic Twins",
+      "citeKey": "kinemaforge",
+      "title": "URDF Synthesis from RGB-D Sequences via Differentiable Joint Inference and Energy-Consistent Verification",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2606.18861",
+      "authors": "Zhang, Xinze",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2606.18861",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Kinematic Twins",
+      "citeKey": "artic-o",
+      "title": "Artic-O: End-to-End Articulated Object Reconstruction via Latent Geometry Learning",
+      "venue": "SIG. Asia '26",
+      "url": "https://arxiv.org/abs/2606.21938",
+      "authors": "Wang, Xuyang and Li, Zhenyu and Ding, Jian and Slim, Habib and Wonka, Peter and Li, Hongdong and Elhoseiny, Mohamed",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2606.21938",
+      "codeUrl": "https://github.com/Wxyxixixi/Artic-O",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Kinematic Twins",
+      "citeKey": "track-articulate-act",
+      "title": "Track, Articulate, Act: Generating Articulation from Casual Human Videos",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2609.19119",
+      "authors": "Zhang, Jiaming and Bharadhwaj, Homanga",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2609.19119",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Kinematic Twins",
+      "citeKey": "fact",
+      "title": "FACT: Fidelity-Aware Construction of Articulated Twins",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2609.37067",
+      "authors": "Shao, Kuixiang and Nie, Chuansen and Bai, Yinuo and Gu, Jiayuan and Yu, Jingyi",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2609.37067",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Physical Twins",
+      "citeKey": "scalable_robosimgs",
+      "title": "Scalable Real2Sim: Physics-Aware Asset Generation via Robotic Pick-And-Place Setups",
+      "venue": "IROS '25",
+      "url": "https://arxiv.org/abs/2503.00370",
+      "authors": "Pfaff, Nicholas and Fu, Evelyn and Binagia, Jeremy and Isola, Phillip and Tedrake, Russ",
+      "projectUrl": "https://scalable-real2sim.github.io",
+      "pdfUrl": "https://arxiv.org/abs/2503.00370",
+      "codeUrl": "https://github.com/nepfaff/scalable-real2sim",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Physical Twins",
+      "citeKey": "jiang2025phystwin",
+      "title": "PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos",
+      "venue": "ICCV '25",
+      "url": "https://arxiv.org/abs/2503.17973",
+      "authors": "Jiang, Hanxiao and Hsu, Hao-Yu and Zhang, Kaifeng and Yu, Hsin-Ni and Wang, Shenlong and Li, Yunzhu",
+      "projectUrl": "https://jianghanxiao.github.io/phystwin-web",
+      "pdfUrl": "https://arxiv.org/abs/2503.17973",
+      "codeUrl": "https://github.com/Jianghanxiao/PhysTwin",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Physical Twins",
+      "citeKey": "pin-wm",
+      "title": "PIN-WM: Learning Physics-INformed World Models for Non-Prehensile Manipulation",
+      "venue": "RSS '25",
+      "url": "https://arxiv.org/abs/2504.16693",
+      "authors": "Li, Wenxuan and Zhao, Hang and Yu, Zhiyuan and Du, Yu and Zou, Qin and Hu, Ruizhen and Xu, Kai",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2504.16693",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Physical Twins",
+      "citeKey": "RoboScape",
+      "title": "RoboScape: Physics-informed embodied world model",
+      "venue": "NeurIPS '25",
+      "url": "https://arxiv.org/abs/2506.23135",
+      "authors": "Shang, Yu and Zhang, Xin and Tang, Yinzhou and Jin, Lei and Gao, Chen and Wu, Wei and Li, Yong",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2506.23135",
+      "codeUrl": "https://github.com/tsinghua-fib-lab/RoboScape",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Physical Twins",
+      "citeKey": "embodiedreamer",
+      "title": "EmbodieDreamer: Advancing Real2Sim2Real Transfer for Policy Training via Embodied World Modeling",
+      "venue": "arXiv '25",
+      "url": "https://arxiv.org/abs/2507.05198",
+      "authors": "Wang, Boyuan and Meng, Xinpan and Wang, Xiaofeng and Zhu, Zheng and Ye, Angen and Wang, Yang and Yang, Zhiqin and Ni, Chaojun and Huang, Guan and Wang, Xingang",
+      "projectUrl": "https://embodiedreamer.github.io/",
+      "pdfUrl": "https://arxiv.org/abs/2507.05198",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Physical Twins",
+      "citeKey": "visionlaw",
+      "title": "VisionLaw: Inferring Interpretable Intrinsic Dynamics from Visual Observations via Bilevel Optimization",
+      "venue": "ICLR '26",
+      "url": "https://arxiv.org/abs/2508.13792",
+      "authors": "Lin, Jiajing and Jiang, Shu and Zeng, Qingyuan and Wang, Zhenzhong and Jiang, Min",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2508.13792",
+      "codeUrl": "https://github.com/JiajingLin/VisionLaw",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Physical Twins",
+      "citeKey": "wu2025reartgs++",
+      "title": "REArtGS++: Generalizable Articulation Reconstruction with Temporal Geometry Constraint via Planar Gaussian Splatting",
+      "venue": "CVPR '26",
+      "url": "https://arxiv.org/abs/2511.17059",
+      "authors": "Wu, Di and Liu, Liu and Huang, Anran and Liu, Yuyan and Yu, Qiaojun and Liu, Shaofan and Song, Liangtu and Lu, Cewu",
+      "projectUrl": "https://sites.google.com/view/reartgs2/home",
+      "pdfUrl": "https://arxiv.org/abs/2511.17059",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Physical Twins",
       "citeKey": "twinaligner",
       "title": "TwinAligner: Visual-Dynamic Alignment Empowers Physics-aware Real2Sim2Real for Robotic Manipulation",
       "venue": "arXiv '25",
@@ -1175,7 +2455,73 @@ window.COLLECTIONS_DATA = {
       "authors": "Fan, Hongwei and Dai, Hang and Zhang, Jiyao and Li, Jinzhou and Yan, Qiyang and Zhao, Yujie and Gao, Mingju and Wu, Jinghang and Tang, Hao and Dong, Hao",
       "projectUrl": "https://twin-aligner.github.io",
       "pdfUrl": "https://arxiv.org/abs/2512.19390",
-      "codeUrl": "https://github.com/TwinAligner/TwinAligner"
+      "codeUrl": "https://github.com/TwinAligner/TwinAligner",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Physical Twins",
+      "citeKey": "soma",
+      "title": "SoMA: A Real-to-Sim Neural Simulator for Robotic Soft-body Manipulation",
+      "venue": "ICML '26",
+      "url": "https://arxiv.org/abs/2602.02402",
+      "authors": "Huang, Mu and Wang, Hui and Ren, Kerui and Xu, Linning and Zhou, Yunsong and Yu, Mulin and Dai, Bo and Pang, Jiangmiao",
+      "projectUrl": "https://city-super.github.io/SoMA/",
+      "pdfUrl": "https://arxiv.org/abs/2602.02402",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Physical Twins",
+      "citeKey": "reconphys",
+      "title": "ReconPhys: Reconstruct Appearance and Physical Attributes from Single Video",
+      "venue": "ECCV '26",
+      "url": "https://arxiv.org/abs/2604.07882",
+      "authors": "Wang, Boyuan and Wang, Xiaofeng and Li, Yongkang and Zhu, Zheng and Chang, Yifan and Ye, Angen and Zhao, Guosheng and Ni, Chaojun and Huang, Guan and Ren, Yijie and Duan, Yueqi and Wang, Xingang",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2604.07882",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Physical Twins",
+      "citeKey": "deformmaster",
+      "title": "DeformMaster: An Interactive Physics-Neural World Model for Deformable Objects from Videos",
+      "venue": "NeurIPS '26",
+      "url": "https://arxiv.org/abs/2605.09586",
+      "authors": "Li, Can and Li, Zhoujian and Li, Ren and Gu, Jie and Lei, Lei and Chen, Jingmin and Sun, Lei",
+      "projectUrl": "https://can-lee.github.io/deformmaster-web/",
+      "pdfUrl": "https://arxiv.org/abs/2605.09586",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Physical Twins",
+      "citeKey": "egophys",
+      "title": "EgoPhys: Learning Generalizable Physics Models of Deformable Objects from Egocentric Video",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2606.16202",
+      "authors": "Kim, Hyunjin and Qiu, Ri-Zhao and Jiang, Guangqi and Wang, Xiaolong",
+      "projectUrl": "https://hjhyunjinkim.github.io/EgoPhys",
+      "pdfUrl": "https://arxiv.org/abs/2606.16202",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Physical Twins",
+      "citeKey": "lagsplat",
+      "title": "LaGSplat: Inferring Physics-Governed Interactive Simulation from Monocular Video Using Latent Lagrangian Gaussian Splatting",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2608.16324",
+      "authors": "Pottier, Louen",
+      "projectUrl": "https://louenpottier.github.io/lagsplat.html",
+      "pdfUrl": "https://arxiv.org/abs/2608.16324",
+      "codeUrl": "",
+      "isNew": true
     },
     {
       "domain": "Sim2Real Bridge",
@@ -1187,7 +2533,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Shorinwa, Ola and Tucker, Johnathan and Smith, Aliyah and Swann, Aiden and Chen, Timothy and Firoozi, Roya and Kennedy III, Monroe and Schwager, Mac",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2405.04378",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
@@ -1199,7 +2546,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Yuan, Zhecheng and Wei, Tianming and Cheng, Shuiqi and Zhang, Gu and Chen, Yuanpei and Xu, Huazhe",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2407.15815",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
@@ -1211,7 +2559,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Qureshi, M Nomaan and Garg, Sparsh and Yandun, Francisco and Held, David and Kantor, George and Silwal, Abhisesh",
       "projectUrl": "https://splatsim.github.io",
       "pdfUrl": "https://arxiv.org/abs/2409.10161",
-      "codeUrl": "https://github.com/qureshinomaan/SplatSim"
+      "codeUrl": "https://github.com/qureshinomaan/SplatSim",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
@@ -1223,7 +2572,21 @@ window.COLLECTIONS_DATA = {
       "authors": "Li, Xinhai and Li, Jialin and Zhang, Ziheng and Zhang, Rui and Jia, Fan and Wang, Tiancai and Fan, Haoqiang and Tseng, Kuo-Kun and Wang, Ruiping",
       "projectUrl": "https://robogsim.github.io",
       "pdfUrl": "https://arxiv.org/abs/2411.11839",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Data Augmentation",
+      "citeKey": "rebot",
+      "title": "ReBot: Scaling Robot Learning with Real-to-Sim-to-Real Robotic Video Synthesis",
+      "venue": "IROS '25",
+      "url": "https://arxiv.org/abs/2503.14526",
+      "authors": "Fang, Yu and Yang, Yue and Zhu, Xinghao and Zheng, Kaiyuan and Bertasius, Gedas and Szafir, Daniel and Ding, Mingyu",
+      "projectUrl": "https://yuffish.github.io/rebot/",
+      "pdfUrl": "https://arxiv.org/abs/2503.14526",
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
@@ -1235,7 +2598,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Gavryushin, Alexey and Delitzas, Alexandros and Van Gool, Luc and Pollefeys, Marc and Mo, Kaichun and Wang, Xi",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2503.22869",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
@@ -1247,7 +2611,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Yang, Sizhe and Yu, Wenye and Zeng, Jia and Lv, Jun and Ren, Kerui and Lu, Cewu and Lin, Dahua and Pang, Jiangmiao",
       "projectUrl": "https://yangsizhe.github.io/robosplat",
       "pdfUrl": "https://arxiv.org/abs/2504.13175",
-      "codeUrl": "https://github.com/InternRobotics/robosplat"
+      "codeUrl": "https://github.com/InternRobotics/robosplat",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
@@ -1259,7 +2624,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Liu, Liu and Wang, Xiaofeng and Zhao, Guosheng and Li, Keyu and Qin, Wenkang and Zhu, Jiagang and Qiu, Jiaxiong and Zhu, Zheng and Huang, Guan and Su, Zhizhong",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2505.23171",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
@@ -1271,7 +2637,34 @@ window.COLLECTIONS_DATA = {
       "authors": "Chai, Ying and Deng, Litao and Shao, Ruizhi and Zhang, Jiajun and Lv, Kangchen and Xing, Liangjun and Li, Xiang and Zhang, Hongwen and Liu, Yebin",
       "projectUrl": "http://chaiying1.github.io/GAF.github.io/project_page",
       "pdfUrl": "https://arxiv.org/abs/2506.14135",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Data Augmentation",
+      "citeKey": "physically-based-lighting-generation",
+      "title": "Physically-based Lighting Generation for Robotic Manipulation",
+      "venue": "ICRA '26",
+      "url": "https://arxiv.org/abs/2508.01442",
+      "authors": "Jin, Shutong and Wang, Lezhong and Temming, Ben and Pokorny, Florian T.",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2508.01442",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Data Augmentation",
+      "citeKey": "op-gen",
+      "title": "Learning in ImaginationLand: Omnidirectional Policies through 3D Generative Models (OP-Gen)",
+      "venue": "arXiv '25",
+      "url": "https://arxiv.org/abs/2509.06191",
+      "authors": "Ren, Yifei and Johns, Edward",
+      "projectUrl": "https://www.robot-learning.uk/op-gen",
+      "pdfUrl": "https://arxiv.org/abs/2509.06191",
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
@@ -1283,7 +2676,8 @@ window.COLLECTIONS_DATA = {
       "authors": "Xu, Yuan and Yang, Jiabing and Wang, Xiaofeng and Chen, Yixiang and Zhu, Zheng and Fang, Bowen and Huang, Guan and Chen, Xinze and Ye, Yun and Zhang, Qiang and others",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2509.22578",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
@@ -1295,11 +2689,64 @@ window.COLLECTIONS_DATA = {
       "authors": "Wang, Yiming and Zhang, Ruogu and Li, Minyang and Shi, Hao and Wang, Junbo and Li, Deyi and Ren, Jieji and Liu, Wenhai and Wang, Weiming and Fang, Hao-Shu",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2601.18629",
-      "codeUrl": "https://github.com/zaixiabalala/ExoGS"
+      "codeUrl": "https://github.com/zaixiabalala/ExoGS",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Task & Demo Generation",
+      "category": "Data Augmentation",
+      "citeKey": "gensplat",
+      "title": "Efficient Camera Pose Augmentation for View Generalization in Robotic Policy Learning",
+      "venue": "ECCV '26",
+      "url": "https://arxiv.org/abs/2603.29192",
+      "authors": "Wang, Sen and Dong, Huaiyi and Tian, Jingyi and Li, Jiayi and Yang, Zhuo and Cao, Tongtong and Chen, Anlin and Wu, Shuang and Wang, Le and Zhou, Sanping",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2603.29192",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Data Augmentation",
+      "citeKey": "embody4d",
+      "title": "Embody4D: A Generalist Data Engine for Embodied 4D World Modeling",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2605.01799",
+      "authors": "Tu, Peiyan and Zhu, Hanxin and Sun, Jingwen and Ren, Shaojie and Wang, Cong and Xu, Yuyan and Luo, Jiayi and Cheng, Xiaoqian and Chen, Zhibo",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2605.01799",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Data Augmentation",
+      "citeKey": "robodream",
+      "title": "RoboDream: Compositional World Models for Scalable Robot Data Synthesis",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2606.02577",
+      "authors": "Ye, Junjie and Xue, Rong and Hoorick, Basile Van and Li, Runhao and Rajaprakash, Harshitha and Tokmakov, Pavel and Irshad, Muhammad Zubair and Guizilini, Vitor and Wang, Yue",
+      "projectUrl": "https://junjieye.com/RoboDream/",
+      "pdfUrl": "https://arxiv.org/abs/2606.02577",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Data Augmentation",
+      "citeKey": "pose6daug",
+      "title": "Pose6DAug: Physically Plausible Multi-view Object Swapping for Robot Data Augmentation",
+      "venue": "NeurIPS '26",
+      "url": "https://arxiv.org/abs/2606.20118",
+      "authors": "Lee, Jonghoon and Park, Seong Hyeon and Jeon, Byungwoo and Lee, Minha and Shin, Jinwoo",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2606.20118",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Sim Demo Generation",
       "citeKey": "mandlekar2023mimicgen",
       "title": "MimicGen: A Data Generation System for Scalable Robot Learning Using Human Demonstrations",
       "venue": "CoRL '23",
@@ -1307,11 +2754,12 @@ window.COLLECTIONS_DATA = {
       "authors": "Mandlekar, Ajay and Nasiriany, Soroush and Wen, Bowen and Akinola, Iretiayo and Narang, Yashraj and Fan, Linxi and Zhu, Yuke and Fox, Dieter",
       "projectUrl": "https://mimicgen.github.io",
       "pdfUrl": "https://arxiv.org/abs/2310.17596",
-      "codeUrl": "https://github.com/NVlabs/mimicgen_environments"
+      "codeUrl": "https://github.com/NVlabs/mimicgen_environments",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Task & Demo Generation",
+      "category": "Sim Demo Generation",
       "citeKey": "gen2sim",
       "title": "Gen2Sim: Scaling up Robot Learning in Simulation with Generative Models",
       "venue": "ICRA '24",
@@ -1319,11 +2767,12 @@ window.COLLECTIONS_DATA = {
       "authors": "Katara, Pushkal and Xian, Zhou and Fragkiadaki, Katerina",
       "projectUrl": "https://gen2sim.github.io",
       "pdfUrl": "https://arxiv.org/abs/2310.18308",
-      "codeUrl": "https://github.com/pushkalkatara/Gen2Sim"
+      "codeUrl": "https://github.com/pushkalkatara/Gen2Sim",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Task & Demo Generation",
+      "category": "Sim Demo Generation",
       "citeKey": "gensim2",
       "title": "GenSim2: Scaling Robot Data Generation with Multi-Modal and Reasoning LLMs",
       "venue": "CoRL '24",
@@ -1331,11 +2780,12 @@ window.COLLECTIONS_DATA = {
       "authors": "Hua, Pu and Liu, Minghuan and Macaluso, Annabella and Lin, Yunfeng and Zhang, Weinan and Xu, Huazhe and Wang, Lirui",
       "projectUrl": "https://gensim2.github.io",
       "pdfUrl": "https://arxiv.org/abs/2410.03645",
-      "codeUrl": "https://github.com/GenSim2/gensim2"
+      "codeUrl": "https://github.com/GenSim2/gensim2",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Task & Demo Generation",
+      "category": "Sim Demo Generation",
       "citeKey": "demogen",
       "title": "DemoGen: Synthetic Demonstration Generation for Data-Efficient Visuomotor Policy Learning",
       "venue": "RSS '25",
@@ -1343,23 +2793,25 @@ window.COLLECTIONS_DATA = {
       "authors": "Xue, Zhengrong and Deng, Shuying and Chen, Zhenyang and Wang, Yixuan and Yuan, Zhecheng and Xu, Huazhe",
       "projectUrl": "https://demo-generation.github.io",
       "pdfUrl": "https://arxiv.org/abs/2502.16932",
-      "codeUrl": "https://github.com/TEA-Lab/DemoGen"
+      "codeUrl": "https://github.com/TEA-Lab/DemoGen",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Task & Demo Generation",
-      "citeKey": "graspvla",
-      "title": "GraspVLA: A Grasping Foundation Model Pre-Trained on Billion-Scale Synthetic Action Data",
+      "category": "Sim Demo Generation",
+      "citeKey": "x-sim",
+      "title": "X-Sim: Cross-Embodiment Learning via Real-to-Sim-to-Real",
       "venue": "CoRL '25",
-      "url": "https://arxiv.org/abs/2505.03233",
-      "authors": "Deng, Shengliang and Yan, Mi and Wei, Songlin and Ma, Haixin and Yang, Yuxin and Chen, Jiayi and Zhang, Zhiqi and Yang, Taoyu and Zhang, Xuheng and Zhang, Wenhao and others",
-      "projectUrl": "https://pku-epic.github.io/GraspVLA-web",
-      "pdfUrl": "https://arxiv.org/abs/2505.03233",
-      "codeUrl": "https://github.com/PKU-EPIC/GraspVLA"
+      "url": "https://arxiv.org/abs/2505.07096",
+      "authors": "Dan, Prithwish and Kedia, Kushal and Chao, Angela and Duan, Edward Weiyi and Pace, Maximus Adrian and Ma, Wei-Chiu and Choudhury, Sanjiban",
+      "projectUrl": "https://portal-cornell.github.io/X-Sim/",
+      "pdfUrl": "https://arxiv.org/abs/2505.07096",
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Task & Demo Generation",
+      "category": "Sim Demo Generation",
       "citeKey": "r2r2r",
       "title": "Real2Render2Real: Scaling Robot Data Without Dynamics Simulation or Robot Hardware",
       "venue": "CoRL '25",
@@ -1367,35 +2819,38 @@ window.COLLECTIONS_DATA = {
       "authors": "Yu, Justin and Fu, Letian and Huang, Huang and El-Refai, Karim and Ambrus, Rares Andrei and Cheng, Richard and Irshad, Muhammad Zubair and Goldberg, Ken",
       "projectUrl": "https://real2render2real.com",
       "pdfUrl": "https://arxiv.org/abs/2505.09601",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Task & Demo Generation",
-      "citeKey": "dreamgen",
-      "title": "DreamGen: Unlocking Generalization in Robot Learning Through Video World Models",
+      "category": "Sim Demo Generation",
+      "citeKey": "manitaskgen",
+      "title": "ManiTaskGen: A Comprehensive Task Generator for Benchmarking and Improving Vision-Language Agents on Embodied Decision-Making",
+      "venue": "NeurIPS '26",
+      "url": "https://arxiv.org/abs/2505.20726",
+      "authors": "Dai, Liu and Wang, Haina and Wan, Weikang and Su, Hao",
+      "projectUrl": "https://manitaskgen.github.io/",
+      "pdfUrl": "https://arxiv.org/abs/2505.20726",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Sim Demo Generation",
+      "citeKey": "cp-gen",
+      "title": "Constraint-Preserving Data Generation for Visuomotor Policy Learning",
       "venue": "CoRL '25",
-      "url": "https://arxiv.org/abs/2505.12705",
-      "authors": "Jang, Joel and Ye, Seonghyeon and Lin, Zongyu and Xiang, Jiannan and Bjorck, Johan and Fang, Yu and Hu, Fengyuan and Huang, Spencer and Kundalia, Kaushil and Lin, Yen-Chen and others",
-      "projectUrl": "https://research.nvidia.com/labs/gear/dreamgen",
-      "pdfUrl": "https://arxiv.org/abs/2505.12705",
-      "codeUrl": "http://github.com/nvidia/GR00T-dreams"
+      "url": "https://arxiv.org/abs/2508.03944",
+      "authors": "Lin, Kevin and Ragunath, Varun and McAlinden, Andrew and Prasad, Aaditya and Wu, Jimmy and Zhu, Yuke and Bohg, Jeannette",
+      "projectUrl": "https://cp-gen.github.io",
+      "pdfUrl": "https://arxiv.org/abs/2508.03944",
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Task & Demo Generation",
-      "citeKey": "gwm",
-      "title": "GWM: Towards Scalable Gaussian World Models for Robotic Manipulation",
-      "venue": "ICCV '25",
-      "url": "https://arxiv.org/abs/2508.17600",
-      "authors": "Lu, Guanxing and Jia, Baoxiong and Li, Puhao and Chen, Yixin and Wang, Ziwei and Tang, Yansong and Huang, Siyuan",
-      "projectUrl": "https://gaussian-world-model.github.io",
-      "pdfUrl": "https://arxiv.org/abs/2508.17600",
-      "codeUrl": "https://github.com/Gaussian-World-Model/gaussianwm"
-    },
-    {
-      "domain": "Sim2Real Bridge",
-      "category": "Task & Demo Generation",
+      "category": "Sim Demo Generation",
       "citeKey": "manipdreamer3d",
       "title": "ManipDreamer3D: Synthesizing Plausible Robotic Manipulation Video with Occupancy-Aware 3D Trajectory",
       "venue": "AAAI '26",
@@ -1403,11 +2858,259 @@ window.COLLECTIONS_DATA = {
       "authors": "Li, Ying and Wei, Xiaobao and Chi, Xiaowei and Li, Yuming and Zhao, Zhongyu and Wang, Hao and Ma, Ningning and Lu, Ming and Han, Sirui",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2509.05314",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Task & Demo Generation",
+      "category": "Sim Demo Generation",
+      "citeKey": "rola",
+      "title": "Robot Learning from Any Images",
+      "venue": "CoRL '25",
+      "url": "https://arxiv.org/abs/2509.22970",
+      "authors": "Zhao, Siheng and Mao, Jiageng and Chow, Wei and Shangguan, Zeyu and Shi, Tianheng and Xue, Rong and Zheng, Yuxi and Weng, Yijia and You, Yang and Seita, Daniel and Guibas, Leonidas and Zakharov, Sergey and Guizilini, Vitor and Wang, Yue",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2509.22970",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Sim Demo Generation",
+      "citeKey": "r2rgen",
+      "title": "R2RGEN: Real-to-Real 3D Data Generation for Spatially Generalized Manipulation",
+      "venue": "RSS '26",
+      "url": "https://arxiv.org/abs/2510.08547",
+      "authors": "Xu, Xiuwei and Ma, Angyuan and Li, Hankun and Yu, Bingyao and Zhu, Zheng and Zhou, Jie and Lu, Jiwen",
+      "projectUrl": "https://r2rgen.github.io/",
+      "pdfUrl": "https://arxiv.org/abs/2510.08547",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Sim Demo Generation",
+      "citeKey": "igen",
+      "title": "IGen: Scalable Data Generation for Robot Learning from Open-World Images",
+      "venue": "CVPR '26",
+      "url": "https://arxiv.org/abs/2512.01773",
+      "authors": "Gu, Chenghao and Kang, Haolan and Lin, Junchao and Wang, Jinghe and Wu, Duo and Xie, Shuzhao and Huang, Fanding and Ge, Junchen and Gong, Ziyang and Li, Letian and Zheng, Hongying and Lv, Changwei and Wang, Zhi",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2512.01773",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Sim Demo Generation",
+      "citeKey": "robowheel",
+      "title": "RoboWheel: A Data Engine from Real-World Human Demonstrations for Cross-Embodiment Robotic Learning",
+      "venue": "CVPR '26",
+      "url": "https://arxiv.org/abs/2512.02729",
+      "authors": "Zhang, Yuhong and Gao, Zihan and Li, Shengpeng and Chen, Ling-Hao and Liu, Kaisheng and Cheng, Runqing and Lin, Xiao and Liu, Junjia and Li, Zhuoheng and Feng, Jingyi and He, Ziyan and Lin, Jintian and Huang, Zheyan and Liu, Zhifang and Wang, Haoqian",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2512.02729",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Sim Demo Generation",
+      "citeKey": "bidemosyn",
+      "title": "One-Shot Real-World Demonstration Synthesis for Scalable Bimanual Manipulation",
+      "venue": "RSS '26",
+      "url": "https://arxiv.org/abs/2512.09297",
+      "authors": "Zhou, Huayi and Jia, Kui",
+      "projectUrl": "https://hnuzhy.github.io/projects/BiDemoSyn/",
+      "pdfUrl": "https://arxiv.org/abs/2512.09297",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Sim Demo Generation",
+      "citeKey": "real2edit2real",
+      "title": "Real2Edit2Real: Generating Robotic Demonstrations via a 3D Control Interface",
+      "venue": "CVPR '26",
+      "url": "https://arxiv.org/abs/2512.19402",
+      "authors": "Zhao, Yujie and Fan, Hongwei and Chen, Di and Chen, Shengcong and Chen, Liliang and Li, Xiaoqi and Ren, Guanghui and Dong, Hao",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2512.19402",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Sim Demo Generation",
+      "citeKey": "sim1",
+      "title": "SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds",
+      "venue": "ECCV '26",
+      "url": "https://arxiv.org/abs/2604.08544",
+      "authors": "Zhou, Yunsong and Liu, Hangxu and Jiang, Xuekun and Shen, Xing and Zhou, Yuanzhen and Wang, Hui and Fang, Baole and Tian, Yang and Yu, Mulin and Yu, Qiaojun and Ma, Li and Li, Hengjie and Wang, Hanqing and Zeng, Jia and Pang, Jiangmiao",
+      "projectUrl": "https://internrobotics.github.io/sim1.github.io/",
+      "pdfUrl": "https://arxiv.org/abs/2604.08544",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Sim Demo Generation",
+      "citeKey": "affordgen",
+      "title": "AffordGen: Generating Diverse Demonstrations for Generalizable Object Manipulation with Afford Correspondence",
+      "venue": "CVPR '26",
+      "url": "https://arxiv.org/abs/2604.10579",
+      "authors": "Zhang, Jiawei and Hu, Kaizhe and Huang, Yingqian and Ju, Yuanchen and Xue, Zhengrong and Xu, Huazhe",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2604.10579",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Sim Demo Generation",
+      "citeKey": "affordsim",
+      "title": "AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation",
+      "venue": "NeurIPS '26",
+      "url": "https://arxiv.org/abs/2604.11674",
+      "authors": "Li, Mingyang and Xu, Haofan and Sun, Haowen and Chen, Xinzhe and Ren, Sihua and Huang, Liqi and Sui, Xinyang and Miao, Chenyang and Ye, Jiawei and Cui, Qiongjie and Liu, Zeyang and Chen, Xingyu and Lan, Xuguang",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2604.11674",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Sim Demo Generation",
+      "citeKey": "video2robo",
+      "title": "Video2Robo: 3DGS-based Synthetic Data from One Video Enables Scalable Robot Learning",
+      "venue": "CVPR '26",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Deng_Video2Robo_3DGS-based_Synthetic_Data_from_One_Video_Enables_Scalable_Robot_CVPR_2026_paper.html",
+      "authors": "",
+      "projectUrl": "https://video2robo.github.io/",
+      "pdfUrl": "https://openaccess.thecvf.com/content/CVPR2026/html/Deng_Video2Robo_3DGS-based_Synthetic_Data_from_One_Video_Enables_Scalable_Robot_CVPR_2026_paper.html",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Sim Demo Generation",
+      "citeKey": "egoengine",
+      "title": "EgoEngine: From Egocentric Human Videos to High-Fidelity Dexterous Robot Demonstrations",
+      "venue": "CoRL '26",
+      "url": "https://arxiv.org/abs/2606.12604",
+      "authors": "Liu, Yangcen and Cheng, Shuo and Yin, Xinchen and Shin, Woo Chul and Cueva, Alfred and Yang, Yiran and Chen, Zhenyang and Zhang, Chuye and Xu, Danfei",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2606.12604",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Sim Demo Generation",
+      "citeKey": "deformgen",
+      "title": "DeformGen: Dynamics-Based Topology Augmentation for Deformable Manipulation Policy Learning",
+      "venue": "NeurIPS '26",
+      "url": "https://arxiv.org/abs/2606.25939",
+      "authors": "Lin, Zili and Zhang, Wenyao and Zhang, Yuyang and Qi, Zekun and Lin, Junyan and Zhu, Hanxin and Yang, Jiaolong and Chen, Zhibo and Mu, Yao and Yang, Xiaokang and Jin, Xin and Zeng, Wenjun",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2606.25939",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Sim Demo Generation",
+      "citeKey": "wanda",
+      "title": "Worlds in One Demo: A Synthetic Data Engine for Learning Open-World Mobile Manipulation",
+      "venue": "CoRL '26",
+      "url": "https://arxiv.org/abs/2607.13154",
+      "authors": "Guo, Lingxiao and Li, Huanyu and Shi, Guanya",
+      "projectUrl": "https://wanda.lecar-lab.org/",
+      "pdfUrl": "https://arxiv.org/abs/2607.13154",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Sim Demo Generation",
+      "citeKey": "im-engine",
+      "title": "IM-ENGINE: Image Editing for Embodied Data Generation",
+      "venue": "CoRL '26",
+      "url": "https://arxiv.org/abs/2609.06279",
+      "authors": "Wang, Yian and Cao, Junyi and Qiu, Xiaowen and Gan, Chuang",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2609.06279",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "World-Model Demos",
+      "citeKey": "enerverse",
+      "title": "EnerVerse: Envisioning Embodied Future Space for Robotics Manipulation",
+      "venue": "NeurIPS '25",
+      "url": "https://arxiv.org/abs/2501.01895",
+      "authors": "Huang, Siyuan and Chen, Liliang and Zhou, Pengfei and Chen, Shengcong and Jiang, Zhengkai and Hu, Yue and Liao, Yue and Gao, Peng and Li, Hongsheng and Yao, Maoqing and Ren, Guanghui",
+      "projectUrl": "https://sites.google.com/view/enerverse",
+      "pdfUrl": "https://arxiv.org/abs/2501.01895",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "World-Model Demos",
+      "citeKey": "dreamgen",
+      "title": "DreamGen: Unlocking Generalization in Robot Learning Through Video World Models",
+      "venue": "CoRL '25",
+      "url": "https://arxiv.org/abs/2505.12705",
+      "authors": "Jang, Joel and Ye, Seonghyeon and Lin, Zongyu and Xiang, Jiannan and Bjorck, Johan and Fang, Yu and Hu, Fengyuan and Huang, Spencer and Kundalia, Kaushil and Lin, Yen-Chen and others",
+      "projectUrl": "https://research.nvidia.com/labs/gear/dreamgen",
+      "pdfUrl": "https://arxiv.org/abs/2505.12705",
+      "codeUrl": "http://github.com/nvidia/GR00T-dreams",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "World-Model Demos",
+      "citeKey": "orv",
+      "title": "ORV: 4D Occupancy-centric Robot Video Generation",
+      "venue": "CVPR '26",
+      "url": "https://arxiv.org/abs/2506.03079",
+      "authors": "Yang, Xiuyu and Li, Bohan and Xu, Shaocong and Wang, Nan and Ye, Chongjie and Chen, Zhaoxi and Qin, Minghan and Ding, Yikang and Zhu, Zheng and Jin, Xin and Zhao, Hang and Zhao, Hao",
+      "projectUrl": "https://orangesodahub.github.io/ORV/",
+      "pdfUrl": "https://arxiv.org/abs/2506.03079",
+      "codeUrl": "https://github.com/OrangeSodahub/ORV",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "World-Model Demos",
+      "citeKey": "gwm",
+      "title": "GWM: Towards Scalable Gaussian World Models for Robotic Manipulation",
+      "venue": "ICCV '25",
+      "url": "https://arxiv.org/abs/2508.17600",
+      "authors": "Lu, Guanxing and Jia, Baoxiong and Li, Puhao and Chen, Yixin and Wang, Ziwei and Tang, Yansong and Huang, Siyuan",
+      "projectUrl": "https://gaussian-world-model.github.io",
+      "pdfUrl": "https://arxiv.org/abs/2508.17600",
+      "codeUrl": "https://github.com/Gaussian-World-Model/gaussianwm",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "World-Model Demos",
+      "citeKey": "ctrl-world",
+      "title": "Ctrl-World: A Controllable Generative World Model for Robot Manipulation",
+      "venue": "ICLR '26",
+      "url": "https://arxiv.org/abs/2510.10125",
+      "authors": "Guo, Yanjiang and Shi, Lucy Xiaoyang and Chen, Jianyu and Finn, Chelsea",
+      "projectUrl": "https://ctrl-world.github.io/",
+      "pdfUrl": "https://arxiv.org/abs/2510.10125",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "World-Model Demos",
       "citeKey": "physworld",
       "title": "Robot Learning from a Physical World Model",
       "venue": "arXiv '25",
@@ -1415,11 +3118,25 @@ window.COLLECTIONS_DATA = {
       "authors": "Mao, Jiageng and He, Sicheng and Wu, Hao-Ning and You, Yang and Sun, Shuyang and Wang, Zhicheng and Bao, Yanan and Chen, Huizhong and Guibas, Leonidas and Guizilini, Vitor and others",
       "projectUrl": "https://physworld.github.io",
       "pdfUrl": "https://arxiv.org/abs/2511.07416",
-      "codeUrl": "https://github.com/AlanYoung123/PhysWorld"
+      "codeUrl": "https://github.com/AlanYoung123/PhysWorld",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Task & Demo Generation",
+      "category": "World-Model Demos",
+      "citeKey": "gigaworld-0",
+      "title": "GigaWorld-0: World Models as Data Engine to Empower Embodied AI",
+      "venue": "arXiv '25",
+      "url": "https://arxiv.org/abs/2511.19861",
+      "authors": "Team, GigaWorld and Ye, Angen and Wang, Boyuan and Ni, Chaojun and Huang, Guan and Zhao, Guosheng and Li, Haoyun and Zhu, Jiagang and Li, Kerui and Xu, Mengyuan and Deng, Qiuping and Wang, Siting and Qin, Wenkang and Chen, Xinze and Wang, Xiaofeng and Wang, Yankai and Cao, Yu and Chang, Yifan and Xu, Yuan and Ye, Yun and Wang, Yang and Zhou, Yukun and Zhang, Zhengyuan and Dong, Zhehao and Zhu, Zheng",
+      "projectUrl": "https://giga-world-0.github.io/",
+      "pdfUrl": "https://arxiv.org/abs/2511.19861",
+      "codeUrl": "https://github.com/open-gigaai/giga-world-0",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "World-Model Demos",
       "citeKey": "video2act",
       "title": "Video2Act: A Dual-System Video Diffusion Policy with Robotic Spatio-Motional Modeling",
       "venue": "arXiv '25",
@@ -1427,11 +3144,12 @@ window.COLLECTIONS_DATA = {
       "authors": "Jia, Yueru and Liu, Jiaming and Liu, Shengbang and Zhou, Rui and Yu, Wanhe and Yan, Yuyang and Chi, Xiaowei and Guo, Yandong and Shi, Boxin and Zhang, Shanghang",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2512.03044",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Task & Demo Generation",
+      "category": "World-Model Demos",
       "citeKey": "anchordream",
       "title": "AnchorDream: Repurposing Video Diffusion for Embodiment-Aware Robot Data Synthesis",
       "venue": "ICRA '26",
@@ -1439,11 +3157,12 @@ window.COLLECTIONS_DATA = {
       "authors": "Ye, Junjie and Xue, Rong and Van Hoorick, Basile and Tokmakov, Pavel and Irshad, Muhammad Zubair and Wang, Yue and Guizilini, Vitor",
       "projectUrl": "https://junjieye.com/AnchorDream",
       "pdfUrl": "https://arxiv.org/abs/2512.11797",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Task & Demo Generation",
+      "category": "World-Model Demos",
       "citeKey": "draw2act",
       "title": "DRAW2ACT: Turning Depth-Encoded Trajectories into Robotic Demonstration Videos",
       "venue": "ICRA '26",
@@ -1451,11 +3170,77 @@ window.COLLECTIONS_DATA = {
       "authors": "Bai, Yang and Yang, Liudi and Eskandar, George and Shen, Fengyi and Altillawi, Mohammad and Liu, Ziyuan and Kutyniok, Gitta",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2512.14217",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
     },
     {
       "domain": "Sim2Real Bridge",
-      "category": "Task & Demo Generation",
+      "category": "World-Model Demos",
+      "citeKey": "interactive-world-simulator",
+      "title": "Interactive World Simulator for Robot Policy Training and Evaluation",
+      "venue": "RSS '26",
+      "url": "https://arxiv.org/abs/2603.08546",
+      "authors": "Wang, Yixuan and Syed, Rhythm and Wu, Fangyu and Zhang, Mengchao and Onol, Aykut and Barreiros, Jose and Nayyeri, Hooshang and Dear, Tony and Zhang, Huan and Li, Yunzhu",
+      "projectUrl": "https://yixuanwang.me/interactive_world_sim",
+      "pdfUrl": "https://arxiv.org/abs/2603.08546",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "World-Model Demos",
+      "citeKey": "mem-world",
+      "title": "Mem-World: Memory-Augmented Action-Conditioned World Models for Persistent Robot Manipulation",
+      "venue": "CoRL '26",
+      "url": "https://arxiv.org/abs/2606.18960",
+      "authors": "Zheng, Zirui and Yu, Jiaqian and Peng, Xiongfeng and shi, jun and Li, Mingyi and Zhang, Chao and Li, Weiming and Wang, Dong and Lu, Huchuan and Jia, Xu",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2606.18960",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "World-Model Demos",
+      "citeKey": "wh0",
+      "title": "Wh0: Generative World Models as Scalable Sources of Egocentric Human Hand Manipulation Data",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2606.22136",
+      "authors": "Chen, Yangtao and Chen, Zixuan and Wang, Peiyang and Li, Yong-Lu and Huo, Jing and Shi, Jieqi and Gao, Yang",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2606.22136",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Synthetic Training",
+      "citeKey": "graspvla",
+      "title": "GraspVLA: A Grasping Foundation Model Pre-Trained on Billion-Scale Synthetic Action Data",
+      "venue": "CoRL '25",
+      "url": "https://arxiv.org/abs/2505.03233",
+      "authors": "Deng, Shengliang and Yan, Mi and Wei, Songlin and Ma, Haixin and Yang, Yuxin and Chen, Jiayi and Zhang, Zhiqi and Yang, Taoyu and Zhang, Xuheng and Zhang, Wenhao and others",
+      "projectUrl": "https://pku-epic.github.io/GraspVLA-web",
+      "pdfUrl": "https://arxiv.org/abs/2505.03233",
+      "codeUrl": "https://github.com/PKU-EPIC/GraspVLA",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Synthetic Training",
+      "citeKey": "interndata-a1",
+      "title": "InternData-A1: Pioneering High-Fidelity Synthetic Data for Pre-training Generalist Policy",
+      "venue": "CVPR '26",
+      "url": "https://arxiv.org/abs/2511.16651",
+      "authors": "Tian, Yang and Yang, Yuyin and Xie, Yiman and Cai, Zetao and Shi, Xu and Gao, Ning and Liu, Hangxu and Jiang, Xuekun and Qiu, Zherui and Yuan, Feng and Li, Yaping and Wang, Ping and Cai, Junhao and Zeng, Jia and Dong, Hao and Pang, Jiangmiao",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2511.16651",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Synthetic Training",
       "citeKey": "wu2025aomgen",
       "title": "AOMGen: Photoreal, Physics-Consistent Demonstration Generation for Articulated Object Manipulation",
       "venue": "CVPR Find. '26",
@@ -1463,7 +3248,86 @@ window.COLLECTIONS_DATA = {
       "authors": "Wu, Yulu and Cheng, Jiujun and Wang, Haowen and Suo, Dengyang and Ren, Pei and Mao, Qichao and Gao, Shangce and Huang, Yakun",
       "projectUrl": "",
       "pdfUrl": "https://arxiv.org/abs/2512.18396",
-      "codeUrl": ""
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Synthetic Training",
+      "citeKey": "ego2robot",
+      "title": "Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data",
+      "venue": "CoRL '26",
+      "url": "https://arxiv.org/abs/2608.02580",
+      "authors": "Wang, Ye and Lin, Pei and Chen, Xiong-Hui and Yuan, Haoqi and Liang, Zhixuan and Huang, Yiyang and Chen, Anzhe and Lei, Zixing and Zhang, Jie and Zhang, Tao and Li, Haoyang and Zhang, Tong and Xiao, Chenxi and Jiao, Ziyuan and Jin, Qin",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2608.02580",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Synthetic Training",
+      "citeKey": "robocousin",
+      "title": "RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2609.08339",
+      "authors": "Zhu, Jingxuan and Li, Jingyi and Chen, LiangLiang and Jing, Zhiyuan and Zhang, Jidong and Li, Hongming",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2609.08339",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Sim2Real Bridge",
+      "category": "Synthetic Training",
+      "citeKey": "smart",
+      "title": "SMART: Zero-Shot Sim-to-Real Articulated Object Manipulation via Large-Scale Synthetic Pretraining",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2610.07652",
+      "authors": "Ao, Jicong and Jiang, Shuhan and Zhong, Yuling and Liu, Yanwen and Gao, Yuhan and Zhao, Jiangyuan and Zhang, Yang and Zhu, Shiqiang and Bai, Chenjia and Li, Xuelong",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2610.07652",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Simulators and Formats",
+      "category": "Tools",
+      "citeKey": "simready-foundation",
+      "title": "NVIDIA SimReady Foundation: Content Guidelines and Requirements for OpenUSD",
+      "venue": "Release '26",
+      "url": "https://nvidia.github.io/simready-foundation/2026.08.0/index.html",
+      "authors": "",
+      "projectUrl": "",
+      "pdfUrl": "https://nvidia.github.io/simready-foundation/2026.08.0/index.html",
+      "codeUrl": "",
+      "isNew": false
+    },
+    {
+      "domain": "Simulators and Formats",
+      "category": "Tools",
+      "citeKey": "s4r",
+      "title": "S4R: Scaling for Rigid-Body Interpenetration Resolution",
+      "venue": "SIG. Asia '26",
+      "url": "https://arxiv.org/abs/2609.20524",
+      "authors": "Dou, Zhiyang and Zhao, Ang and Peng, Chen and Guo, Minghao and Wu, Haixu and Lin, Cheng and Liu, Yuan and Yao, Junfeng and Guo, Xiaohu and Wang, Wenping and Matusik, Wojciech",
+      "projectUrl": "https://frank-zy-dou.github.io/projects/S4R/index.html",
+      "pdfUrl": "https://arxiv.org/abs/2609.20524",
+      "codeUrl": "",
+      "isNew": true
+    },
+    {
+      "domain": "Simulators and Formats",
+      "category": "Tools",
+      "citeKey": "i2cd",
+      "title": "I2CD: Direct Image-to-Convex Decomposition for Simulation-Ready Collision Geometry",
+      "venue": "arXiv '26",
+      "url": "https://arxiv.org/abs/2610.03453",
+      "authors": "Wang, Qian and Hoffmeister, Liam Merz and Scassellati, Brian and Rakita, Daniel",
+      "projectUrl": "",
+      "pdfUrl": "https://arxiv.org/abs/2610.03453",
+      "codeUrl": "",
+      "isNew": true
     }
   ]
 };

@@ -37,6 +37,11 @@ def sort_key(e):
     return (date if len(date) > 4 else date + "-12", 0)
 
 
+def is_new(e, since):
+    # same rule as the README's 🆕: added after the survey and first released in or after `new_since`
+    return e.get("in_paper") is False and sort_key(e)[0] >= since
+
+
 def paper_url(e):
     return f"https://arxiv.org/abs/{e['arxiv']}" if e.get("arxiv") else e.get("paper_url", "")
 
@@ -56,6 +61,7 @@ def main():
     db = yaml.safe_load(path.read_text(encoding="utf-8"))
     tax = {t["key"]: t for t in db["taxonomy"]}
     order = {t["key"]: i for i, t in enumerate(db["taxonomy"])}
+    since = db["new_since"]
 
     methods = sorted(db["methods"], key=lambda e: (order[e["section"]], sort_key(e)))
     collections = []
@@ -72,6 +78,7 @@ def main():
             "projectUrl": e.get("project", ""),
             "pdfUrl": paper_url(e),
             "codeUrl": e.get("code", ""),
+            "isNew": is_new(e, since),
         })
     write_js(COLLECTIONS_PATH, "COLLECTIONS_DATA", {"Count": len(collections), "value": collections})
 
@@ -83,6 +90,7 @@ def main():
                 "name": e["name"], "venue": e["venue"]}
         item.update({k: home[k] for k in DATASET_ATTRS[1:] if home.get(k)})
         item["url"] = home.get("url") or e.get("website") or paper_url(e)
+        item["isNew"] = is_new(e, since)
         items.append(item)
     write_js(DATASETS_PATH, "DATASETS_DATA", {"count": len(items), "items": items})
     print(f"Wrote {len(collections)} collection entries and {len(items)} dataset entries from {path}")

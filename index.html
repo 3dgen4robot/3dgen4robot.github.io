@@ -364,6 +364,39 @@
       margin-top: 14px;
     }
 
+    .news-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 10px;
+      color: var(--muted-text);
+      line-height: 1.6;
+    }
+
+    .news-list li {
+      display: flex;
+      gap: 16px;
+    }
+
+    .news-date {
+      flex-shrink: 0;
+      color: var(--accent-dark);
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .news-list a {
+      color: var(--accent-dark);
+    }
+
+    @media (max-width: 640px) {
+      .news-list li {
+        flex-direction: column;
+        gap: 2px;
+      }
+    }
+
     .bullet-list {
       margin: 0;
       padding-left: 20px;
@@ -987,6 +1020,21 @@
       </div>
     </section>
 
+    <section class="info-box" id="news">
+      <p class="section-kicker">News</p>
+      <ul class="news-list">
+        <li>
+          <span class="news-date">2026-10-24</span>
+          <span><strong>v2 update:</strong> we added 83 new papers, tagged "New in v2".</span>
+        </li>
+        <li>
+          <span class="news-date">2026-04-29</span>
+          <span>The survey is released on <a href="https://arxiv.org/abs/2604.26509" target="_blank" rel="noreferrer">arXiv</a>,
+            together with this project page and the GitHub paper list.</span>
+        </li>
+      </ul>
+    </section>
+
     <section class="info-box">
       <p class="section-kicker">Introduction</p>
       <p class="intro-text">
@@ -1298,13 +1346,14 @@
       <h3 class="section-title">Datasets &amp; Evaluation</h3>
       <div class="info-box">
         <p class="intro-text">
-          We summarize datasets and evaluation protocols along three resource groups: object assets, scene datasets, and
-          robot demonstrations. The dataset entries below are searchable and link directly to their official pages.
+          We summarize datasets and evaluation protocols along four resource groups: object assets, scene datasets,
+          robot demonstrations and benchmarks, and evaluation of generated content. The entries below are searchable and
+          link directly to their official pages.
         </p>
         <div class="summary-grid">
           <div class="mini-card">
             <h4>Dataset Scope</h4>
-            <p>40 curated benchmarks spanning object assets, indoor scenes, and robot demonstrations.</p>
+            <p>58 curated datasets and benchmarks spanning object assets, indoor scenes, robot demonstrations, and evaluation of generated content.</p>
           </div>
           <div class="mini-card">
             <h4>Evaluation Levels</h4>
@@ -1388,8 +1437,8 @@
       </div>
     </footer>
   </main>
-  <script src="static/js/collections-data.js?v=202610231509"></script>
-  <script src="static/js/datasets-data.js?v=202610231509"></script>
+  <script src="static/js/collections-data.js?v=202610241512"></script>
+  <script src="static/js/datasets-data.js?v=202610241512"></script>
   <script>
     (function initExampleTabs() {
       function setupSimpleTabs(tabsId, contentSelector, dataKey) {
@@ -1444,9 +1493,9 @@
       const data = Array.isArray(raw) ? raw : raw && raw.value ? raw.value : [];
       const domainOrder = ["Data Generator", "Simulation Environments", "Sim2Real Bridge"];
       const categoryOrder = {
-        "Data Generator": ["Articulated Objects", "Physically-grounded Objects", "Deformable Objects", "End-to-End Pipelines"],
-        "Simulation Environments": ["Structure-Driven", "Controllable", "Agentic"],
-        "Sim2Real Bridge": ["Digital Twin", "Data Augmentation", "Task & Demo Generation"]
+        "Data Generator": ["Articulated Objects", "Physically-grounded Objects", "Deformable Objects", "End-to-End Pipelines", "3D Backbones"],
+        "Simulation Environments": ["Structure-Driven", "Controllable", "Agentic", "Generative Worlds", "World Models"],
+        "Sim2Real Bridge": ["Scene Twins", "Kinematic Twins", "Physical Twins", "Data Augmentation", "Sim Demo Generation", "World-Model Demos", "Synthetic Training"]
       };
 
       const root = document.getElementById("collections-root");
@@ -1588,6 +1637,7 @@
             meta.className = "collection-meta";
             const metaParts = [];
             if (item.venue) metaParts.push(item.venue);
+            if (item.isNew) metaParts.push("New in v2");
             meta.textContent = metaParts.join(" | ");
 
             body.appendChild(title);
@@ -1650,7 +1700,7 @@
       const root = document.getElementById("datasets-root");
       if (!root) return;
 
-      const groupOrder = ["Object Assets", "Scene Datasets", "Robot Demonstrations"];
+      const groupOrder = ["Object Assets", "Scene Datasets", "Robot Demonstrations", "Evaluation"];
       const initialCount = 3;
 
       function normalize(text) {
@@ -1672,6 +1722,7 @@
 
       function tagsForItem(item) {
         const tags = [];
+        if (item.isNew) tags.push("New in v2");
         if (item.type) tags.push(item.type);
         if (item.group === "Object Assets") {
           if (item.phys) tags.push("Phys: " + item.phys);
